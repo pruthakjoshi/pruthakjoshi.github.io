@@ -1,12 +1,12 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: 
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is Pruthak Joshi. I have completed my Bachelor's and Master's in Mechanical Engineering from [IIT Bombay](https://www.iitb.ac.in/). I have the following qualities:
 
-- I rock a great mustache
+- 
 - I'm extremely loyal to my family
 
 What else do you need?
