@@ -9,6 +9,7 @@ My name is Pruthak Joshi. I have completed my Bachelor's and Master's in Mechani
 I enjoy playing tennis, and regularly follow Formula-1, and am a tifosi by heart.
 <div class="text-center">
 	<img src="{{ 'assets/img/tennis.jpeg' | relative_url }}" alt="Not found" />
+	<figcaption>I along with my other 23 batchmates as a part of NSO Tennis group</figcaption>
 </div>
 ### My story
 
