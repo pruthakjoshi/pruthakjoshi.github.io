@@ -44,7 +44,7 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
   email: "pruthakjoshi@gmail.com"
-  rss: true  # remove this line if you don't want to show an RSS link at the bottom
+  #rss: true  # remove this line if you don't want to show an RSS link at the bottom
   #facebook: deanattali
   github: pruthakjoshi
   #twitter: daattali
@@ -52,7 +52,7 @@ social-network-links:
   #youtube: c/daattali
 #  medium: yourname
 #  reddit: yourname
-  linkedin: Pruthak Joshi
+  linkedin: pruthak-joshi
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -101,7 +101,7 @@ feed_show_tags: false
 post_search: false
 
 # Add a button in the footer to edit the current page. Only works if your website is hosted on GitHub
-edit_page_button: true
+edit_page_button: false
 
 # The keywords to associate with your website, for SEO purposes
 #keywords: "my,list,of,keywords"
