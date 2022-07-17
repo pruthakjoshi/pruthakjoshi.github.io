@@ -23,5 +23,5 @@ The IITB Mars Rover Team (MRT) is a student technical team consisting of 40+ mem
 	<figcaption>The team participating in URC at the Mars Desert Research Station at Utah, U.S.A</figcaption>
 </div>
  
-### My story
+
 
