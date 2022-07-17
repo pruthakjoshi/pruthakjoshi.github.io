@@ -4,14 +4,10 @@ title: About me
 subtitle: 
 ---
 
-My name is Pruthak Joshi. I have completed my Bachelor's and Master's in Mechanical Engineering from [IIT Bombay](https://www.iitb.ac.in/). I like machines to look and behave as per my liking, which led me to pursue my studies in Mechanical Engineering, specializing in Computer Aided Design and Automation. If you want to check out a few of my projects, visit my [projects](https://pruthakjoshi.github.io/projects/) page. I have the following qualities:
-
-- 
-- I'm extremely loyal to my family
-
-What else do you need?
+My name is Pruthak Joshi. I have completed my Bachelor's and Master's in Mechanical Engineering from [IIT Bombay](https://www.iitb.ac.in/). I like machines to look and behave as per my liking, which led me to pursue my studies in Mechanical Engineering, specializing in Computer Aided Design and Automation. If you want to check out a few of my projects, visit my [projects](https://pruthakjoshi.github.io/projects/) page. 
 
 I enjoy playing tennis, and regularly follow Formula-1, and am a tifosi by heart.
+"/assets/img/tennis.jpeg"
 
 ### My story
 
