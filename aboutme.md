@@ -19,7 +19,7 @@ Throughout my journey at IIT Bombay, which was my home for about 5 years (which 
 
 The IITB Mars Rover Team (MRT) is a student technical team consisting of 40+ members from various departments and academic programmes at IITB working towards developing a semi-autonomous rover to participate in various student rover design competitions including the [University Rover Challenge](https://urc.marssociety.org/) and [International Rover Challenge](https://roverchallenge.org/). 
 <div class="text-center">
-	<img src="{{ 'assets/img/mrt.JPG'}}" />
+	<img src="{{ 'assets/img/mrt.JPG' | relative_url }}" alt="Not found"}} />
 	<figcaption>The team participating in URC at the Mars Desert Research Station at Utah, U.S.A</figcaption>
 </div>
  
