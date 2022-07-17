@@ -16,9 +16,10 @@ author: Pruthak Joshi
 navbar-links:
   About Me: "aboutme"
   Projects: "projects"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+  Curriculum Vitae: "CV_Github"
+  #Resources:
+  #  - Beautiful Jekyll: "https://beautifuljekyll.com"
+  #  - Learn markdown: "https://www.markdowntutorial.com/"
   
   #Curriculum Vitae
   #Author's home: "https://deanattali.com"
