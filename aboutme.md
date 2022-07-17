@@ -13,6 +13,15 @@ I enjoy playing tennis, and regularly follow Formula-1, and am a Tifosi by heart
 	<figcaption>I along with my coach and other 23 batchmates as a part of NSO Tennis group</figcaption>
 </div>
 
-I have been involved with a s
+Throughout my journey at IIT Bombay, which was my home for about 5 years (which was substantially shortened due to the pandemic :/), I was involved in different roles, right from my sophomore year till my senior year. A few of them were:
+
+- [IITB Mars Rover Team](https://iitbmartian.github.io/)
+
+The IITB Mars Rover Team (MRT) is a student technical team consisting of 40+ members from various departments and academic programmes at IITB working towards developing a semi-autonomous rover to participate in various student rover design competitions including the [University Rover Challenge](https://urc.marssociety.org/) and [International Rover Challenge](https://roverchallenge.org/). 
+<div class="text-center">
+	<img src="{{ 'assets/img/mrt.JPG'}}" />
+	<figcaption>The team participating in URC at the Mars Desert Research Station at Utah, U.S.A</figcaption>
+</div>
+ 
 ### My story
 
