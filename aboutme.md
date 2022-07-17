@@ -4,7 +4,7 @@ title: About me
 subtitle: 
 ---
 
-My name is Pruthak Joshi. I have completed my Bachelor's and Master's in Mechanical Engineering from [IIT Bombay](https://www.iitb.ac.in/). I have the following qualities:
+My name is Pruthak Joshi. I have completed my Bachelor's and Master's in Mechanical Engineering from [IIT Bombay](https://www.iitb.ac.in/). I like machines to look and behave as per my liking, which led me to pursue my studies in Mechanical Engineering, specializing in Computer Aided Design and Automation. I have the following qualities:
 
 - 
 - I'm extremely loyal to my family
