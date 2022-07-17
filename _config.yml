@@ -20,7 +20,7 @@ navbar-links:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
   
-  Curriculum Vitae
+  #Curriculum Vitae
   #Author's home: "https://deanattali.com"
 
 # --- Logo --- #
