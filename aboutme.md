@@ -12,5 +12,7 @@ I enjoy playing tennis, and regularly follow Formula-1, and am a Tifosi by heart
 	<img src="{{ 'assets/img/tennis.jpeg' | relative_url }}" alt="Not found" />
 	<figcaption>I along with my coach and other 23 batchmates as a part of NSO Tennis group</figcaption>
 </div>
+
+I have been involved with a s
 ### My story
 
