@@ -23,5 +23,5 @@ The IITB Mars Rover Team (MRT) is a student technical team consisting of 40+ mem
 	<figcaption>The team participating in URC at the Mars Desert Research Station at Utah, U.S.A</figcaption>
 </div>
  
-
+I joined the team in my sophomore year as a Junior Design Engineer, where I worked on the robotic arm subsytem, optimising the design of the links and the gripper. In my junior year, I led the robotic arm subsystem to make a carbon-fibre based 3-link arm consisting of 6 degrees of freedom. During my senior year, I got the opportunity to become the team leader, overlooking the system integration and other logistical and financial challenges. I secured grants from SolidWorks and ANSYS to bolster the team's design process. In the same year, I led the team to 4th position in the Indian Rover Design Challenge, the team's best position ever in any international competition.
 
