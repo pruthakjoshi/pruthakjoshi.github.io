@@ -23,8 +23,45 @@ The IITB Mars Rover Team (MRT) is a student technical team consisting of 40+ mem
 	<figcaption>The team participating in URC at the Mars Desert Research Station at Utah, U.S.A</figcaption>
 </figure>
  
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="{{ 'assets/img/mrt.JPG' | relative_url }}" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="{{ 'assets/img/rover.JPG' | relative_url }}" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="{{ 'assets/img/team_18_19.jpg' | relative_url }}" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+
 I joined the team in my sophomore year as a Junior Design Engineer and went on to assume the role of Team Leader in my senior year. As the Team Leader, I led the team to 4th position in Indian Rover Design Challenge 2020, the team's best ever position in any international competition. Being in the team taught me what it means to be an engineer - to get things done while optimising the use of available resources.
 
 - ISMP and DAMP 
 
 The [Student Mentor Programme](https://smp.gymkhana.iitb.ac.in/index.html) at IITB is a student community aiming to provide a reliable and comprehensive support system from within and for the student community to motivate students to excel in both academic and non-academic fields and to make the most of their life at IIT Bombay. Some of my most treasured experiences have been through mentoring juniors as an Institute Student Mentor and Department Academic Mentor for 2 years. 
+
