@@ -25,3 +25,6 @@ The IITB Mars Rover Team (MRT) is a student technical team consisting of 40+ mem
  
 I joined the team in my sophomore year as a Junior Design Engineer, where I worked on the robotic arm subsytem, optimising the design of the links and the gripper. In my junior year, I led the robotic arm subsystem to make a carbon-fibre based 3-link arm consisting of 6 degrees of freedom. During my senior year, I got the opportunity to become the team leader, overlooking the system integration and other logistical and financial challenges. In the same year, I led the team to 4th position in the Indian Rover Design Challenge, the team's best position ever in any international competition.
 
+- ISMP and DAMP 
+
+The [Student Mentor Programme](https://smp.gymkhana.iitb.ac.in/index.html) at IITB is a student community aiming to provide a reliable and comprehensive support system from within and for the student community to motivate students to excel in both academic and non-academic fields and to make the most of their life at IIT Bombay. Some of my most treasured experiences have been through mentoring juniors as an Institute Student Mentor and Department Academic Mentor for 2 years. 
