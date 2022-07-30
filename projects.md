@@ -9,7 +9,6 @@ subtitle: A list of things that have taught and tested me on a few things
 <div class="text-center">
 	<img src="{{ 'assets/img/RRR_model.JPG' | relative_url }}" alt="Not found" />
 	<img src="{{ 'assets/img/RRR_totalfinger.JPG' | relative_url }}" alt="Not found" />
-	<figcaption>I along with my coach and other 23 batchmates as a part of NSO Tennis group</figcaption>
 </div>
 
 <video autoplay muted>
