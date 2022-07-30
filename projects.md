@@ -9,6 +9,7 @@ subtitle: A list of things that have taught and tested me on a few things
 <div class="text-center">
 	<img src="{{ 'assets/img/RRR_model.JPG' | relative_url }}" alt="Not found" />
 	<img src="{{ 'assets/img/RRR_totalfinger.JPG' | relative_url }}" alt="Not found" />
+	<source src="{{ 'assets/img/extension_onlyT3_Trim.mp4' | relative_url }}" alt="Not found" type="video/mp4">
 </div>
 
 <video width="1920" height="1080" autoplay muted>
