@@ -12,7 +12,7 @@ subtitle: A list of things that have taught and tested me on a few things
 	<source src="{{ 'assets/img/extension_onlyT3_Trim.mp4' | relative_url }}" alt="Not found" type="video/mp4">
 </div>
 
-<video width="1920" height="1080" autoplay muted>
+<video width="960" height="540" autoplay muted>
   <source src="{{ 'assets/img/extension_onlyT3_Trim.mp4' | relative_url }}" alt="Not found" type="video/mp4">
 Your browser does not support the video tag.
 </video>
