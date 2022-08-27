@@ -4,7 +4,7 @@ title: How I reached IIT Bombay
 subtitle: Tale of being at the right place at the right time
 #gh-repo: daattali/beautiful-jekyll
 #gh-badge: [star, fork, follow]
-tags: [test]
+#tags: [test]
 comments: true
 ---
 They say life has a way of guiding you to the place you need to be. I NEEDED to be at IIT Bombay (story for some another day). Not that I even knew how huge IITs are, or even what level of preparation one needs to just get into them. You see, in my opinion, national-level competitive exams are largely a playing game of the more-aware and the more-fortunate. For e.g. where I come from, you study for the school examinations, and on the basis of the score you get in the Board examinations, you take admission in a college which is located near your home, and live your life merrily. However, preparing for IITs is a whole different ball game. You see, Board examinations take a complete backseat there, and you prepare for the “tougher” examinations, namely the JEE Main and JEE Advanced. The (logical) idea behind this is that - if you prepare for the war (JEE), the battles (Board examinations) become easier. Also there is this fact that hardly 1% of the total students appearing for the JEE are selected in the IITs, and to be among them, you have to be at your best.
