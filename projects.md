@@ -32,6 +32,14 @@ Video 3: Video demonstrating the application of the first robotic prototype insi
 	Image 1: Anthropomorphic MR-compatible motion phantom to imitate human respiratory motion
 </div>
 
+### Smart Machining: Data Collection, Sensing, and Monitoring
+<div class="text-center">
+	<img width="768" height="768" src="{{ 'assets/img/poster.JPG' | relative_url }}" alt="Not found" />
+	Poster explaining the sensing and data collecting strategies employed in CNC machining during drilling and milling operations
+</div>
+
+
+
 ### Modeling and Characterization of a Soft Robotic Finger
 
 <div class="text-center">
