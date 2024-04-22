@@ -34,7 +34,7 @@ Video 3: Video demonstrating the application of the first robotic prototype insi
 
 ### Smart Machining: Data Collection, Sensing, and Monitoring
 <div class="text-center">
-	<img width="768" height="768" src="{{ 'assets/img/poster.JPG' | relative_url }}" alt="Not found" />
+	<img width="768" height="560" src="{{ 'assets/img/poster.JPG' | relative_url }}" alt="Not found" />
 	Poster explaining the sensing and data collecting strategies employed in CNC machining during drilling and milling operations
 </div>
 
