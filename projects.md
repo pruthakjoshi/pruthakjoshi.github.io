@@ -19,8 +19,9 @@ Video 2: Video demonstrating the first prototype of master and slave connected v
   <source src="{{ 'assets/img/robot_in_MR.mp4' | relative_url }}" alt="Not found" type="video/mp4">
 Your browser does not support the video tag.
 </video>
+<center>
 Video 3: Video demonstrating the application of the first robotic prototype inside the MRI chamber
-
+</center>
 
 
 ### Modeling and Characterization of a Soft Robotic Finger
