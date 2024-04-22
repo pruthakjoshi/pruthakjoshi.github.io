@@ -28,7 +28,7 @@ Video 3: Video demonstrating the application of the first robotic prototype insi
 </center>
 
 <div class="text-center">
-	<img width="768" height="432" src="{{ 'assets/img/phantom2.jpg' | relative_url }}" alt="Not found" />
+	<img width="432" height="768" src="{{ 'assets/img/phantom2.jpg' | relative_url }}" alt="Not found" />
 	Image 1: Anthropomorphic MR-compatible motion phantom to imitate human respiratory motion
 </div>
 
