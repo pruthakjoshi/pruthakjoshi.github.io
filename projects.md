@@ -27,6 +27,10 @@ Your browser does not support the video tag.
 Video 3: Video demonstrating the application of the first robotic prototype inside the MRI chamber
 </center>
 
+<div class="text-center">
+	<img src="{{ 'assets/img/phantom2.jpg' | relative_url }}" alt="Not found" />
+	Image 1: Anthropomorphic MR-compatible motion phantom to imitate human respiratory motion
+</div>
 
 ### Modeling and Characterization of a Soft Robotic Finger
 
