@@ -34,7 +34,7 @@ Video 3: Video demonstrating the application of the first robotic prototype insi
 
 ### Design of End-Effector for Robust Teleoperation
 
-<video width="768" height="432" autoplay muted>
+<video width="768" height="432" autoplay controls>
   <source src="{{ 'assets/img/REAZON-TRIAD-PV-1MIN.mp4' | relative_url }}" alt="Not found" type="video/mp4">
 Your browser does not support the video tag.
 </video>
