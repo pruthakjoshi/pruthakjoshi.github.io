@@ -32,6 +32,16 @@ Video 3: Video demonstrating the application of the first robotic prototype insi
 	Image 1: Anthropomorphic MR-compatible motion phantom to imitate human respiratory motion
 </div>
 
+### Design of End-Effector for Robust Teleoperation
+
+<video width="768" height="432" autoplay muted>
+  <source src="{{ 'assets/img/REAZON-TRIAD-PV-1MIN.mp4' | relative_url }}" alt="Not found" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<center>
+Video 1: Final event and press release video demonstrating the teleoperated robot. I was involved in ideating, designing, and fabricating the end-effector.
+</center>
+
 ### Smart Machining: Data Collection, Sensing, and Monitoring
 <div class="text-center">
 	<img width="768" height="560" src="{{ 'assets/img/poster.JPG' | relative_url }}" alt="Not found" />
