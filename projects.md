@@ -39,7 +39,7 @@ Video 3: Video demonstrating the application of the first robotic prototype insi
 Your browser does not support the video tag.
 </video>
 <center>
-Video 1: Final event and press release video demonstrating the teleoperated robot. I was involved in ideating, designing, and fabricating the end-effector.
+Video 4: Final event and press release video demonstrating the teleoperated robot. I was involved in ideating, designing, and fabricating the end-effector.
 </center>
 
 ### Smart Machining: Data Collection, Sensing, and Monitoring
