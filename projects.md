@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Projects
-subtitle: A list of things that have taught and tested me on a few things
+subtitle: Things that I have worked on over the years
 ---
 ### Design of End-Effector for Robust Teleoperation
 
@@ -15,21 +15,21 @@ Video: Final event and press release video demonstrating the teleoperated robot.
 
 ### Design of MR-compatible Robotic System for Abdominal Interventions
 
-<video width="768" height="432" autoplay muted>
+<video width="768" height="432" autoplay muted controls>
   <source src="{{ 'assets/img/robot_cad.mp4' | relative_url }}" alt="Not found" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 <center>
 Video: Concept CAD demonstrating robot operating on a patient inside MRI chamber using master and slave system
 </center>
-<video width="768" height="432" autoplay muted>
+<video width="768" height="432" autoplay muted controls>
   <source src="{{ 'assets/img/master_slave_demo.mp4' | relative_url }}" alt="Not found" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 <center>
 Video: Video demonstrating the first prototype of master and slave connected via hydrostatic transmission system
 </center>
-<video width="768" height="432" autoplay muted>
+<video width="768" height="432" autoplay muted controls>
   <source src="{{ 'assets/img/robot_in_MR.mp4' | relative_url }}" alt="Not found" type="video/mp4">
 Your browser does not support the video tag.
 </video>
@@ -59,7 +59,7 @@ Video: Video demonstrating the application of the first robotic prototype inside
 	<img src="{{ 'assets/img/RRR_totalfinger.JPG' | relative_url }}" alt="Not found" />
 </div>
 
-<video width="768" height="432" autoplay muted>
+<video width="768" height="432" autoplay muted controls>
   <source src="{{ 'assets/img/extension_onlyT3_Trim.mp4' | relative_url }}" alt="Not found" type="video/mp4">
 Your browser does not support the video tag.
 </video>
