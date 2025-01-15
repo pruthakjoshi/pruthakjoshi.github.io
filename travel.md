@@ -22,7 +22,7 @@ subtitle:
 			<img src="{{ 'assets/img/rover.JPG' | relative_url }}" alt="" />
 			<span class="caption"> slide four </span>
 		</div>
-		<div class="slidefour">
+		<div class="slidefive">
 			<img src="{{ 'assets/img/rover.JPG' | relative_url }}" alt="" />
 			<span class="caption"> slide five </span>
 		</div>

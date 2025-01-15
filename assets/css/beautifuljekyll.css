@@ -1167,15 +1167,23 @@ pre {
 }
 .slidetwo {
   background: rgb(255, 64, 64);
+  width: 100%;
+  height: 100%;
 }
 .slidethree {
   background: rgb(11, 173, 188);
+  width: 100%;
+  height: 100%;
 }
 .slidefour {
   background: rgb(11, 188, 14);
+  width: 100%;
+  height: 100%;
 }
 .slidefive {
-  background: rgb(173, 11, 188);
+  background: rgb(11, 254, 68);
+  width: 100%;
+  height: 100%;
 }
 @keyframes sliding {
   0% {
