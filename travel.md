@@ -4,10 +4,6 @@ title: Travel
 subtitle:
 ---
 ### Under Construction
-<head>
-<link rel="stylesheet" href="style.css" />
-</head>
-<body>
 <section class="slider_container">
 	<section class="slider">
 	<div class="slide one">
@@ -32,4 +28,3 @@ subtitle:
 	</div>
 	</section>
 </section>
-</body>
