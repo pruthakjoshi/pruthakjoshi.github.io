@@ -1114,7 +1114,11 @@ pre {
 
 /* ---------------------- */
 
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .slider_container {
   position: absolute;
   width: auto;
