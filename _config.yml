@@ -15,6 +15,7 @@ author: Pruthak Joshi
 
 navbar-links:
   About Me: "aboutme"
+  Travel: "travel"
   Projects: "projects"
   Curriculum Vitae: "CV_Github.pdf"
   #Resources:
