@@ -7,24 +7,16 @@ subtitle:
 <div id="slideshow">
 	<div class="slide-wrapper">
 		<div class="slide">
-			<h1 class="slide-number">
-				GeeksforGeeks
-			</h1>
+			<img src="{{ 'assets/img/tennis.jpeg' | relative_url }}" alt="Not found" />
 		</div>
 		<div class="slide">
-			<h1 class="slide-number">
-				A computer science portal
-			</h1>
+			<img src="{{ 'assets/img/tennis.jpeg' | relative_url }}" alt="Not found" />
 		</div>
 		<div class="slide">
-			<h1 class="slide-number">
-				This is an example of
-			</h1>
+			<img src="{{ 'assets/img/tennis.jpeg' | relative_url }}" alt="Not found" />
 		</div>
 		<div class="slide">
-			<h1 class="slide-number">
-				Slideshow with HTML and CSS only
-			</h1>
+			<img src="{{ 'assets/img/tennis.jpeg' | relative_url }}" alt="Not found" />
 		</div>
 	</div>
 </div>
