@@ -1235,7 +1235,8 @@ with a fixed width and height */
 
   /* Calculate the total width on the
   basis of number of slides */
-  width: calc(728px * 4);
+  width: 2912;
+  /*calc(728px * 4);*/
 
   /* Specify the animation with the
   duration and speed */
