@@ -1121,8 +1121,8 @@ pre {
 }
 .slider_container {
   position: relative;
-  width: 1200%;
-  height: 100%;
+  width: 60%;
+  height: 100vh;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -1130,8 +1130,8 @@ pre {
 }
 .slider {
   position: relative;
-  width: 1200%;
-  height: 100%;
+  width: 60%;
+  height: 40rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -1140,11 +1140,11 @@ pre {
 }
 .slide {
   position: relative;
-  min-width: 1200%;
+  min-width: 100%;
   height: 100%;
 }
 .slide img {
-  width: 1200%;
+  width: 100%;
   height: 100%
 }
 .slide .caption {
@@ -1160,30 +1160,30 @@ pre {
   padding: 1rem 5rem;
   border-radius: 0 2rem 2rem 0;
 }
-.slideone {
+.slide.one {
   background: rgb(182, 19, 109);
-  width: 100%;
-  height: 100%;
+  /*width: 100%;
+  height: 100%;*/
 }
-.slidetwo {
+.slide.two {
   background: rgb(255, 64, 64);
-  width: 100%;
-  height: 100%;
+  /*width: 100%;
+  height: 100%;*/
 }
-.slidethree {
+.slide.three {
   background: rgb(11, 173, 188);
-  width: 100%;
-  height: 100%;
+  /*width: 100%;
+  height: 100%;*/
 }
-.slidefour {
+.slide.four {
   background: rgb(11, 188, 14);
-  width: 100%;
-  height: 100%;
+  /*width: 100%;
+  height: 100%;*/
 }
-.slidefive {
+.slide.five {
   background: rgb(11, 254, 68);
-  width: 100%;
-  height: 100%;
+  /*width: 100%;
+  height: 100%;*/
 }
 @keyframes sliding {
   0% {
