@@ -4,7 +4,7 @@ title: Travel
 subtitle:
 ---
 ### Under Construction
-
+<link rel="stylesheet" href="style.css" />
 <section class="slider_container">
 	<section class="slider">
 	<div class="slide one">
