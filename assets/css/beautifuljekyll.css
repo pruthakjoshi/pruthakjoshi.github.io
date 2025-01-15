@@ -1226,8 +1226,8 @@ pre {
 with a fixed width and height */
 .slide {
   float: left;
-  height: 510px;
-  width: 728px;
+  height: 100%;
+  width: 100%;
 }
 
 /* Add animation to the slides */
