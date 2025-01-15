@@ -1136,7 +1136,7 @@ pre {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  animation: 30s linear 1s infinite running slidein;
+  animation: 10s linear 1s infinite running slidein;
 }
 .slide {
   position: relative;
