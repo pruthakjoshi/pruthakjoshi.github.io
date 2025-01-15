@@ -1136,7 +1136,7 @@ pre {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  animation: 10s cubic-bezier(1, 0.95, 0.565, 1) sliding infinite;
+  animation: 30s cubic-bezier(1, 0.95, 0.565, 1) sliding infinite;
 }
 .slide {
   position: relative;
