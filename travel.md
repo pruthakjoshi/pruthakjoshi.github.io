@@ -5,27 +5,28 @@ subtitle:
 ---
 ### Under Construction
 
-<div id="slideshow">
-    <div class="slide-wrapper">
-        <div class="slide">
-            <h1 class="slide-number">
-                GeeksforGeeks
-            </h1>
-        </div>
-		<div class="slide">
-			<h1 class="slide-number">
-				A computer science portal
-			</h1>
-		</div>
-		<div class="slide">
-			<h1 class="slide-number">
-				This is an example of
-			</h1>
-		</div>
-		<div class="slide">
-			<h1 class="slide-number">
-				Slideshow with HTML and CSS only
-			</h1>
-		</div>
-    </div>
-</div>
+<section class="slider_container">
+	<section class="slider">
+	<div class="slide one">
+		<img src="...IMAGE LINK..." alt="" />
+		<span class="caption"> slide one </span>
+	</div>
+	<div class="slide two">
+		<img src="...IMAGE LINK..." alt="" />
+		<span class="caption"> slide two </span>
+	</div>
+	<div class="slide three">
+		<img src="...IMAGE LINK..." alt="" />
+		<span class="caption"> slide three </span>
+	</div>
+	<div class="slide four">
+		<img src="...IMAGE LINK..." alt="" />
+		<span class="caption"> slide four </span>
+	</div>
+	<div class="slide four">
+		<img src="...IMAGE LINK..." alt="" />
+		<span class="caption"> slide five </span>
+	</div>
+	</section>
+</section>
+
