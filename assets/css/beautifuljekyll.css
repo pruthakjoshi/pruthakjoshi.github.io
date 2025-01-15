@@ -1122,7 +1122,7 @@ pre {
 .slider_container {
   position: relative;
   width: 60%;
-  height: 100vh;
+  height: 40rem;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -1130,8 +1130,8 @@ pre {
 }
 .slider {
   position: relative;
-  width: 60%;
-  height: 40rem;
+  width: 400%;
+  height: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
