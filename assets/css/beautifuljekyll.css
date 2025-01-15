@@ -1161,19 +1161,19 @@ pre {
   padding: 1rem 5rem;
   border-radius: 0 2rem 2rem 0;
 }
-.slide.one {
+.slideone {
   background: rgb(182, 19, 109);
 }
-.slide.two {
+.slidetwo {
   background: rgb(255, 64, 64);
 }
-.slide.three {
+.slidethree {
   background: rgb(11, 173, 188);
 }
-.slide.four {
+.slidefour {
   background: rgb(11, 188, 14);
 }
-.slide.five {
+.slidefive {
   background: rgb(173, 11, 188);
 }
 @keyframes sliding {
