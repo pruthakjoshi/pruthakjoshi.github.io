@@ -4,27 +4,27 @@ title: Travel
 subtitle:
 ---
 ### Under Construction
-<section class="slider_container">
-	<section class="slider">
-		<div class="slide one">
-			<img src="{{ 'assets/img/rover.JPG' | relative_url }}" alt="" />
-			<span class="caption"> slide one </span>
+<div id="slideshow">
+	<div class="slide-wrapper">
+		<div class="slide">
+			<h1 class="slide-number">
+				GeeksforGeeks
+			</h1>
 		</div>
-		<div class="slide two">
-			<img src="{{ 'assets/img/rover.JPG' | relative_url }}" alt="" />
-			<span class="caption"> slide two </span>
+		<div class="slide">
+			<h1 class="slide-number">
+				A computer science portal
+			</h1>
 		</div>
-		<div class="slide three">
-			<img src="{{ 'assets/img/rover.JPG' | relative_url }}" alt="" />
-			<span class="caption"> slide three </span>
+		<div class="slide">
+			<h1 class="slide-number">
+				This is an example of
+			</h1>
 		</div>
-		<div class="slide four">
-			<img src="{{ 'assets/img/rover.JPG' | relative_url }}" alt="" />
-			<span class="caption"> slide four </span>
+		<div class="slide">
+			<h1 class="slide-number">
+				Slideshow with HTML and CSS only
+			</h1>
 		</div>
-		<div class="slide five">
-			<img src="{{ 'assets/img/rover.JPG' | relative_url }}" alt="" />
-			<span class="caption"> slide five </span>
-		</div>
-	</section>
-</section>
+	</div>
+</div>
