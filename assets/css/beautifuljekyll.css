@@ -1162,6 +1162,8 @@ pre {
 }
 .slideone {
   background: rgb(182, 19, 109);
+  width: 100%;
+  height: 100%;
 }
 .slidetwo {
   background: rgb(255, 64, 64);
