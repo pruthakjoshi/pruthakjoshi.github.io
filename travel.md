@@ -28,7 +28,7 @@ subtitle:
       </div>
     </td>
 
-    <td>
+<td>
       <!-- Slideshow 2 -->
       <div id="carousel2" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
