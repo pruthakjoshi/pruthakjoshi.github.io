@@ -16,19 +16,19 @@
 
   .slideshow-container {
     position: relative;
-    max-width: 100%;
+    width: 100px;
     height: 100px;
     overflow: hidden;
   }
   
   .slide {
-    width: 100%;
+    width: 100px;
     height: 100px;
   }
   
 
   .img {
-    width: 100%;
+    width: 100px;
     height: 100px;
     object-fit: cover;
   }

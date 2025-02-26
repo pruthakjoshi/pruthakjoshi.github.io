@@ -7,22 +7,22 @@ subtitle:
 <div id="slideshow">
 	<div class="slide-fade">
 		<div class="slide">
-			<img src="{{ 'assets/img/japan/IMG_1001.jpg' | relative_url }}" alt="Not found" width="500" height="500">
+			<img src="{{ 'assets/img/japan/IMG_1001.jpg' | relative_url }}" alt="Not found" width="768" height="1024" />
 		</div>
 		<div class="slide">
-			<img src="{{ 'assets/img/japan/IMG_1719.jpg' | relative_url }}" alt="Not found" />
+			<img src="{{ 'assets/img/japan/IMG_1719.jpg' | relative_url }}" alt="Not found" width="768" height="1024"/>
 		</div>
 		<div class="slide">
-			<img src="{{ 'assets/img/japan/IMG_1776.jpg' | relative_url }}" alt="Not found" />
+			<img src="{{ 'assets/img/japan/IMG_1776.jpg' | relative_url }}" alt="Not found" width="768" height="1024"/>
 		</div>
 		<div class="slide">
-			<img src="{{ 'assets/img/japan/IMG_1795.jpg' | relative_url }}" alt="Not found" />
+			<img src="{{ 'assets/img/japan/IMG_1795.jpg' | relative_url }}" alt="Not found" width="768" height="1024"/>
 		</div>
 		<div class="slide">
-			<img src="{{ 'assets/img/japan/IMG_2120.jpg' | relative_url }}" alt="Not found" />
+			<img src="{{ 'assets/img/japan/IMG_2120.jpg' | relative_url }}" alt="Not found" width="768" height="1024"/>
 		</div>
 		<div class="slide">
-			<img src="{{ 'assets/img/japan/IMG_2354.jpg' | relative_url }}" alt="Not found" />
+			<img src="{{ 'assets/img/japan/IMG_2354.jpg' | relative_url }}" alt="Not found" width="768" height="1024"/>
 		</div>
 	</div>
 </div>
