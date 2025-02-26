@@ -22,6 +22,10 @@ The IITB Mars Rover Team (MRT) is a student technical team consisting of 40+ mem
 	<img src="{{ 'assets/img/mrt.JPG' | relative_url }}" alt="Not found" />
 	<figcaption>The team participating in URC at the Mars Desert Research Station at Utah, U.S.A</figcaption>
 </figure>
+<div class="text-center">
+	<img src="{{ 'assets/img/mrt.JPG' | relative_url }}" alt="Not found" />
+	<figcaption>The team participating in URC at the Mars Desert Research Station at Utah, U.S.A</figcaption>
+</div>
  
 I joined the team in my sophomore year as a Junior Design Engineer and went on to assume the role of Team Leader in my senior year. As the Team Leader, I led the team to 4th position in Indian Rover Design Challenge 2020, the team's best ever position in any international competition. Being in the team taught me what it means to be an engineer - to get things done while optimising the use of available resources.
 
