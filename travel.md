@@ -18,6 +18,12 @@ subtitle:
 		<div class="slide">
 			<img src="{{ 'assets/img/japan/IMG_1795.JPEG' | relative_url }}" alt="Not found" />
 		</div>
+		<div class="slide">
+			<img src="{{ 'assets/img/japan/IMG_2120.JPEG' | relative_url }}" alt="Not found" />
+		</div>
+		<div class="slide">
+			<img src="{{ 'assets/img/japan/IMG_2354.JPEG' | relative_url }}" alt="Not found" />
+		</div>
 	</div>
 </div>
 
