@@ -4,6 +4,53 @@ title: Travel
 subtitle:
 ---
 ### Under Construction
+
+
+<table class="table">
+  <tr>
+    <td>
+      <!-- Slideshow 1 -->
+      <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="image1.jpg" class="d-block w-100" alt="Slide 1">
+          </div>
+          <div class="carousel-item">
+            <img src="image2.jpg" class="d-block w-100" alt="Slide 2">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carousel1" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#carousel1" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </td>
+
+    <td>
+      <!-- Slideshow 2 -->
+      <div id="carousel2" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="image3.jpg" class="d-block w-100" alt="Slide 1">
+          </div>
+          <div class="carousel-item">
+            <img src="image4.jpg" class="d-block w-100" alt="Slide 2">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carousel2" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#carousel2" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </td>
+  </tr>
+</table>
+
+
 <!--
 <div id="slideshow">
 	<div class="slide-fade">
@@ -29,11 +76,11 @@ subtitle:
 	</div>
 </div>-->
 
-
+<!--
 <table class="table">
   <tr>
     <td>
-      <!-- Slideshow 1 -->
+      
       <div class="slick-slider">
         <div><img src="/assets/img/mrt.JPG" alt="Slide 1"></div>
         <div><img src="/assets/img/path.jpg" alt="Slide 2"></div>
@@ -49,7 +96,7 @@ subtitle:
       </div>
     </td>
   </tr>
-</table>
+</table>-->
 
 
 <!--
