@@ -48,7 +48,7 @@
 
 
   <script>
-    document.addEventListener("DOMContentLoaded", function () {
+    window.onload = function () {
       console.log("Checking if jQuery and Slick.js are loaded...");
   
       if (typeof jQuery === "undefined") {
@@ -88,10 +88,9 @@
   
         console.log("🎉 Slick initialized successfully!");
       }
-    });
+    };
   </script>
-  
-  
+    
   
   
   

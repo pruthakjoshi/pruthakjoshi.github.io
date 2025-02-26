@@ -151,14 +151,19 @@
 
   <!--<link rel="stylesheet" href="{{ '/assets/css/slideshow.css' | relative_url }}">-->
   
-
-  <!-- jQuery (Must be first) -->
+  <!-- ✅ Ensure jQuery is fully loaded first -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    if (typeof jQuery === "undefined") {
+      document.write('<script src="https://code.jquery.com/jquery-3.6.0.min.js"><\/script>');
+    }
+  </script>
 
   <!-- Slick CSS -->
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"/>
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css"/>
 
-  <!-- Slick JS (Must be after jQuery) -->
-  <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+  <!-- ✅ Load Slick only after jQuery is guaranteed to be loaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+
 </head>
