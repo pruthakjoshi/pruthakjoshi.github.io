@@ -1142,6 +1142,11 @@ pre {
   }
 }
 
+.slick-slider {
+  max-width: 300px;
+  margin: auto;
+}
+
 .slick-slider img {
   width: 100%;
   height: auto;
@@ -1151,4 +1156,5 @@ pre {
 .slick-prev, .slick-next {
   color: black;
 }
+
 
