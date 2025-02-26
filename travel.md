@@ -23,7 +23,7 @@ subtitle:
 </div>
 -->
 
-
+<div id="slideshow">
 <div class="slideshow-container">
   <div class="slide fade">
     <img src="assets/img/japan/IMG_1001.JPEG" alt="Slide 1">
@@ -38,4 +38,5 @@ subtitle:
     <img src="assets/img/japan/IMG_1795.JPEG" alt="Slide 4">	
   </div>
 </div> 
+</div>
 
