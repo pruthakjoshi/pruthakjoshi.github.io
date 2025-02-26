@@ -30,4 +30,7 @@ subtitle:
   <div class="slide fade">
     <img src="assets/img/japan/IMG_1776.JPEG" alt="Slide 3">
   </div>
+  <div class="slide fade">
+    <img src="assets/img/japan/IMG_1795.JPEG" alt="Slide 3">
+  </div>
 </div>
