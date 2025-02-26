@@ -154,19 +154,16 @@
   <!-- ✅ Load jQuery First -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-  <!-- ✅ Ensure jQuery is Fully Loaded Before Anything Else -->
+  <!-- ✅ Ensure jQuery is Loaded -->
   <script>
     if (typeof jQuery === "undefined") {
       document.write('<script src="https://code.jquery.com/jquery-3.6.0.min.js"><\/script>');
     }
   </script>
 
-  <!-- ✅ Load Slick CSS -->
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css"/>
-
-  <!-- ✅ Load Slick Only After jQuery -->
+  <!-- ✅ Load Slick.js (REMOVE defer attribute) -->
   <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+
 
 
 </head>

@@ -58,6 +58,11 @@
       
       console.log("✅ jQuery is loaded:", jQuery.fn.jquery);
   
+      if ($(".slick-slider").length === 0) {
+        console.warn("⚠️ No elements with class '.slick-slider' found!");
+        return;
+      }
+  
       function initializeSlick() {
         console.log("🎯 Initializing Slick...");
         $(".slick-slider").slick({
@@ -73,19 +78,15 @@
         console.log("🎉 Slick initialized successfully!");
       }
   
-      // Wait until Slick.js is fully available
-      function checkSlickAndInit() {
-        if (typeof $.fn.slick !== "undefined") {
-          initializeSlick();
-        } else {
-          console.warn("⏳ Slick.js not available yet, retrying...");
-          setTimeout(checkSlickAndInit, 500); // Retry every 500ms
-        }
+      if (typeof $.fn.slick === "undefined") {
+        console.warn("⏳ Slick.js not loaded yet, retrying...");
+        setTimeout(initializeSlick, 1000);
+      } else {
+        initializeSlick();
       }
-  
-      checkSlickAndInit(); // Start checking if Slick is ready
     };
   </script>
+  
   
     
   
