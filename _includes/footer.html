@@ -49,22 +49,27 @@
 
   <script>
     $(document).ready(function() {
-      console.log("jQuery loaded, initializing Slick...");
+      if (typeof $.fn.slick === "undefined") {
+        console.error("Slick.js is not loaded!");
+      } else {
+        console.log("Slick.js is loaded, initializing slider...");
+        
+        $(".slick-slider").slick({
+          dots: true,
+          infinite: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 3000,
+          arrows: true,
+          adaptiveHeight: true
+        });
   
-      $(".slick-slider").slick({
-        dots: true,
-        infinite: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 3000,
-        arrows: true,
-        adaptiveHeight: true
-      });
-  
-      console.log("Slick initialized!");
+        console.log("Slick initialized successfully!");
+      }
     });
   </script>
+  
   
   
 
