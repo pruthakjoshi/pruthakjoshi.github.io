@@ -1,4 +1,4 @@
-/*document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {
   let slideIndex = 0;
   const slides = document.querySelectorAll(".slide");
 
@@ -10,4 +10,4 @@
   }
 
   showSlides();
-});*/
+});
