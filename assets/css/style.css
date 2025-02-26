@@ -21,13 +21,13 @@
     overflow: hidden;
   }
   
-  .slide {
+  .slide-fade {
     width: 100px;
     height: 100px;
   }
   
 
-  .img {
+  .slide img {
     width: 100px;
     height: 100px;
     object-fit: cover;
