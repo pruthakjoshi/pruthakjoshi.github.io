@@ -14,7 +14,7 @@
     background: rgb(29, 29, 29);
   }
 
-  .slideshow {
+  .slideshow-container {
     position: relative;
     width: 100px;
     height: 100px;
@@ -27,7 +27,7 @@
   }
   
 
-  .slide img {
+  .slideshow .slide-fade .slide img {
     width: 100px;
     height: 100px;
     object-fit: cover;
