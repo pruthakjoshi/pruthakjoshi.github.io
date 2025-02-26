@@ -1,0 +1,21 @@
+.caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 600px;
+}
+
+@media (max-width: 768px) {
+    .caption {
+        font-size: 14px;
+        width: 90%;
+    }
+}
