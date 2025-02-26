@@ -24,7 +24,7 @@ subtitle:
 		<div class="slide">
 			<img src="{{ 'assets/img/japan/IMG_2354.jpg' | relative_url }}" alt="Not found" />
 		</div>
-		<div class="caption">Japan</div>
+		<figcaption>Japan</figcaption>
 	</div>
 </div>
 
