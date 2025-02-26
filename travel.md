@@ -4,6 +4,7 @@ title: Travel
 subtitle:
 ---
 ### Under Construction
+<!-->
 <div id="slideshow">
 	<div class="slide-wrapper">
 		<div class="slide">
@@ -20,8 +21,9 @@ subtitle:
 		</div>
 	</div>
 </div>
+-->
 
-<!--
+
 <div class="slideshow-container">
   <div class="slide fade">
     <img src="assets/img/japan/IMG_1001.JPEG" alt="Slide 1">
@@ -35,5 +37,5 @@ subtitle:
   <div class="slide fade">
     <img src="assets/img/japan/IMG_1795.JPEG" alt="Slide 4">	
   </div>
-</div> -->
+</div> 
 
