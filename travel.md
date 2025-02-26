@@ -5,7 +5,7 @@ subtitle:
 ---
 ### Under Construction
 <div id="slideshow">
-	<div class="slide">
+	<div class="slide-fade">
 		<div class="slide">
 			<img src="{{ 'assets/img/japan/IMG_1001.jpg' | relative_url }}" alt="Not found" />
 		</div>
