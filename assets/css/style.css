@@ -27,7 +27,7 @@
   }
   
 
-  .slideshow .slide-fade .slide img {
+  img {
     width: 100px;
     height: 100px;
     object-fit: cover;
