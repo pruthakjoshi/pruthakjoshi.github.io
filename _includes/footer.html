@@ -48,7 +48,7 @@
 
 
   <script>
-    window.onload = function () {
+    document.addEventListener("DOMContentLoaded", function () {
       console.log("Checking if jQuery and Slick.js are loaded...");
   
       if (typeof jQuery === "undefined") {
@@ -58,13 +58,23 @@
       
       console.log("✅ jQuery is loaded:", jQuery.fn.jquery);
   
-      if ($(".slick-slider").length === 0) {
-        console.warn("⚠️ No elements with class '.slick-slider' found!");
-        return;
+      // Check if Slick is available
+      if (typeof $.fn.slick === "undefined") {
+        console.error("❌ Slick.js is NOT loaded correctly!");
+  
+        // Force reloading Slick.js
+        let script = document.createElement("script");
+        script.src = "https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js";
+        script.onload = function () {
+          console.log("✅ Slick.js reloaded. Now initializing sliders...");
+          initializeSlick();
+        };
+        document.body.appendChild(script);
+      } else {
+        initializeSlick();
       }
   
       function initializeSlick() {
-        console.log("🎯 Initializing Slick...");
         $(".slick-slider").slick({
           dots: true,
           infinite: true,
@@ -75,20 +85,13 @@
           arrows: true,
           adaptiveHeight: true
         });
+  
         console.log("🎉 Slick initialized successfully!");
       }
-  
-      if (typeof $.fn.slick === "undefined") {
-        console.warn("⏳ Slick.js not loaded yet, retrying...");
-        setTimeout(initializeSlick, 1000);
-      } else {
-        initializeSlick();
-      }
-    };
+    });
   </script>
   
   
-    
   
   
   
