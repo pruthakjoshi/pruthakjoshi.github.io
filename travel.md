@@ -16,7 +16,7 @@ subtitle:
             <img src="/assets/img/mrt.JPG" class="d-block w-100" alt="Slide 1">
           </div>
           <div class="carousel-item">
-            <img src="/assets/img/mrt.JPG" class="d-block w-100" alt="Slide 2">
+            <img src="/assets/img/path.jpg" class="d-block w-100" alt="Slide 2">
           </div>
         </div>
         <a class="carousel-control-prev" href="#carousel1" data-bs-slide="prev">
@@ -36,7 +36,7 @@ subtitle:
             <img src="/assets/img/mrt.JPG" class="d-block w-100" alt="Slide 1">
           </div>
           <div class="carousel-item">
-            <img src="/assets/img/mrt.JPG" class="d-block w-100" alt="Slide 2">
+            <img src="/assets/img/path.jpg" class="d-block w-100" alt="Slide 2">
           </div>
         </div>
         <a class="carousel-control-prev" href="#carousel2" data-bs-slide="prev">
