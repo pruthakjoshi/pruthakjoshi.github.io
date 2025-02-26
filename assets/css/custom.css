@@ -1,11 +1,11 @@
 .caption {
     position: absolute;
-    top: 100%;
-    left: 0%;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
-    background: rgba(256, 256, 256, 0.6);
-    color: black;
-    padding: 0px 0px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px 20px;
     font-size: 16px;
     text-align: center;
     border-radius: 5px;
