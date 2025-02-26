@@ -7,7 +7,7 @@ subtitle:
 <div id="slideshow">
 	<div class="slide-fade">
 		<div class="slide">
-			<img src="{{ 'assets/img/japan/IMG_1001.jpg' | relative_url }}" alt="Not found" />
+			<img src="{{ 'assets/img/japan/IMG_1001.jpg' | relative_url }}" alt="Not found" width="500" height="500" />
 		</div>
 		<div class="slide">
 			<img src="{{ 'assets/img/japan/IMG_1719.jpg' | relative_url }}" alt="Not found" />
