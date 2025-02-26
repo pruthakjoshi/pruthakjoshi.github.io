@@ -98,4 +98,30 @@
       transform: translateX(-400%);
     }
   }
+
+  .slideshow-container {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+  
+  .slide {
+    display: none;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .fade {
+    animation: fadeEffect 1.5s ease-in-out;
+  }
+  
+  @keyframes fadeEffect {
+    from { opacity: 0.4; }
+    to { opacity: 1; }
+  }
+  
   
