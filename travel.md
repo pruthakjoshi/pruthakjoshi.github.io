@@ -4,7 +4,7 @@ title: Travel
 subtitle:
 ---
 ### Under Construction
-<!-->
+<!--
 <div id="slideshow">
 	<div class="slide-fade">
 		<div class="slide">
@@ -41,7 +41,7 @@ subtitle:
       </div>
     </td>
     
-<td>
+	<td>
       <div class="slick-slider">
         <div><img src="/assets/img/mrt.JPG" alt="Slide 1"></div>
         <div><img src="/assets/img/path.jpg" alt="Slide 2"></div>
