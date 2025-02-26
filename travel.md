@@ -6,6 +6,7 @@ subtitle:
 ### Under Construction
 <div id="slideshow">
 	<div class="slide-fade">
+	<div class="text-center">
 		<div class="slide">
 			<img src="{{ 'assets/img/japan/IMG_1001.jpg' | relative_url }}" alt="Not found" />
 		</div>
@@ -25,6 +26,7 @@ subtitle:
 			<img src="{{ 'assets/img/japan/IMG_2354.jpg' | relative_url }}" alt="Not found" />
 		</div>
 		<figcaption>Japan</figcaption>
+		</div>
 	</div>
 </div>
 
