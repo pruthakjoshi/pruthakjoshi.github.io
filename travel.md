@@ -13,10 +13,10 @@ subtitle:
       <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="image1.jpg" class="d-block w-100" alt="Slide 1">
+            <img src="/assets/img/mrt.JPG" class="d-block w-100" alt="Slide 1">
           </div>
           <div class="carousel-item">
-            <img src="image2.jpg" class="d-block w-100" alt="Slide 2">
+            <img src="/assets/img/mrt.JPG" class="d-block w-100" alt="Slide 2">
           </div>
         </div>
         <a class="carousel-control-prev" href="#carousel1" data-bs-slide="prev">
@@ -33,10 +33,10 @@ subtitle:
       <div id="carousel2" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="image3.jpg" class="d-block w-100" alt="Slide 1">
+            <img src="/assets/img/mrt.JPG" class="d-block w-100" alt="Slide 1">
           </div>
           <div class="carousel-item">
-            <img src="image4.jpg" class="d-block w-100" alt="Slide 2">
+            <img src="/assets/img/mrt.JPG" class="d-block w-100" alt="Slide 2">
           </div>
         </div>
         <a class="carousel-control-prev" href="#carousel2" data-bs-slide="prev">
