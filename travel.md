@@ -4,9 +4,9 @@ title: Travel
 subtitle:
 ---
 ### Under Construction
+<!-->
 <div id="slideshow">
 	<div class="slide-fade">
-	<div class="text-center">
 		<div class="slide">
 			<img src="{{ 'assets/img/japan/IMG_1001.jpg' | relative_url }}" alt="Not found" />
 		</div>
@@ -26,9 +26,31 @@ subtitle:
 			<img src="{{ 'assets/img/japan/IMG_2354.jpg' | relative_url }}" alt="Not found" />
 		</div>
 		<figcaption>Japan</figcaption>
-		</div>
 	</div>
-</div>
+</div>-->
+
+
+<table class="table">
+  <tr>
+    <td>
+      <!-- Slideshow 1 -->
+      <div class="slick-slider">
+        <div><img src="/assets/img/mrt.JPG" alt="Slide 1"></div>
+        <div><img src="/assets/img/path.jpg" alt="Slide 2"></div>
+        <div><img src="/assets/img/poster.JPG" alt="Slide 3"></div>
+      </div>
+    </td>
+    
+    <td>
+      <div class="slick-slider">
+        <div><img src="/assets/img/mrt.JPG" alt="Slide 1"></div>
+        <div><img src="/assets/img/path.jpg" alt="Slide 2"></div>
+        <div><img src="/assets/img/poster.JPG" alt="Slide 3"></div>
+      </div>
+    </td>
+  </tr>
+</table>
+
 
 <!--
 <div id="slideshow">

@@ -1141,3 +1141,14 @@ pre {
     height: 250px;
   }
 }
+
+.slick-slider img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.slick-prev, .slick-next {
+  color: black;
+}
+
