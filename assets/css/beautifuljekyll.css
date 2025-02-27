@@ -1163,6 +1163,31 @@ pre {
   display: none !important; 
 }*/
 
+.carousel-table {
+  width: 80%; /* Adjust as needed */
+  max-width: 200px; /* Prevents the table from getting too wide */
+  margin: auto; /* Centers the table */
+}
+
+.carousel-table td {
+  padding: 10px;
+  vertical-align: top;
+  width: 50%; /* Adjust for number of columns */
+}
+.swiper-container {
+  width: 192px;
+  height: 256px; /* Adjust height */
+  margin: auto;
+}
+
+.swiper-slide img {
+  width: 192px; /* Ensure image fills the width */
+  height: 256px; /* Maintain aspect ratio */
+  max-height: 100%; /* Prevents excessive height */
+  object-fit: cover; /* Ensures the full image is shown without cropping */
+  border-radius: 10px; /* Optional: rounded corners */
+}
+
 
 
 
