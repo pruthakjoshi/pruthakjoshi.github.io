@@ -52,7 +52,7 @@ subtitle:
 <style>
   .carousel-table {
     width: 80%; /* Adjust as needed */
-    max-width: 900px; /* Prevents the table from getting too wide */
+    max-width: 200px; /* Prevents the table from getting too wide */
     margin: auto; /* Centers the table */
   }
 
