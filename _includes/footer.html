@@ -46,27 +46,25 @@
   </div>
   <!--<script src="{{ "/assets/js/slideshow.js" | relative_url }}"></script>-->
 
-
   <script>
     document.addEventListener("DOMContentLoaded", function () {
-      console.log("Checking if jQuery and Slick.js are loaded...");
+      console.log("Checking if jQuery is loaded...");
   
       if (typeof jQuery === "undefined") {
         console.error("❌ jQuery is NOT loaded!");
         return;
       }
-      
-      console.log("✅ jQuery is loaded:", jQuery.fn.jquery);
   
-      // Check if Slick is available
+      console.log("✅ jQuery is loaded. Now checking Slick...");
+  
       if (typeof $.fn.slick === "undefined") {
         console.error("❌ Slick.js is NOT loaded correctly!");
   
-        // Force reloading Slick.js
+        // Force reloading Slick.js if it's not loaded
         let script = document.createElement("script");
         script.src = "https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js";
         script.onload = function () {
-          console.log("✅ Slick.js reloaded. Now initializing sliders...");
+          console.log("✅ Slick.js reloaded. Initializing sliders...");
           initializeSlick();
         };
         document.body.appendChild(script);
@@ -81,13 +79,17 @@
           slidesToShow: 1,
           slidesToScroll: 1,
           autoplay: true,
-          autoplaySpeed: 2000,
+          autoplaySpeed: 3000,
           arrows: true,
           adaptiveHeight: true
         });
-  
         console.log("🎉 Slick initialized successfully!");
       }
     });
   </script>
+  
+
+  
+
+
 </footer>
