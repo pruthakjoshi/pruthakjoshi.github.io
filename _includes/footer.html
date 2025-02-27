@@ -74,19 +74,20 @@
   
       function initializeSlick() {
         $(".slick-slider").slick({
-          dots: true,
+          dots: false,  // ❌ Hide navigation dots
           infinite: true,
           slidesToShow: 1,
           slidesToScroll: 1,
           autoplay: true,
           autoplaySpeed: 2000,
-          arrows: true,
+          arrows: false, // ❌ Hide Previous/Next Arrows
           adaptiveHeight: true
         });
         console.log("🎉 Slick initialized successfully!");
       }
     });
   </script>
+  
   
 
   
