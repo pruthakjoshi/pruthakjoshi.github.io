@@ -32,6 +32,9 @@ subtitle:
     object-fit: cover;
     border-radius: 10px;
   }
+  .caption {
+    text-align: center
+  }
 
 
   .slideshow-caption {
