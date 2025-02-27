@@ -10,6 +10,7 @@ subtitle:
     width: 100%; /* Adjust width */
     max-width: 100%;
     margin: auto;
+    table-layout: fixed;
     border-collapse: collapse;
     border: none
   }
