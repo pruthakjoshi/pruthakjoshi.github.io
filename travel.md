@@ -112,6 +112,10 @@ subtitle:
             <div class="caption">New York City</div>
           </div>
           <div class="swiper-slide">
+            <img src="/assets/img/US/goldengate.jpg" alt="Trip 2">
+            <div class="caption">SFO</div>
+          </div>
+          <div class="swiper-slide">
             <img src="/assets/img/US/LA.JPEG" alt="Trip 2">
             <div class="caption">Getty Villa, LA</div>
           </div>
@@ -183,6 +187,10 @@ subtitle:
           <div class="swiper-slide">
             <img src="/assets/img/canada/vancouver3.jpg" alt="Canada">
             <div class="caption">Science World, Vancouver</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/canada/vancouver4.jpg" alt="Canada">
+            <div class="caption">Queen Elizabeth Park, Vancouver</div>
           </div>
           <div class="swiper-slide">
             <img src="/assets/img/canada/locks.jpg" alt="Canada">
