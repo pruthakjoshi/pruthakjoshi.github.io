@@ -67,6 +67,18 @@ subtitle:
             <div class="caption">Chureito Pagoda with Fuji-san in the background</div>
           </div>
           <div class="swiper-slide">
+            <img src="/assets/img/japan/hiroshima.JPEG" alt="Trip 1">
+            <div class="caption">Atomic Bomb Memorial, Hiroshima</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/japan/osaka.JPEG" alt="Trip 1">
+            <div class="caption">Namba Yasaka Jinja, Osaka</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/japan/IMG_1767.JPEG" alt="Trip 1">
+            <div class="caption">Hokan-ji temple, Kyoto</div>
+          </div>
+          <div class="swiper-slide">
             <img src="/assets/img/japan/IMG_1719.jpg" alt="Trip 1">
             <div class="caption">The mighty Shinkansens (photo from Tokyo station)</div>
           </div>
@@ -98,6 +110,18 @@ subtitle:
           <div class="swiper-slide">
             <img src="/assets/img/US/nyc2.JPEG" alt="Trip 2">
             <div class="caption">New York City</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/US/LA.jpg" alt="Trip 2">
+            <div class="caption">Getty Villa, LA</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/US/LA2.jpg" alt="Trip 2">
+            <div class="caption">Hollywood Walk of Fame, LA</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/US/houston.jpg" alt="Trip 2">
+            <div class="caption">NASA, Houston</div>
           </div>
           <div class="swiper-slide">
             <img src="/assets/img/US/dallas.JPEG" alt="Trip 2">
