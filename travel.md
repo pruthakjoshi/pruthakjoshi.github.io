@@ -21,7 +21,6 @@ subtitle:
   }
   .swiper-container {
     width: 150px;
-    max-width: 300px;
     height: 150px;
     margin: auto;
     position: relative
