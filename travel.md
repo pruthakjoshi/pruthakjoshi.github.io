@@ -185,8 +185,16 @@ subtitle:
             <div class="caption">Cypress Mountain. Home of the 2010 Vancouver Olympics.</div>
           </div>
           <div class="swiper-slide">
+            <img src="/assets/img/canada/cntower.jpg" alt="Canada">
+            <div class="caption">CN Tower</div>
+          </div>
+          <div class="swiper-slide">
             <img src="/assets/img/canada/vancouver3.jpg" alt="Canada">
             <div class="caption">Science World, Vancouver</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/canada/cntowerview.jpg" alt="Canada">
+            <div class="caption">View from the CN tower deck</div>
           </div>
           <div class="swiper-slide">
             <img src="/assets/img/canada/vancouver4.jpg" alt="Canada">
