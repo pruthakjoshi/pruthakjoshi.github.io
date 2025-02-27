@@ -277,6 +277,31 @@ subtitle:
         <div class="swiper-pagination"></div>
       </div>
     </td>
+    <td>
+    <!--Dubai-->
+      <div class="swiper mySwiper5">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="/assets/img/dubai/IMG_2456.JPG" alt="dubai">
+            <div class="caption">Sheikh Zayed Mosque, Abu Dhabi</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/dubai/IMG_2265.JPG" alt="dubai">
+            <div class="caption">Dubai Skyline</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/dubai/ferrari_world.jpg" alt="dubai">
+            <div class="caption">Ferrari World, Abu Dhabi - Home of the world's fastest rollercoaster</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/dubai/IMG_1484.JPG" alt="dubai">
+            <div class="caption">Atlantis The Palm Dubai</div>
+          </div>
+        </div>
+        <div class="slideshow-caption">Dubai</div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </td>
   </tr>
 </table>
 
