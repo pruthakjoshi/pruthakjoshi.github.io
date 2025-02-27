@@ -1155,6 +1155,11 @@ pre {
 
 .slick-prev, .slick-next {
   color: black;
+  display: none;
+}
+
+.slick-dots {
+  display: none !important; /* ❌ Hides the navigation dots */
 }
 
 
