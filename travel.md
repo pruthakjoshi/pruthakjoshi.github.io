@@ -23,6 +23,7 @@ subtitle:
     max-width: 300px;
     height: 200px;
     margin: auto;
+    position: relative
   }
   .swiper-slide img {
     width: 100%;
@@ -30,6 +31,22 @@ subtitle:
     object-fit: cover;
     border-radius: 10px;
   }
+
+
+  .slideshow-caption {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+  }
+
+  .swiper-pagination {
+    position: relative !important; /* Moves the dots below */
+    margin-top: 10px; /* Adds space between caption and dots */
+    text-align: center;
+  }
+
 </style>
 
 <table class="carousel-table">
