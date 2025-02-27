@@ -15,7 +15,7 @@ subtitle:
     border: none
   }
   .carousel-table td {
-    width: 50%;
+    width: 33.3%;
     padding: 10px;
     border: none
     text-align: center;
@@ -28,8 +28,8 @@ subtitle:
     position: relative
   }
   .swiper-slide img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     border-radius: 10px;
   }
