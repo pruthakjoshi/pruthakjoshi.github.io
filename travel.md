@@ -182,7 +182,7 @@ subtitle:
           </div>
           <div class="swiper-slide">
             <img src="/assets/img/canada/vancouver2.jpg" alt="Canada">
-            <div class="caption">Cypress Mountain, Vancouver</div>
+            <div class="caption">Cypress Mountain, Vancouver. Home of the 2010 Vancouver Olympics.</div>
           </div>
           <div class="swiper-slide">
             <img src="/assets/img/canada/vancouver3.jpg" alt="Canada">
