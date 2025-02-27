@@ -84,7 +84,7 @@ subtitle:
         <div class="swiper mySwiper1">
           <div class="swiper-wrapper">
             <div class="swiper-slide"><img src="/assets/img/japan/IMG_1001.jpg" alt="Slide 1" ></div>
-            <div class="swiper-slide"><img src="/assets/img/japan/IMG_1719.jpg" alt="Slide 2" ></div>
+            <div class="swiper-slide"><img src="/assets/img/japan/IMG_1719.jpg" alt="Slide 1" ></div>
           </div>
           <div class="swiper-pagination"></div>
         </div>
@@ -92,7 +92,7 @@ subtitle:
       <td>
         <div class="swiper mySwiper2">
           <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="/assets/img/japan/IMG_1001.jpg" alt="Slide 1" ></div>
+            <div class="swiper-slide"><img src="/assets/img/japan/IMG_1001.jpg" alt="Slide 2" ></div>
             <div class="swiper-slide"><img src="/assets/img/japan/IMG_1719.jpg" alt="Slide 2" ></div>
           </div>
           <div class="swiper-pagination"></div>
@@ -103,8 +103,8 @@ subtitle:
       <td>
         <div class="swiper mySwiper3">
           <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="/assets/img/japan/IMG_1001.jpg" alt="Slide 1" ></div>
-            <div class="swiper-slide"><img src="/assets/img/japan/IMG_1719.jpg" alt="Slide 2" ></div>
+            <div class="swiper-slide"><img src="/assets/img/japan/IMG_1001.jpg" alt="Slide 3" ></div>
+            <div class="swiper-slide"><img src="/assets/img/japan/IMG_1719.jpg" alt="Slide 3" ></div>
           </div>
           <div class="swiper-pagination"></div>
         </div>
@@ -112,8 +112,8 @@ subtitle:
       <td>
         <div class="swiper mySwiper4">
           <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="/assets/img/japan/IMG_1001.jpg" alt="Slide 1" ></div>
-            <div class="swiper-slide"><img src="/assets/img/japan/IMG_1719.jpg" alt="Slide 2" ></div>
+            <div class="swiper-slide"><img src="/assets/img/japan/IMG_1001.jpg" alt="Slide 4" ></div>
+            <div class="swiper-slide"><img src="/assets/img/japan/IMG_1719.jpg" alt="Slide 4" ></div>
           </div>
           <div class="swiper-pagination"></div>
         </div>
