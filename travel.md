@@ -17,7 +17,6 @@ subtitle:
   .carousel-table td {
     width: 50%;
     padding: 10px;
-    border: none
     text-align: center;
   }
   .swiper-container {
