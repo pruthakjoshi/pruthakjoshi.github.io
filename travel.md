@@ -35,9 +35,13 @@ subtitle:
 <table class="carousel-table">
   <tr>
     <td>
+    <div class="slideshow-title">Japan 🇯🇵</div>
       <div class="swiper mySwiper1">
         <div class="swiper-wrapper">
-          <div class="swiper-slide"><img src="/assets/img/japan/IMG_1001.jpg" alt="Trip 1"></div>
+          <div class="swiper-slide">
+            <img src="/assets/img/japan/IMG_1001.jpg" alt="Trip 1">
+            <div class="caption">Chureito Pagoda with Fuji-san in the background</div>
+          </div>
           <div class="swiper-slide"><img src="/assets/img/japan/IMG_1719.jpg" alt="Trip 1"></div>
           <div class="swiper-slide"><img src="/assets/img/japan/IMG_1776.jpg" alt="Trip 1"></div>
         </div>
