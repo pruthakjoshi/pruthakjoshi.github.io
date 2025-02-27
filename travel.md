@@ -17,6 +17,7 @@ subtitle:
   .carousel-table td {
     width: 33.3%;
     padding: 10px;
+    border: none;
     text-align: center
   }
   .swiper-container {
@@ -57,6 +58,7 @@ subtitle:
 <table class="carousel-table">
   <tr>
     <td>
+    <!--Japan-->
       <div class="swiper mySwiper1">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
@@ -88,12 +90,50 @@ subtitle:
         <div class="swiper-pagination"></div>
       </div>
     </td>
+    <!--USA-->
     <td>
       <div class="swiper mySwiper2">
         <div class="swiper-wrapper">
-          <div class="swiper-slide"><img src="/assets/img/japan/IMG_1001.jpg" alt="Trip 2"></div>
-          <div class="swiper-slide"><img src="/assets/img/japan/IMG_1719.jpg" alt="Trip 2"></div>
-          <div class="swiper-slide"><img src="/assets/img/japan/IMG_1776.jpg" alt="Trip 2"></div>
+          <div class="swiper-slide">
+            <img src="/assets/img/US/nyc2.JPEG" alt="Trip 2">
+            <div class="caption">New York City</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/US/dallas.JPEG" alt="Trip 2">
+            <div class="caption">Dallas</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/US/dc.JPEG" alt="Trip 2">
+            <div class="caption">Washington D.C.</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/US/nyc.JPEG" alt="Trip 2">
+            <div class="caption">Dumbo, NYC</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/US/orlando.JPEG" alt="Trip 2">
+            <div class="caption">Orlando, FL</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/US/seattle.JPEG" alt="Trip 2">
+            <div class="caption">Seattle</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/US/solvang.JPEG" alt="Trip 2">
+            <div class="caption">Solvang, CA</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/US/vegas.JPEG" alt="Trip 2">
+            <div class="caption">Las Vegas</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/US/big_bear.JPEG" alt="Trip 2">
+            <div class="caption">Big Bear Lake, CA</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/US/djoko.JPEG" alt="Trip 2">
+            <div class="caption">Novak Djokovic practising at UCLA</div>
+          </div>
         </div>
         <div class="swiper-pagination"></div>
       </div>
