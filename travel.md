@@ -62,6 +62,7 @@ subtitle:
           <div class="swiper-slide"><img src="/assets/img/japan/IMG_1719.jpg" alt="Trip 1"></div>
           <div class="swiper-slide"><img src="/assets/img/japan/IMG_1776.jpg" alt="Trip 1"></div>
         </div>
+        <div class="slideshow-caption">Beautiful nature and fresh air</div>
         <div class="swiper-pagination"></div>
       </div>
     </td>
