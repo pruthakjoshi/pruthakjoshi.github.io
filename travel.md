@@ -62,9 +62,11 @@ subtitle:
     width: 50%; /* Adjust for number of columns */
   }
   .swiper-container {
-    width: 192px;
-    height: 256px; /* Adjust as needed */
+    max-width: 350px; /* Adjust as needed */
+    height: 250px;
+    margin: auto; /* Centers the carousel inside the column */
   }
+
   .swiper-slide img {
     width: 192px;
     height: 256px;
@@ -72,60 +74,54 @@ subtitle:
   }
 </style>
 
-<table class="carousel-table">
-  <tr>
-    <td>
-      <div class="swiper mySwiper1">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide"><img src="/assets/img/japan/IMG_1001.jpg" alt="Slide 1" ></div>
-          <div class="swiper-slide"><img src="/assets/img/japan/IMG_1719.jpg" alt="Slide 1" ></div>
-          <div class="swiper-slide"><img src="/assets/img/japan/IMG_1776.jpg" alt="Slide 1" ></div>
+<div style="max-width: 900px; margin: auto;">
+  <table class="carousel-table">
+    <tr>
+      <td>
+        <div class="swiper mySwiper1">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="/assets/img/japan/IMG_1001.jpg" alt="Slide 1" ></div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
         </div>
-        <div class="swiper-pagination"></div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-      </div>
-    </td>
-    <td>
-      <div class="swiper mySwiper2">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide"><img src="/assets/img/japan/IMG_1001.jpg" alt="Slide 1" ></div>
-          <div class="swiper-slide"><img src="/assets/img/japan/IMG_1719.jpg" alt="Slide 1" ></div>
-          <div class="swiper-slide"><img src="/assets/img/japan/IMG_1776.jpg" alt="Slide 1" ></div>
+      </td>
+      <td>
+        <div class="swiper mySwiper2">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="/assets/img/japan/IMG_1001.jpg" alt="Slide 1" ></div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
         </div>
-        <div class="swiper-pagination"></div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-      </div>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <div class="swiper mySwiper3">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide"><img src="/assets/img/japan/IMG_1001.jpg" alt="Slide 1" ></div>
-          <div class="swiper-slide"><img src="/assets/img/japan/IMG_1719.jpg" alt="Slide 1" ></div>
-          <div class="swiper-slide"><img src="/assets/img/japan/IMG_1776.jpg" alt="Slide 1" ></div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="swiper mySwiper3">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="/assets/img/japan/IMG_1001.jpg" alt="Slide 1" ></div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
         </div>
-        <div class="swiper-pagination"></div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-      </div>
-    </td>
-    <td>
-      <div class="swiper mySwiper4">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide"><img src="/assets/img/japan/IMG_1001.jpg" alt="Slide 1" ></div>
-          <div class="swiper-slide"><img src="/assets/img/japan/IMG_1719.jpg" alt="Slide 1" ></div>
-          <div class="swiper-slide"><img src="/assets/img/japan/IMG_1776.jpg" alt="Slide 1" ></div>
+      </td>
+      <td>
+        <div class="swiper mySwiper4">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="/assets/img/japan/IMG_1001.jpg" alt="Slide 1" ></div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
         </div>
-        <div class="swiper-pagination"></div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-      </div>
-    </td>
-  </tr>
-</table>
+      </td>
+    </tr>
+  </table>
+</div>
 
 
 
