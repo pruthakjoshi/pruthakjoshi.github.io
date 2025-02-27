@@ -86,7 +86,7 @@ subtitle:
             <div class="caption">Todai-ji temple, Nara</div>
           </div>
         </div>
-        <div class="slideshow-caption">Japan <img src="/assets/img/japan/japan-flag.jpeg" alt="Japanese Flag" width="32"></div>
+        <div class="slideshow-caption">Japan</div>
         <div class="swiper-pagination"></div>
       </div>
     </td>
@@ -135,7 +135,7 @@ subtitle:
             <div class="caption">Novak Djokovic practising at UCLA tennis courts</div>
           </div>
         </div>
-        <div class="slideshow-caption">U.S.A. <img src="/assets/img/US/usa-flag.jpg" alt="USA Flag" width="32"></div>
+        <div class="slideshow-caption">U.S.A.</div>
         <div class="swiper-pagination"></div>
       </div>
     </td>
