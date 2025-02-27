@@ -14,39 +14,4 @@
     background: rgb(29, 29, 29);
   }
 
-
-  
-
-  /*
-  .slideshow-container {
-    position: relative;
-    width: 192px;
-    height: 256px;
-    overflow: hidden;
-  }
-  
-  .slide {
-    width: 192px;
-    height: 256px;
-  }
-
-  img {
-    width: 192px;
-    height: 256px;
-    object-fit: cover;
-  }
-
-  .fade {
-    animation: fadeEffect 1.5s ease-in-out;
-  }
-
-  @keyframes fadeEffect {
-    from { opacity: 0.4; }
-    to { opacity: 1; }
-  }
-
-  @media (max-width: 768px) {
-    .slideshow-container {
-      height: 250px;
-    }
-  }*/
+ 
