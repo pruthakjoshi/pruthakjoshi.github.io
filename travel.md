@@ -21,6 +21,7 @@ subtitle:
     text-align: center;
   }
   .swiper-container {
+    justify-content: center;
     width: 150px;
     max-width: 300px;
     height: 150px;
