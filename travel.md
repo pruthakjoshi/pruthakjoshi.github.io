@@ -62,14 +62,14 @@ subtitle:
     width: 50%; /* Adjust for number of columns */
   }
   .swiper-container {
-    width: 256px;
-    height: 200px; /* Adjust height */
+    width: 192px;
+    height: 256px; /* Adjust height */
     margin: auto;
   }
 
   .swiper-slide img {
-    width: 256px; /* Ensure image fills the width */
-    height: 192px; /* Maintain aspect ratio */
+    width: 192px; /* Ensure image fills the width */
+    height: 256px; /* Maintain aspect ratio */
     max-height: 100%; /* Prevents excessive height */
     object-fit: cover; /* Ensures the full image is shown without cropping */
     border-radius: 10px; /* Optional: rounded corners */
