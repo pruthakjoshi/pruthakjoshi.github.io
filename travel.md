@@ -29,8 +29,8 @@ subtitle:
     position: relative
   }
   .swiper-slide img {
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
     object-fit: cover;
     border-radius: 10px;
   }
