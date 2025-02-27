@@ -86,8 +86,6 @@ subtitle:
             <div class="swiper-slide"><img src="/assets/img/japan/IMG_1001.jpg" alt="Slide 1" ></div>
           </div>
           <div class="swiper-pagination"></div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
         </div>
       </td>
       <td>
@@ -96,8 +94,6 @@ subtitle:
             <div class="swiper-slide"><img src="/assets/img/japan/IMG_1001.jpg" alt="Slide 1" ></div>
           </div>
           <div class="swiper-pagination"></div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
         </div>
       </td>
     </tr>
@@ -108,8 +104,6 @@ subtitle:
             <div class="swiper-slide"><img src="/assets/img/japan/IMG_1001.jpg" alt="Slide 1" ></div>
           </div>
           <div class="swiper-pagination"></div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
         </div>
       </td>
       <td>
@@ -118,8 +112,6 @@ subtitle:
             <div class="swiper-slide"><img src="/assets/img/japan/IMG_1001.jpg" alt="Slide 1" ></div>
           </div>
           <div class="swiper-pagination"></div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
         </div>
       </td>
     </tr>
