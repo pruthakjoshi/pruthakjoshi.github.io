@@ -7,8 +7,8 @@ subtitle:
 
 <style>
   .carousel-table {
-    width: 80%; /* Adjust width */
-    max-width: 900px;
+    width: 100%; /* Adjust width */
+    max-width: 100%;
     margin: auto;
     table-layout: fixed;
     border-collapse: collapse;
@@ -79,7 +79,7 @@ subtitle:
             <div class="caption">Todai-ji temple, Nara</div>
           </div>
         </div>
-        <div class="slideshow-caption">Japan 🇯🇵 <img src="/assets/img/japan/japan-flag.jpeg" alt="Japanese Flag" width="32"></div>
+        <div class="slideshow-caption">Japan <img src="/assets/img/japan/japan-flag.jpeg" alt="Japanese Flag" width="32"></div>
         <div class="swiper-pagination"></div>
       </div>
     </td>
