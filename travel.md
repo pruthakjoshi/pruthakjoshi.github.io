@@ -31,9 +31,10 @@ subtitle:
   .swiper-slide img {
     width: 220px;
     height: 220px;
-    object-fit: contain;
+    object-fit: cover;
     border-radius: 10px;
   }
+  
   .caption {
     text-align: center
   }
