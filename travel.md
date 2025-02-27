@@ -12,10 +12,12 @@ subtitle:
     margin: auto;
     table-layout: fixed;
     border-collapse: collapse;
+    border: none
   }
   .carousel-table td {
     width: 50%;
     padding: 10px;
+    border: none
     text-align: center;
   }
   .swiper-container {
