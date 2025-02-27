@@ -51,9 +51,11 @@ subtitle:
 
 <style>
   .carousel-table {
-    width: 100px;
-    border-collapse: collapse;
+    width: 80%; /* Adjust as needed */
+    max-width: 900px; /* Prevents the table from getting too wide */
+    margin: auto; /* Centers the table */
   }
+
   .carousel-table td {
     padding: 10px;
     vertical-align: top;
