@@ -112,15 +112,15 @@ subtitle:
             <div class="caption">New York City</div>
           </div>
           <div class="swiper-slide">
-            <img src="/assets/img/US/LA.jpg" alt="Trip 2">
+            <img src="/assets/img/US/LA.JPEG" alt="Trip 2">
             <div class="caption">Getty Villa, LA</div>
           </div>
           <div class="swiper-slide">
-            <img src="/assets/img/US/LA2.jpg" alt="Trip 2">
+            <img src="/assets/img/US/LA2.JPEG" alt="Trip 2">
             <div class="caption">Hollywood Walk of Fame, LA</div>
           </div>
           <div class="swiper-slide">
-            <img src="/assets/img/US/houston.jpg" alt="Trip 2">
+            <img src="/assets/img/US/houston.JPEG" alt="Trip 2">
             <div class="caption">NASA, Houston</div>
           </div>
           <div class="swiper-slide">
