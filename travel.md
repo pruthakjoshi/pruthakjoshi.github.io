@@ -145,12 +145,16 @@ subtitle:
       <div class="swiper mySwiper2">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <img src="/assets/img/canada/richmond_vancouver.jpg" alt="Canada">
-            <div class="caption">Richmond, Vancouver</div>
+            <img src="/assets/img/canada/vancouver1.jpg" alt="Canada">
+            <div class="caption">Canada Place, Vancouver</div>
           </div>
           <div class="swiper-slide">
-            <img src="/assets/img/canada/toronto.jpg" alt="Canada">
-            <div class="caption">Toronto</div>
+            <img src="/assets/img/canada/vancouver2.jpg" alt="Canada">
+            <div class="caption">Cypress Mountain, Vancouver</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/canada/vancouver3.jpg" alt="Canada">
+            <div class="caption">Science World, Vancouver</div>
           </div>
         </div>
         <div class="slideshow-caption">Canada</div>
