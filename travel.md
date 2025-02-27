@@ -244,6 +244,31 @@ subtitle:
         <div class="swiper-pagination"></div>
       </div>
     </td>
+    <td>
+    <!--Thailand-->
+      <div class="swiper mySwiper5">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="/assets/img/thailand/jetski.jpg" alt="thailand">
+            <div class="caption">Cruising on the beaches of Pattaya</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/thailand/temple.jpg" alt="thailand">
+            <div class="caption">Sanctuary of truth, Bangkok</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/thailand/buddha_head.jpg" alt="thailand">
+            <div class="caption">Wat Mahathat, Ayutthaya. One of the most iconic places I have visited.</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/thailand/sleeping_buddha.jpg" alt="thailand">
+            <div class="caption">Wat Pho, depicting Buddha just before He passed into the afterlife</div>
+          </div>
+        </div>
+        <div class="slideshow-caption">Thailand</div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </td>
   </tr>
 </table>
 
