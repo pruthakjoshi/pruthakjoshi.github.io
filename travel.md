@@ -224,7 +224,7 @@ subtitle:
             <div class="caption">Enjoying a waterfall during the 10km rafting trip</div>
           </div>
         </div>
-        <div class="slideshow-caption">Japan</div>
+        <div class="slideshow-caption">Bali</div>
         <div class="swiper-pagination"></div>
       </div>
     </td>
