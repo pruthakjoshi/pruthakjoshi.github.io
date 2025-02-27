@@ -173,6 +173,10 @@ subtitle:
             <div class="caption">Canada Place, Vancouver</div>
           </div>
           <div class="swiper-slide">
+            <img src="/assets/img/canada/toronto.jpg" alt="Canada">
+            <div class="caption">Toronto Skyline</div>
+          </div>
+          <div class="swiper-slide">
             <img src="/assets/img/canada/vancouver2.jpg" alt="Canada">
             <div class="caption">Cypress Mountain, Vancouver</div>
           </div>
