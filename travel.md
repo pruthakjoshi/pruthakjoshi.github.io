@@ -50,22 +50,93 @@ subtitle:
 -->
 
 
-<div class="swiper-container">
-   <div class="swiper-wrapper">
-      <div class="swiper-slide"><img src="/assets/img/japan/IMG_1001.jpg" alt="Image 1"></div>
-      <div class="swiper-slide"><img src="/assets/img/japan/IMG_1719.jpg" alt="Slide 2"></div>
-      <div class="swiper-slide"><img src="/assets/img/japan/IMG_1776.jpg" alt="Slide 3"></div>
-   </div>
-   <div class="swiper-pagination"></div>
-   <div class="swiper-button-next"></div>
-   <div class="swiper-button-prev"></div>
-</div>
+<style>
+  .carousel-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .carousel-table td {
+    padding: 10px;
+    vertical-align: top;
+    width: 50%; /* Adjust for number of columns */
+  }
+  .swiper-container {
+    width: 100%;
+    height: 250px; /* Adjust as needed */
+  }
+  .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+</style>
+
+<table class="carousel-table">
+  <tr>
+    <td>
+      <div class="swiper mySwiper1">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="assets/img/japan/IMG_1001.jpg" alt="Slide 1" ></div>
+          <div class="swiper-slide"><img src="assets/img/japan/IMG_1719.jpg" alt="Slide 1" ></div>
+          <div class="swiper-slide"><img src="assets/img/japan/IMG_1776.jpg" alt="Slide 1" ></div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </td>
+    <td>
+      <div class="swiper mySwiper2">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="assets/img/japan/IMG_1001.jpg" alt="Slide 1" ></div>
+          <div class="swiper-slide"><img src="assets/img/japan/IMG_1719.jpg" alt="Slide 1" ></div>
+          <div class="swiper-slide"><img src="assets/img/japan/IMG_1776.jpg" alt="Slide 1" ></div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div class="swiper mySwiper3">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="assets/img/japan/IMG_1001.jpg" alt="Slide 1" ></div>
+          <div class="swiper-slide"><img src="assets/img/japan/IMG_1719.jpg" alt="Slide 1" ></div>
+          <div class="swiper-slide"><img src="assets/img/japan/IMG_1776.jpg" alt="Slide 1" ></div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </td>
+    <td>
+      <div class="swiper mySwiper4">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="assets/img/japan/IMG_1001.jpg" alt="Slide 1" ></div>
+          <div class="swiper-slide"><img src="assets/img/japan/IMG_1719.jpg" alt="Slide 1" ></div>
+          <div class="swiper-slide"><img src="assets/img/japan/IMG_1776.jpg" alt="Slide 1" ></div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </td>
+  </tr>
+</table>
 
 <script>
-   var swiper = new Swiper('.swiper-container', {
-      loop: true,
-      autoplay: { delay: 3000 },
-      pagination: { el: '.swiper-pagination', clickable: true },
-      navigation: { nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' }
-   });
+  document.addEventListener("DOMContentLoaded", function () {
+    let carousels = document.querySelectorAll(".swiper");
+    carousels.forEach((carousel, index) => {
+      new Swiper(`.mySwiper${index + 1}`, {
+        loop: true,
+        autoplay: { delay: 3000 },
+        pagination: { el: ".swiper-pagination", clickable: true },
+        navigation: { nextEl: ".swiper-button-next", prevEl: ".swiper-button-prev" }
+      });
+    });
+  });
 </script>
+
