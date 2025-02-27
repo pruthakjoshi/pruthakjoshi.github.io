@@ -50,27 +50,6 @@ subtitle:
 -->
 
 
-<style>
-  .carousel-table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  .carousel-table td {
-    padding: 10px;
-    vertical-align: top;
-    width: 50%; /* Adjust for number of columns */
-  }
-  .swiper-container {
-    width: 192;
-    height: 256px; /* Adjust as needed */
-  }
-  .swiper-slide img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-</style>
-
 <table class="carousel-table">
   <tr>
     <td>
