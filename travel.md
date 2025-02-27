@@ -132,7 +132,7 @@ subtitle:
           </div>
           <div class="swiper-slide">
             <img src="/assets/img/US/djoko.JPEG" alt="Trip 2">
-            <div class="caption">Novak Djokovic practising at UCLA</div>
+            <div class="caption">Novak Djokovic practising at UCLA tennis courts</div>
           </div>
         </div>
         <div class="slideshow-caption">U.S.A. <img src="/assets/img/US/usa-flag.jpg" alt="USA Flag" width="32"></div>
