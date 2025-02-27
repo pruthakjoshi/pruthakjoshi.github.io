@@ -19,9 +19,9 @@ subtitle:
     text-align: center;
   }
   .swiper-container {
-    width: 100%;
+    width: 150px;
     max-width: 300px;
-    height: 200px;
+    height: 150px;
     margin: auto;
     position: relative
   }
