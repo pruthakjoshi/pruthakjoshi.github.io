@@ -98,16 +98,19 @@
 
   <script>
     document.addEventListener("DOMContentLoaded", function () {
-      let carousels = document.querySelectorAll(".swiper");
-      carousels.forEach((carousel, index) => {
-        new Swiper(`.mySwiper${index + 1}`, {
-          loop: true,
-          autoplay: { delay: 2000 },
-          pagination: { el: ".swiper-pagination", clickable: true },
-          navigation: { nextEl: ".swiper-button-next", prevEl: ".swiper-button-prev" }
-        });
+    let carousels = document.querySelectorAll(".swiper");
+    carousels.forEach((carousel, index) => {
+      new Swiper(`.mySwiper${index + 1}`, {
+        loop: true,
+        autoplay: { delay: 3000 }, // Auto-slide every 3 seconds
+        slidesPerView: 1, // Show only one slide at a time
+        spaceBetween: 0, // No extra spacing
+        pagination: { el: ".swiper-pagination", clickable: true },
+        navigation: { nextEl: ".swiper-button-next", prevEl: ".swiper-button-prev" }
       });
     });
+  });
+
   </script>
   
   

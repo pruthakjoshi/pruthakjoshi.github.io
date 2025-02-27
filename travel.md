@@ -62,16 +62,19 @@ subtitle:
     width: 50%; /* Adjust for number of columns */
   }
   .swiper-container {
-    max-width: 350px; /* Adjust as needed */
-    height: 250px;
-    margin: auto; /* Centers the carousel inside the column */
+    width: 100%;
+    max-width: 400px; /* Adjust as needed */
+    height: 300px; /* Set a fixed height */
+    margin: auto;
   }
 
   .swiper-slide img {
-    width: 192px;
-    height: 256px;
-    object-fit: cover;
+    width: 100%;  /* Make the image fill the container */
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and crop if needed */
+    border-radius: 10px;
   }
+
 </style>
 
 <div style="max-width: 900px; margin: auto;">
