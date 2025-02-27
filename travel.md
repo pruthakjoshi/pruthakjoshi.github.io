@@ -166,7 +166,7 @@ subtitle:
     </td>
     <!--Canada-->
     <td>
-      <div class="swiper mySwiper2">
+      <div class="swiper mySwiper3">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <img src="/assets/img/canada/vancouver1.jpg" alt="Canada">
@@ -186,6 +186,45 @@ subtitle:
           </div>
         </div>
         <div class="slideshow-caption">Canada</div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    <!--Bali-->
+      <div class="swiper mySwiper4">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="/assets/img/bali/garuda.jpg" alt="bali">
+            <div class="caption">Garuda statue</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/bali/nusa_penida.jpg" alt="bali">
+            <div class="caption">Nusa Penida</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/bali/monkey_selfie.jpg" alt="bali">
+            <div class="caption">Papped by a monkey in the monkey forest</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/bali/rafting.jpeg" alt="bali">
+            <div class="caption">White water rafting in the Ayung river</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/bali/swing.jpg" alt="bali">
+            <div class="caption">Harnessed but stressed</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/bali/beach.jpg" alt="bali">
+            <div class="caption">One of the many picturesque beaches of Bali</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/bali/IMG_9290-ANIMATION.gif" alt="bali">
+            <div class="caption">Enjoying a waterfall during the 10km rafting trip</div>
+          </div>
+        </div>
+        <div class="slideshow-caption">Japan</div>
         <div class="swiper-pagination"></div>
       </div>
     </td>
