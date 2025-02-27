@@ -37,9 +37,9 @@ subtitle:
     <td>
       <div class="swiper mySwiper1">
         <div class="swiper-wrapper">
-          <div class="swiper-slide"><img src="/assets/images/trip1_1.jpg" alt="Trip 1"></div>
-          <div class="swiper-slide"><img src="/assets/images/trip1_2.jpg" alt="Trip 1"></div>
-          <div class="swiper-slide"><img src="/assets/images/trip1_3.jpg" alt="Trip 1"></div>
+          <div class="swiper-slide"><img src="/assets/img/japan/IMG_1001.jpg" alt="Trip 1"></div>
+          <div class="swiper-slide"><img src="/assets/img/japan/IMG_1719.jpg" alt="Trip 1"></div>
+          <div class="swiper-slide"><img src="/assets/img/japan/IMG_1776.jpg" alt="Trip 1"></div>
         </div>
         <div class="swiper-pagination"></div>
       </div>
@@ -47,9 +47,9 @@ subtitle:
     <td>
       <div class="swiper mySwiper2">
         <div class="swiper-wrapper">
-          <div class="swiper-slide"><img src="/assets/images/trip2_1.jpg" alt="Trip 2"></div>
-          <div class="swiper-slide"><img src="/assets/images/trip2_2.jpg" alt="Trip 2"></div>
-          <div class="swiper-slide"><img src="/assets/images/trip2_3.jpg" alt="Trip 2"></div>
+          <div class="swiper-slide"><img src="/assets/img/japan/IMG_1001.jpg" alt="Trip 2"></div>
+          <div class="swiper-slide"><img src="/assets/img/japan/IMG_1719.jpg" alt="Trip 2"></div>
+          <div class="swiper-slide"><img src="/assets/img/japan/IMG_1776.jpg" alt="Trip 2"></div>
         </div>
         <div class="swiper-pagination"></div>
       </div>
