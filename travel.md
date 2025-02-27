@@ -52,7 +52,6 @@ subtitle:
 <table class="carousel-table">
   <tr>
     <td>
-    <div class="slideshow-title">Japan 🇯🇵</div>
       <div class="swiper mySwiper1">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
@@ -80,7 +79,7 @@ subtitle:
             <div class="caption">Todai-ji temple, Nara</div>
           </div>
         </div>
-        <div class="slideshow-caption">Beautiful nature and fresh air</div>
+        <div class="slideshow-caption">Japan 🇯🇵 <img src="/assets/img/japan/japan-flag.jpeg" alt="Japanese Flag" width="32"></div>
         <div class="swiper-pagination"></div>
       </div>
     </td>
