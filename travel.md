@@ -30,32 +30,6 @@ subtitle:
 	</div>
 </div>-->
 
-
-<table class="table">
-  <tr>
-    <td>
-      <div class="slick-slider">
-        <div><img src="/assets/img/japan/IMG_1001.jpg" alt="Slide 1"></div>
-        <div><img src="/assets/img/japan/IMG_1719.jpg" alt="Slide 2"></div>
-        <div><img src="/assets/img/japan/IMG_1776.jpg" alt="Slide 3"></div>
-		    <!--<div><img src="/assets/img/japan/IMG_1795.jpg" alt="Slide 4"></div>
-		    <div><img src="/assets/img/japan/IMG_2120.jpg" alt="Slide 5"></div>
-		    <div><img src="/assets/img/japan/IMG_2354.jpg" alt="Slide 6"></div>-->
-      </div>
-    </td>
-    <td>
-      <div class="slick-slider">
-        <div><img src="/assets/img/japan/IMG_1001.jpg" alt="Slide 1"></div>
-        <div><img src="/assets/img/japan/IMG_1719.jpg" alt="Slide 2"></div>
-        <div><img src="/assets/img/japan/IMG_1776.jpg" alt="Slide 3"></div>
-		    <!--<div><img src="/assets/img/japan/IMG_1795.jpg" alt="Slide 4"></div>
-		    <div><img src="/assets/img/japan/IMG_2120.jpg" alt="Slide 5"></div>
-		    <div><img src="/assets/img/japan/IMG_2354.jpg" alt="Slide 6"></div>-->
-      </div>
-    </td>
-  </tr>
-</table>
-
 <!--
 <div id="slideshow">
 <div class="slideshow-container">

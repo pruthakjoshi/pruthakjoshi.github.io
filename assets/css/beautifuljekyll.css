@@ -1162,4 +1162,17 @@ pre {
   display: none !important; /* ❌ Hides the navigation dots */
 }
 
+.swiper-container {
+  width: 100%; /* Adjust based on your table width */
+  height: 250px; /* Change this to set the height of the carousel */
+}
+
+.swiper-slide img {
+  width: 100%;  /* Makes images take the full width of the carousel */
+  height: 100%; /* Ensures images fill the height */
+  object-fit: cover; /* Crops the image to fill the container while maintaining aspect ratio */
+  border-radius: 10px; /* Optional: Adds rounded corners */
+}
+
+
 
