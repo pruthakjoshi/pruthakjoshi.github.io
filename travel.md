@@ -49,6 +49,26 @@ subtitle:
 </div>
 -->
 
+<style>
+  .carousel-table {
+    width: 100px;
+    border-collapse: collapse;
+  }
+  .carousel-table td {
+    padding: 10px;
+    vertical-align: top;
+    width: 50%; /* Adjust for number of columns */
+  }
+  .swiper-container {
+    width: 192px;
+    height: 256px; /* Adjust as needed */
+  }
+  .swiper-slide img {
+    width: 192px;
+    height: 256px;
+    object-fit: cover;
+  }
+</style>
 
 <table class="carousel-table">
   <tr>
