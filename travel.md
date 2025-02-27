@@ -34,7 +34,7 @@ subtitle:
     object-fit: cover;
     border-radius: 10px;
   }
-  
+
   .caption {
     text-align: center
   }
@@ -145,11 +145,11 @@ subtitle:
       <div class="swiper mySwiper2">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <img src="/assets/img/canada/richmond_vancouver.JPEG" alt="Canada">
+            <img src="/assets/img/canada/richmond_vancouver.jpg" alt="Canada">
             <div class="caption">Richmond, Vancouver</div>
           </div>
           <div class="swiper-slide">
-            <img src="/assets/img/canada/toronto.JPEG" alt="Canada">
+            <img src="/assets/img/canada/toronto.jpg" alt="Canada">
             <div class="caption">Toronto</div>
           </div>
         </div>
