@@ -95,6 +95,20 @@
       }
     });
   </script>-->
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      let carousels = document.querySelectorAll(".swiper");
+      carousels.forEach((carousel, index) => {
+        new Swiper(`.mySwiper${index + 1}`, {
+          loop: true,
+          autoplay: { delay: 3000 },
+          pagination: { el: ".swiper-pagination", clickable: true },
+          navigation: { nextEl: ".swiper-button-next", prevEl: ".swiper-button-prev" }
+        });
+      });
+    });
+  </script>
   
   
   

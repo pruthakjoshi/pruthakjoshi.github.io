@@ -61,8 +61,8 @@ subtitle:
     width: 50%; /* Adjust for number of columns */
   }
   .swiper-container {
-    width: 100%;
-    height: 250px; /* Adjust as needed */
+    width: 192;
+    height: 256px; /* Adjust as needed */
   }
   .swiper-slide img {
     width: 100%;
@@ -76,9 +76,9 @@ subtitle:
     <td>
       <div class="swiper mySwiper1">
         <div class="swiper-wrapper">
-          <div class="swiper-slide"><img src="assets/img/japan/IMG_1001.jpg" alt="Slide 1" ></div>
-          <div class="swiper-slide"><img src="assets/img/japan/IMG_1719.jpg" alt="Slide 1" ></div>
-          <div class="swiper-slide"><img src="assets/img/japan/IMG_1776.jpg" alt="Slide 1" ></div>
+          <div class="swiper-slide"><img src="/assets/img/japan/IMG_1001.jpg" alt="Slide 1" ></div>
+          <div class="swiper-slide"><img src="/assets/img/japan/IMG_1719.jpg" alt="Slide 1" ></div>
+          <div class="swiper-slide"><img src="/assets/img/japan/IMG_1776.jpg" alt="Slide 1" ></div>
         </div>
         <div class="swiper-pagination"></div>
         <div class="swiper-button-next"></div>
@@ -88,9 +88,9 @@ subtitle:
     <td>
       <div class="swiper mySwiper2">
         <div class="swiper-wrapper">
-          <div class="swiper-slide"><img src="assets/img/japan/IMG_1001.jpg" alt="Slide 1" ></div>
-          <div class="swiper-slide"><img src="assets/img/japan/IMG_1719.jpg" alt="Slide 1" ></div>
-          <div class="swiper-slide"><img src="assets/img/japan/IMG_1776.jpg" alt="Slide 1" ></div>
+          <div class="swiper-slide"><img src="/assets/img/japan/IMG_1001.jpg" alt="Slide 1" ></div>
+          <div class="swiper-slide"><img src="/assets/img/japan/IMG_1719.jpg" alt="Slide 1" ></div>
+          <div class="swiper-slide"><img src="/assets/img/japan/IMG_1776.jpg" alt="Slide 1" ></div>
         </div>
         <div class="swiper-pagination"></div>
         <div class="swiper-button-next"></div>
@@ -102,9 +102,9 @@ subtitle:
     <td>
       <div class="swiper mySwiper3">
         <div class="swiper-wrapper">
-          <div class="swiper-slide"><img src="assets/img/japan/IMG_1001.jpg" alt="Slide 1" ></div>
-          <div class="swiper-slide"><img src="assets/img/japan/IMG_1719.jpg" alt="Slide 1" ></div>
-          <div class="swiper-slide"><img src="assets/img/japan/IMG_1776.jpg" alt="Slide 1" ></div>
+          <div class="swiper-slide"><img src="/assets/img/japan/IMG_1001.jpg" alt="Slide 1" ></div>
+          <div class="swiper-slide"><img src="/assets/img/japan/IMG_1719.jpg" alt="Slide 1" ></div>
+          <div class="swiper-slide"><img src="/assets/img/japan/IMG_1776.jpg" alt="Slide 1" ></div>
         </div>
         <div class="swiper-pagination"></div>
         <div class="swiper-button-next"></div>
@@ -114,9 +114,9 @@ subtitle:
     <td>
       <div class="swiper mySwiper4">
         <div class="swiper-wrapper">
-          <div class="swiper-slide"><img src="assets/img/japan/IMG_1001.jpg" alt="Slide 1" ></div>
-          <div class="swiper-slide"><img src="assets/img/japan/IMG_1719.jpg" alt="Slide 1" ></div>
-          <div class="swiper-slide"><img src="assets/img/japan/IMG_1776.jpg" alt="Slide 1" ></div>
+          <div class="swiper-slide"><img src="/assets/img/japan/IMG_1001.jpg" alt="Slide 1" ></div>
+          <div class="swiper-slide"><img src="/assets/img/japan/IMG_1719.jpg" alt="Slide 1" ></div>
+          <div class="swiper-slide"><img src="/assets/img/japan/IMG_1776.jpg" alt="Slide 1" ></div>
         </div>
         <div class="swiper-pagination"></div>
         <div class="swiper-button-next"></div>
@@ -126,17 +126,5 @@ subtitle:
   </tr>
 </table>
 
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    let carousels = document.querySelectorAll(".swiper");
-    carousels.forEach((carousel, index) => {
-      new Swiper(`.mySwiper${index + 1}`, {
-        loop: true,
-        autoplay: { delay: 3000 },
-        pagination: { el: ".swiper-pagination", clickable: true },
-        navigation: { nextEl: ".swiper-button-next", prevEl: ".swiper-button-prev" }
-      });
-    });
-  });
-</script>
+
 
