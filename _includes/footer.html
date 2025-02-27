@@ -73,20 +73,29 @@
       }
   
       function initializeSlick() {
+        console.log("🎯 Initializing Slick...");
+        
         $(".slick-slider").slick({
-          dots: false,  // ❌ Hide navigation dots
+          dots: false,  
           infinite: true,
           slidesToShow: 1,
           slidesToScroll: 1,
-          autoplay: true,
-          autoplaySpeed: 2000,
-          arrows: false, // ❌ Hide Previous/Next Arrows
-          adaptiveHeight: true
+          autoplay: true,  // ✅ Ensure autoplay is enabled
+          autoplaySpeed: 2000,  // ✅ Set 2-second delay
+          arrows: false,
+          adaptiveHeight: true,
+          pauseOnHover: false,  // ✅ Prevent pause on hover
+          pauseOnFocus: false,  // ✅ Prevent pause on focus
+          speed: 800,  // ✅ Ensure smooth transitions
+          fade: false,  // ✅ Change to true if you want a fade effect instead of a slide
+          cssEase: "linear"  // ✅ Smooth scrolling
         });
+  
         console.log("🎉 Slick initialized successfully!");
       }
     });
   </script>
+  
   
   
 
