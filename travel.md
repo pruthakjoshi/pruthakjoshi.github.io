@@ -258,7 +258,7 @@ subtitle:
           </div>
           <div class="swiper-slide">
             <img src="/assets/img/thailand/buddha_head.jpg" alt="thailand">
-            <div class="caption">Wat Mahathat, Ayutthaya. One of the most iconic places I have visited.</div>
+            <div class="caption">Wat Mahathat. One of the most iconic places I have visited.</div>
           </div>
           <div class="swiper-slide">
             <img src="/assets/img/thailand/sleeping_buddha.jpg" alt="thailand">
