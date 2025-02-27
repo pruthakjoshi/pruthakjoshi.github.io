@@ -131,7 +131,7 @@ subtitle:
             <div class="caption">Big Bear Lake, CA</div>
           </div>
           <div class="swiper-slide">
-            <img src="/assets/img/US/djoko.JPEG" alt="Trip 2">
+            <img src="/assets/img/US/djoko.jpg" alt="Trip 2">
             <div class="caption">Novak Djokovic practising at UCLA tennis courts</div>
           </div>
         </div>
@@ -139,12 +139,19 @@ subtitle:
         <div class="swiper-pagination"></div>
       </div>
     </td>
+    <!--Canada-->
     <td>
       <div class="swiper mySwiper2">
         <div class="swiper-wrapper">
-          <div class="swiper-slide"><img src="/assets/img/japan/IMG_1001.jpg" alt="Trip 2"></div>
-          <div class="swiper-slide"><img src="/assets/img/japan/IMG_1719.jpg" alt="Trip 2"></div>
-          <div class="swiper-slide"><img src="/assets/img/japan/IMG_1776.jpg" alt="Trip 2"></div>
+          <div class="swiper-slide">
+            <img src="/assets/img/canada/richmond_vancouver.JPEG" alt="Canada">
+            <div class="caption">Richmond, Vancouver</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/canada/toronto.JPEG" alt="Canada">
+            <div class="caption">Toronto</div>
+          </div>
+
         </div>
         <div class="swiper-pagination"></div>
       </div>
