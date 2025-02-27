@@ -1163,8 +1163,8 @@ pre {
 }
 
 .swiper-container {
-  width: 100%; /* Adjust based on your table width */
-  height: 250px; /* Change this to set the height of the carousel */
+  width: 192px; /* Adjust based on your table width */
+  height: 256px; /* Change this to set the height of the carousel */
 }
 
 .swiper-slide img {
