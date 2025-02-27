@@ -17,10 +17,12 @@ subtitle:
   .carousel-table td {
     width: 50%;
     padding: 10px;
+    border: none
     text-align: center;
   }
   .swiper-container {
     width: 150px;
+    max-width: 300px;
     height: 150px;
     margin: auto;
     position: relative
