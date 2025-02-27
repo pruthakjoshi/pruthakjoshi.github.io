@@ -10,7 +10,7 @@ subtitle: Things that I have worked on over the years
 Your browser does not support the video tag.
 </video>
 <center>
-Video: Final event and press release video demonstrating the teleoperated robot. I was involved in ideating, designing, and fabricating the end-effector.
+Video: Final event and press release video demonstrating the teleoperated robot. I was responsible for ideating, designing, and fabricating the end-effector.
 </center>
 
 ### Design of MR-compatible Robotic System for Abdominal Interventions
