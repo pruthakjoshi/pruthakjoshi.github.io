@@ -98,6 +98,16 @@ subtitle:
         <div class="swiper-pagination"></div>
       </div>
     </td>
+    <td>
+      <div class="swiper mySwiper2">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="/assets/img/japan/IMG_1001.jpg" alt="Trip 2"></div>
+          <div class="swiper-slide"><img src="/assets/img/japan/IMG_1719.jpg" alt="Trip 2"></div>
+          <div class="swiper-slide"><img src="/assets/img/japan/IMG_1776.jpg" alt="Trip 2"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </td>
   </tr>
 </table>
 
