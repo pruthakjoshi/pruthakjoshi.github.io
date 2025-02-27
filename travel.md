@@ -31,7 +31,7 @@ subtitle:
   .swiper-slide img {
     width: 220px;
     height: 220px;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 10px;
   }
   .caption {
@@ -151,8 +151,8 @@ subtitle:
             <img src="/assets/img/canada/toronto.JPEG" alt="Canada">
             <div class="caption">Toronto</div>
           </div>
-
         </div>
+        <div class="slideshow-caption">Canada</div>
         <div class="swiper-pagination"></div>
       </div>
     </td>
