@@ -116,7 +116,6 @@ subtitle:
         <div class="swiper mySwiper4">
           <div class="swiper-wrapper">
             <div class="swiper-slide"><img src="/assets/img/japan/IMG_1001.jpg" alt="Slide 1" ></div>
-            <div class="swiper-slide"><img src="/assets/img/japan/IMG_1719.jpg" alt="Slide 1" ></div>
           </div>
           <div class="swiper-pagination"></div>
           <div class="swiper-button-next"></div>
