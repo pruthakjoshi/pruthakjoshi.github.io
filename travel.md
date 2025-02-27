@@ -59,8 +59,26 @@ subtitle:
             <img src="/assets/img/japan/IMG_1001.jpg" alt="Trip 1">
             <div class="caption">Chureito Pagoda with Fuji-san in the background</div>
           </div>
-          <div class="swiper-slide"><img src="/assets/img/japan/IMG_1719.jpg" alt="Trip 1"></div>
-          <div class="swiper-slide"><img src="/assets/img/japan/IMG_1776.jpg" alt="Trip 1"></div>
+          <div class="swiper-slide">
+            <img src="/assets/img/japan/IMG_1719.jpg" alt="Trip 1">
+            <div class="caption">The mighty Shinkansens (photo from Tokyo station)</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/japan/IMG_1776.jpg" alt="Trip 1">
+            <div class="caption">Kiyomizu-dera temple in Kyoto</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/japan/IMG_1795.jpg" alt="Trip 1">
+            <div class="caption">Fushimi Inari-taisha Shrine in Kyoto</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/japan/IMG_2120.jpg" alt="Trip 1">
+            <div class="caption">State Guest House, Akasaka Palace, Tokyo</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/japan/IMG_2354.jpg" alt="Trip 1">
+            <div class="caption">Todai-ji temple, Nara</div>
+          </div>
         </div>
         <div class="slideshow-caption">Beautiful nature and fresh air</div>
         <div class="swiper-pagination"></div>
