@@ -135,7 +135,7 @@ subtitle:
             <div class="caption">Novak Djokovic practising at UCLA</div>
           </div>
         </div>
-        <div class="slideshow-caption">U.S.A. <img src="/assets/img/japan/usa-flag.jpg" alt="USA Flag" width="32"></div>
+        <div class="slideshow-caption">U.S.A. <img src="/assets/img/US/usa-flag.jpg" alt="USA Flag" width="32"></div>
         <div class="swiper-pagination"></div>
       </div>
     </td>
