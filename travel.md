@@ -184,6 +184,14 @@ subtitle:
             <img src="/assets/img/canada/vancouver3.jpg" alt="Canada">
             <div class="caption">Science World, Vancouver</div>
           </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/canada/locks.jpg" alt="Canada">
+            <div class="caption"></div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/canada/sign.jpg" alt="Canada">
+            <div class="caption">Thanks for the heads up!</div>
+          </div>
         </div>
         <div class="slideshow-caption">Canada</div>
         <div class="swiper-pagination"></div>
