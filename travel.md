@@ -356,7 +356,7 @@ subtitle:
             <div class="caption">Alappuzha backwaters, Kerala</div>
           </div>
         </div>
-        <div class="slideshow-caption">Dubai</div>
+        <div class="slideshow-caption">India</div>
         <div class="swiper-pagination"></div>
       </div>
     </td>
