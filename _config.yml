@@ -264,6 +264,13 @@ exclude:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-minifier
+
+jekyll-minifier:
+  compress_css: true
+  compress_javascript: true
+  compress_html: true
+  preserve_line_breaks: false
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
