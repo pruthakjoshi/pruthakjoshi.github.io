@@ -311,7 +311,7 @@ subtitle:
     carousels.forEach((carousel, index) => {
       new Swiper(`.mySwiper${index + 1}`, {
         loop: true,
-        autoplay: { delay: 3000 },
+        autoplay: { delay: 5000 },
         slidesPerView: 1,
         pagination: { el: ".swiper-pagination", clickable: true },
       });
