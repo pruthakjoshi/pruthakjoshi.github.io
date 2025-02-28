@@ -163,15 +163,15 @@ subtitle:
       <div class="swiper mySwiper4">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <img src="/assets/img/bali/garuda.jpg" alt="bali" loading="lazy">
+            <img src="/assets/img/bali/garuda.png" alt="bali" loading="lazy">
             <div class="caption">Garuda statue</div>
           </div>
           <div class="swiper-slide">
-            <img src="/assets/img/bali/nusa_penida.jpg" alt="bali" loading="lazy">
+            <img src="/assets/img/bali/nusa_penida.png" alt="bali" loading="lazy">
             <div class="caption">Nusa Penida</div>
           </div>
           <div class="swiper-slide">
-            <img src="/assets/img/bali/monkey_selfie.jpg" alt="bali" loading="lazy">
+            <img src="/assets/img/bali/monkey_selfie.png" alt="bali" loading="lazy">
             <div class="caption">Papped by a monkey in the monkey forest</div>
           </div>
           <div class="swiper-slide">
@@ -179,7 +179,7 @@ subtitle:
             <div class="caption">White water rafting in the Ayung river</div>
           </div>
           <div class="swiper-slide">
-            <img src="/assets/img/bali/swing.jpg" alt="bali" loading="lazy">
+            <img src="/assets/img/bali/swing.png" alt="bali" loading="lazy">
             <div class="caption">Harnessed but stressed</div>
           </div>
           <div class="swiper-slide">
