@@ -285,7 +285,7 @@ subtitle:
     </td>
     <td>
     <!--Dubai-->
-      <div class="swiper mySwiper5">
+      <div class="swiper mySwiper6">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <img src="/assets/img/dubai/IMG_2456.JPG" alt="dubai">
@@ -302,6 +302,58 @@ subtitle:
           <div class="swiper-slide">
             <img src="/assets/img/dubai/IMG_1484.JPG" alt="dubai">
             <div class="caption">Atlantis The Palm Dubai</div>
+          </div>
+        </div>
+        <div class="slideshow-caption">Dubai</div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td><!--India-->
+      <div class="swiper mySwiper7">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="/assets/img/india/scuba.JPG" alt="india">
+            <div class="caption">Scuba diving at Neil Island, Andaman & Nicobar Islands</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/india/taj_mahal.JPEG" alt="india">
+            <div class="caption">Taj Mahal, Agra</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/india/lotus_temple.JPEG" alt="india">
+            <div class="caption">Lotus Temple, Delhi. It is a Baháʼí House of Worship</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/india/thiksey monastery.JPG" alt="india">
+            <div class="caption">Thiksey Monastery, Leh</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/india/chinesenets.JPG" alt="india">
+            <div class="caption">Chinese fishing nets, Kochi, Kerala</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/india/khardung_la.JPG" alt="india">
+            <div class="caption">Khardung La. World's 7th highest motorable pass</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/india/ellora.JPG" alt="india">
+            <div class="caption">Kailash Temple in the Ellora Caves, the largest single monolithic rock excavation in the world</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/india/jaisalmer_sand.JPG" alt="india">
+            <div class="caption">Sand dunes of the Thar desert, Jaisalmer</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/india/pangong_tso.JPG" alt="india">
+            <div class="caption">Pangong Tso, situated at an elevation of 13,862ft shared between India and China</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/india/allepey.JPG" alt="india">
+            <div class="caption">Alappuzha backwaters, Kerala</div>
           </div>
         </div>
         <div class="slideshow-caption">Dubai</div>
