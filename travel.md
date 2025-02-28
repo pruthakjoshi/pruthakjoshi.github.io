@@ -67,10 +67,6 @@ subtitle:
             <div class="caption">Getty Villa, LA</div>
           </div>
           <div class="swiper-slide">
-            <img src="/assets/img/US/LA2.JPEG" alt="Trip 2" loading="lazy">
-            <div class="caption">Hollywood Walk of Fame, LA</div>
-          </div>
-          <div class="swiper-slide">
             <img src="/assets/img/US/houston.JPEG" alt="Trip 2" loading="lazy">
             <div class="caption">NASA, Houston</div>
           </div>
