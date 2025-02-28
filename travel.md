@@ -250,7 +250,7 @@ subtitle:
             <div class="caption">One of the many picturesque beaches of Bali</div>
           </div>
           <div class="swiper-slide">
-            <img src="/assets/img/bali/IMG_9290-ANIMATION.gif" alt="bali">
+            <img src="/assets/img/bali/IMG_9290-ANIMATION.jpg" alt="bali">
             <div class="caption">Enjoying a waterfall during the 10km rafting trip</div>
           </div>
         </div>
