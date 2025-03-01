@@ -241,7 +241,7 @@ subtitle:
             <div class="caption">Atlantis The Palm Dubai</div>
           </div>
         </div>
-        <div class="slideshow-caption">Dubai</div>
+        <div class="slideshow-caption">U.A.E.</div>
         <div class="swiper-pagination"></div>
       </div>
     </td>
