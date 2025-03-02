@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Projects
-subtitle:
+subtitle: Things that I have worked on over the years
 ---
 
 <style>
@@ -35,7 +35,7 @@ subtitle:
     <section class="project-grid">
         <article id="project1" class="project-card">
             <h2>Design of End-Effector for Robust Teleoperation</h2>
-            <video class="hover-play" muted>
+            <video class="hover-play" autoplay muted controls>
                 <source src="/assets/img/REAZON-TRIAD-PV-1MIN.mp4" type="video/mp4">
             </video>
             <p>Final event and press release video demonstrating the teleoperated robot. <strong>My role:</strong> Ideation,design, and fabrication of the end-effector.</p>
@@ -44,11 +44,11 @@ subtitle:
             <h2>Design of MR-compatible Robotic System</h2>
             <button class="toggle-btn">Expand</button>
             <div class="content">
-                <video class="hover-play" muted>
+                <video class="hover-play" autoplay muted controls>
                     <source src="/assets/img/robot_cad.mp4" type="video/mp4">
                 </video>
                 <p>Concept CAD demonstrating the robot operating in an MRI chamber.</p>
-                <video class="hover-play" muted>
+                <video class="hover-play" autoplay muted controls>
                     <source src="/assets/img/master_slave_demo.mp4" type="video/mp4">
                 </video>
                 <p>First prototype of master and slave connected via hydrostatic transmission.</p>
@@ -63,12 +63,11 @@ subtitle:
             <h2>Soft Robotic Finger</h2>
             <img src="/assets/img/RRR_model.JPG" class="hover-zoom">
             <img src="/assets/img/RRR_totalfinger.JPG" class="hover-zoom">
-            <video class="hover-play" muted>
+            <video class="hover-play" autoplay muted controls>
                 <source src="/assets/img/extension_onlyT3_Trim.mp4" type="video/mp4">
             </video>
         </article>
     </section>
-    
     <script>
         document.querySelectorAll('.toggle-btn').forEach(button => {
             button.addEventListener('click', function() {
