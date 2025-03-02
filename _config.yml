@@ -18,6 +18,7 @@ navbar-links:
   Travel: "travel"
   Projects: "projects"
   Curriculum Vitae: "CV_Github.pdf"
+  Projects-Test: "projects-test"
   #Resources:
   #  - Beautiful Jekyll: "https://beautifuljekyll.com"
   #  - Learn markdown: "https://www.markdowntutorial.com/"
