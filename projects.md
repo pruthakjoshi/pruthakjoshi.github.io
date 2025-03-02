@@ -41,20 +41,19 @@ subtitle: Things that I have worked on over the years
 		<article id="project2" class="project-card collapsible">
 			<h2>Design of MR-compatible Robotic System for Liver Biopsy</h2>
 			<video class="hover-play" autoplay muted controls>
-					<source src="/assets/img/robot_cad.mp4" type="video/mp4">
-				</video>
+				<source src="/assets/img/robot_in_MR.mp4" type="video/mp4">
+			</video>
 			<button class="toggle-btn">Expand</button>
 			<div class="content">
+				<video class="hover-play" autoplay muted controls>
+					<source src="/assets/img/robot_cad.mp4" type="video/mp4">
+				</video>
 				<p>Concept CAD demonstrating the robot operating in an MRI chamber.</p>
 				<p> <strong>My role:</strong> Starting with initial concept, I built the first prototype of the system using 3D printing, non-magnetic components, and low-friction hydrostatic actuators </p>
 				<video class="hover-play" autoplay muted controls>
 					<source src="/assets/img/master_slave_demo.mp4" type="video/mp4">
 				</video>
 				<p>First prototype of master and slave connected via hydrostatic transmission</p>
-				<video class="hover-play" autoplay muted controls>
-					<source src="/assets/img/robot_in_MR.mp4" type="video/mp4">
-				</video>
-				<p>Demo of the first prototype</p>
 			</div>
 		</article>
 		<article id="ribcage" class="project-card collapsible">
