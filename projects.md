@@ -91,14 +91,19 @@ subtitle: Things that I have worked on over the years
 			<h2>Smart Machining: Data Collection</h2>
 			<img src="/assets/img/poster.JPG" class="hover-zoom">
 			<p>Poster explaining CNC machining data collection during drilling and milling.</p>
+			<p><strong>My role:</strong> Integrated acoustic, vibration, and power sensors with Haas TM2P CNC machine. Collected milling and drilling data across various machining parameters by performing different machining experiments. </p>
 		</article>
 		<article id="project4" class="project-card">
 			<h2>Soft Robotic Finger</h2>
-			<img src="/assets/img/RRR_model.JPG" class="hover-zoom">
-			<img src="/assets/img/RRR_totalfinger.JPG" class="hover-zoom">
 			<video class="hover-play" autoplay muted controls>
 				<source src="/assets/img/extension_onlyT3_Trim.mp4" type="video/mp4">
 			</video>
+			<p><strong>My role:</strong> Tested the two models of a 3-link 3-joint soft finger using Computer Vision and simulations</p>
+			<button class="toggle-btn">Expand</button>
+			<div class="content">
+				<img src="/assets/img/RRR_model.JPG" class="hover-zoom">
+				<img src="/assets/img/RRR_totalfinger.JPG" class="hover-zoom">
+			</div>
 		</article>
 	</section>
 	<script>
