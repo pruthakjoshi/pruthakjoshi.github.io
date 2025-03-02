@@ -36,7 +36,7 @@ subtitle: Things that I have worked on over the years
             </video>
             <p>Final event and press release video demonstrating the teleoperated robot. <strong>My role:</strong> Ideation,design, and fabrication of the end-effector.</p>
         </article>
-        <article id="project2" class="project-card collapsible">
+        <article id="project2" class="project-card">
             <h2>Design of MR-compatible Robotic System</h2>
             <button class="toggle-btn">Expand</button>
             <div class="content">
