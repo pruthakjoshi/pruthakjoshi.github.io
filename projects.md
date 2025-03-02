@@ -9,7 +9,7 @@ subtitle: Things that I have worked on over the years
 	header { text-align: center; padding: 20px; }*/
 	#toc { list-style: none; padding: 0; display: flex; justify-content: center; gap: 20px; }
 	#toc li { display: inline; }
-	#toc a { text-decoration: none; font-weight: bold; color: #007bff; }
+	#toc a { text-decoration: none; text-align: center; font-weight: bold; color: #007bff; }
 	.project-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
 	.project-card { background: white; padding: 15px; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); }
 	video, img { width: 100%; border-radius: 5px; transition: transform 0.3s ease; }
