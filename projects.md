@@ -7,6 +7,8 @@ subtitle: Things that I have worked on over the years
 <style>
 	/*body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background-color: #f4f4f4; }
 	header { text-align: center; padding: 20px; }*/
+	h2 {text-align: center;}
+	p {text-align: center;}
 	#toc { list-style: none; padding: 0; display: flex; text-align:center; justify-content: center; gap: 20px; }
 	#toc li { display: inline; }
 	#toc a { text-decoration: none; text-align: center; font-weight: bold; color: #007bff; }
