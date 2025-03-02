@@ -39,6 +39,7 @@ subtitle: Things that I have worked on over the years
 		</article>
 		<article id="project2" class="project-card">
 			<h2>Design of MR-compatible Robotic System for Liver Biopsy</h2>
+			<button class="toggle-btn">Expand</button>
 			<div class="content">
 				<video class="hover-play" autoplay muted controls>
 					<source src="/assets/img/robot_cad.mp4" type="video/mp4">
@@ -69,4 +70,13 @@ subtitle: Things that I have worked on over the years
 			</video>
 		</article>
 	</section>
+	<script>
+        document.querySelectorAll('.toggle-btn').forEach(button => {
+            button.addEventListener('click', function() {
+                const content = this.nextElementSibling;
+                content.style.display = content.style.display === 'block' ? 'none' : 'block';
+                this.textContent = content.style.display === 'block' ? 'Collapse' : 'Expand';
+            });
+        });
+    </script>
 </body>
