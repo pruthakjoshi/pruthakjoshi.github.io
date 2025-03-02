@@ -44,7 +44,7 @@ subtitle: Things that I have worked on over the years
 					<source src="/assets/img/robot_cad.mp4" type="video/mp4">
 				</video>
 				<p>Concept CAD demonstrating the robot operating in an MRI chamber.</p>
-				<p> <strong>My role:</strong>Starting with initial concept, I built the first prototype of the system using 3D printing, non-magnetic components, and low-friction hydrostatic actuators
+				<p> <strong>My role:</strong> Starting with initial concept, I built the first prototype of the system using 3D printing, non-magnetic components, and low-friction hydrostatic actuators </p>
 				<video class="hover-play" autoplay muted controls>
 					<source src="/assets/img/master_slave_demo.mp4" type="video/mp4">
 				</video>
