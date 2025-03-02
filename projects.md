@@ -93,7 +93,7 @@ subtitle: Things that I have worked on over the years
 			<p>Poster explaining CNC machining data collection during drilling and milling.</p>
 			<p><strong>My role:</strong> Integrated acoustic, vibration, and power sensors with Haas TM2P CNC machine. Collected milling and drilling data across various machining parameters by performing different machining experiments. </p>
 		</article>
-		<article id="project4" class="project-card">
+		<article id="project4" class="project-card collapsible">
 			<h2>Soft Robotic Finger</h2>
 			<video class="hover-play" autoplay muted controls>
 				<source src="/assets/img/extension_onlyT3_Trim.mp4" type="video/mp4">
