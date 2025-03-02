@@ -24,6 +24,7 @@ subtitle: Things that I have worked on over the years
 		<ul id="toc">
 			<li><a href="#project1">End-Effector of Teleoperated Bartender</a></li>
 			<li><a href="#project2">MR-compatible Surgical Robot</a></li>
+			<li><a href="#ribcage">MR-compatible motion phantom</a></li>
 			<li><a href="#project3">Smart Machining</a></li>
 			<li><a href="#project4">Soft Robotic Finger</a></li>
 		</ul>
