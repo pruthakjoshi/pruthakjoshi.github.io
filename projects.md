@@ -23,7 +23,7 @@ subtitle: Things that I have worked on over the years
 	<nav>
 		<ul id="toc">
 			<li><a href="#project1">End-Effector of Teleoperated Bartender</a></li>
-			<li><a href="#project2">MR-compatible Robot for Liver Biopsy</a></li>
+			<li><a href="#project2">MR-compatible Surgical Robot</a></li>
 			<li><a href="#project3">Smart Machining</a></li>
 			<li><a href="#project4">Soft Robotic Finger</a></li>
 		</ul>
@@ -38,7 +38,7 @@ subtitle: Things that I have worked on over the years
 			<p> <strong>My role:</strong> Ideation, design, and fabrication of the end-effector</p>
 		</article>
 		<article id="project2" class="project-card">
-			<h2>Design of MR-compatible Robotic System</h2>
+			<h2>Design of MR-compatible Robotic System for Liver Biopsy</h2>
 			<div class="content">
 				<video class="hover-play" autoplay muted controls>
 					<source src="/assets/img/robot_cad.mp4" type="video/mp4">
@@ -48,7 +48,11 @@ subtitle: Things that I have worked on over the years
 				<video class="hover-play" autoplay muted controls>
 					<source src="/assets/img/master_slave_demo.mp4" type="video/mp4">
 				</video>
-				<p>First prototype of master and slave connected via hydrostatic transmission.</p>
+				<p>First prototype of master and slave connected via hydrostatic transmission</p>
+				<video class="hover-play" autoplay muted controls>
+					<source src="/assets/img/robot_in_MR.mp4" type="video/mp4">
+				</video>
+				<p>Demo of the first prototype</p>
 			</div>
 		</article>
 		<article id="project3" class="project-card">
