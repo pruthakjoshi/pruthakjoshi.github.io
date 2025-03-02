@@ -34,7 +34,8 @@ subtitle: Things that I have worked on over the years
 			<video class="hover-play" autoplay muted controls>
 				<source src="/assets/img/REAZON-TRIAD-PV-1MIN.mp4" type="video/mp4">
 			</video>
-			<p>Final event and press release video demonstrating the teleoperated robot. <strong>My role:</strong> Ideation,design, and fabrication of the end-effector.</p>
+			<p>Final event and press release video demonstrating the teleoperated robot.</p> 
+			<p> <strong>My role:</strong> Ideation, design, and fabrication of the end-effector</p>
 		</article>
 		<article id="project2" class="project-card">
 			<h2>Design of MR-compatible Robotic System</h2>
@@ -43,6 +44,7 @@ subtitle: Things that I have worked on over the years
 					<source src="/assets/img/robot_cad.mp4" type="video/mp4">
 				</video>
 				<p>Concept CAD demonstrating the robot operating in an MRI chamber.</p>
+				<p> <strong>My role:</strong>Starting with initial concept, I built the first prototype of the system using 3D printing, non-magnetic components, and low-friction hydrostatic actuators
 				<video class="hover-play" autoplay muted controls>
 					<source src="/assets/img/master_slave_demo.mp4" type="video/mp4">
 				</video>
