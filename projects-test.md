@@ -22,8 +22,8 @@ subtitle: Things that I have worked on over the years
 <body>
     <nav>
         <ul id="toc">
-            <li><a href="#project1">Design of End-Effector</a></li>
-            <li><a href="#project2">MR-compatible Robotic System</a></li>
+            <li><a href="#project1">End-Effector of Teleoperated Bartender</a></li>
+            <li><a href="#project2">MR-compatible Robot for Liver Biopsy</a></li>
             <li><a href="#project3">Smart Machining</a></li>
             <li><a href="#project4">Soft Robotic Finger</a></li>
         </ul>
@@ -63,13 +63,4 @@ subtitle: Things that I have worked on over the years
             </video>
         </article>
     </section>
-    <!--<script>
-        document.querySelectorAll('.toggle-btn').forEach(button => {
-            button.addEventListener('click', function() {
-                const content = this.nextElementSibling;
-                content.style.display = content.style.display === 'block' ? 'none' : 'block';
-                this.textContent = content.style.display === 'block' ? 'Collapse' : 'Expand';
-            });
-        });
-    </script>-->
 </body>
