@@ -35,16 +35,16 @@ subtitle: Things that I have worked on over the years
 			<video class="hover-play" autoplay muted controls>
 				<source src="/assets/img/REAZON-TRIAD-PV-1MIN.mp4" type="video/mp4">
 			</video>
-			<p>Final event and press release video demonstrating the teleoperated robot.</p> 
+			<p>Final event and press release video demonstrating the teleoperated robot. This project was a part of my internship at Reazon Human Interaction lab in Summer 2024.</p> 
 			<p> <strong>My role:</strong> Ideation, design, and fabrication of the end-effector</p>
 		</article>
 		<article id="project2" class="project-card collapsible">
 			<h2>Design of MR-compatible Robotic System for Liver Biopsy</h2>
-			<button class="toggle-btn">Expand</button>
-			<div class="content">
-				<video class="hover-play" autoplay muted controls>
+			<video class="hover-play" autoplay muted controls>
 					<source src="/assets/img/robot_cad.mp4" type="video/mp4">
 				</video>
+			<button class="toggle-btn">Expand</button>
+			<div class="content">
 				<p>Concept CAD demonstrating the robot operating in an MRI chamber.</p>
 				<p> <strong>My role:</strong> Starting with initial concept, I built the first prototype of the system using 3D printing, non-magnetic components, and low-friction hydrostatic actuators </p>
 				<video class="hover-play" autoplay muted controls>
