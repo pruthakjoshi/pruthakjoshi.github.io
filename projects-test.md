@@ -5,8 +5,8 @@ subtitle: Things that I have worked on over the years
 ---
 
 <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background-color: #f4f4f4; }
-    header { text-align: center; padding: 20px; }
+    /*body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background-color: #f4f4f4; }
+    header { text-align: center; padding: 20px; }*/
     #toc { list-style: none; padding: 0; display: flex; justify-content: center; gap: 20px; }
     #toc li { display: inline; }
     #toc a { text-decoration: none; font-weight: bold; color: #007bff; }
@@ -20,10 +20,6 @@ subtitle: Things that I have worked on over the years
 </style>
 
 <body>
-    <header>
-        <h1>Projects</h1>
-        <p>Things that I have worked on over the years</p>
-    </header>
     <nav>
         <ul id="toc">
             <li><a href="#project1">Design of End-Effector</a></li>
@@ -78,4 +74,3 @@ subtitle: Things that I have worked on over the years
         });
     </script>
 </body>
-</html>
