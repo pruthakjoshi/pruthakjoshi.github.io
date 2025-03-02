@@ -24,6 +24,7 @@ subtitle: Things that I have worked on over the years
 		<ul id="toc">
 			<li><a href="#project1">End-Effector of Teleoperated Bartender</a></li>
 			<li><a href="#project2">MR-compatible Surgical Robot</a></li>
+			<li><a href="#fluid_char">Testing rig for hydrostatic actuators</a></li>
 			<li><a href="#ribcage">MR-compatible motion phantom</a></li>
 			<li><a href="#project3">Smart Machining</a></li>
 			<li><a href="#project4">Soft Robotic Finger</a></li>
@@ -55,6 +56,23 @@ subtitle: Things that I have worked on over the years
 					<source src="/assets/img/robot_in_MR.mp4" type="video/mp4">
 				</video>
 				<p>Demo of the first prototype</p>
+			</div>
+		</article>
+		<article id="fluid_char" class="project-card collapsible">
+			<h2>Characterization of low-friction hydrostatic actuators</h2>
+			<video class="hover-play" autoplay muted controls>
+				<source src="/assets/img/fluidchar.mp4" type="video/mp4">
+			</video>
+			<p> <strong>My role:</strong> Built the hardware of the testing rig to characterize hydrostatic actuators for high-fidelity motion and force transmission in teleoperation.</p>
+			<button class="toggle-btn">Expand</button>
+			<div class="content">
+				<img src="/assets/img/setup_schematic.png" class="hover-zoom">
+				<p>Schematic of the testing rig</p>
+				<img src="/assets/img/position_staircase.png" class="hover-zoom">
+				<p> Position Transmission </p>
+				<img src="/assets/img/force_staircase.png" class="hover-zoom">
+				<p> Force Transmission</p>
+				<p>Initial test results demonstrating a highly linear and (almost) 1-to-1 relationship between master and follower actuators. The blue (0 psi) and purple (10 psi) colors represent the different backpressures applied to the actuator pistons. </p>
 			</div>
 		</article>
 		<article id="ribcage" class="project-card collapsible">
