@@ -44,14 +44,13 @@ subtitle: Things that I have worked on over the years
 			<video class="hover-play" autoplay muted controls>
 				<source src="/assets/img/master_slave_demo.mp4" type="video/mp4">
 			</video>
-			<p>First prototype of master and slave connected via hydrostatic transmission</p>
+			<p> <strong>My role:</strong> Starting with initial concept, I built the first prototype of the system using 3D printing, non-magnetic components, and low-friction hydrostatic actuators </p>
 			<button class="toggle-btn">Expand</button>
 			<div class="content">
 				<video class="hover-play" autoplay muted controls>
 					<source src="/assets/img/robot_cad.mp4" type="video/mp4">
 				</video>
 				<p>Concept CAD demonstrating the robot operating in an MRI chamber.</p>
-				<p> <strong>My role:</strong> Starting with initial concept, I built the first prototype of the system using 3D printing, non-magnetic components, and low-friction hydrostatic actuators </p>
 				<video class="hover-play" autoplay muted controls>
 					<source src="/assets/img/robot_in_MR.mp4" type="video/mp4">
 				</video>
@@ -80,9 +79,9 @@ subtitle: Things that I have worked on over the years
 			<video class="hover-play" autoplay muted controls>
 				<source src="/assets/img/phantom_motion.mp4" type="video/mp4">
 			</video>
+			<p> <strong>My role:</strong> Building the phantom to generate repeatable breathing patterns using air blowers. Used balloons as lungs, rubber sheet as diaphragm, and MR-compatible gel for liver with markers embedded for visibility under MRI scans. The aim was to use this phantom to test the robot.</p>
 			<button class="toggle-btn">Expand</button>
 			<div class="content">
-				<p> <strong>My role:</strong> Building the phantom to generate repeatable breathing patterns using air blowers. Used balloons as lungs, rubber sheet as diaphragm, and MR-compatible gel for liver with markers embedded for visibility under MRI scans. The aim was to use this phantom to test the robot.</p>
 				<img src="/assets/img/test4_all.png" class="hover-zoom">
 				<p>Initial test results demonstrating repeatable motion on open-loop control of PWM of the air blowers, the pressure generated inside the lungs, and the motion of the liver</p>
 			</div>
