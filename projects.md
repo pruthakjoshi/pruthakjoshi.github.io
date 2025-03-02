@@ -57,7 +57,7 @@ subtitle: Things that I have worked on over the years
 				<p>Demo of the first prototype</p>
 			</div>
 		</article>
-		<article id="ribcage" class="project-card">
+		<article id="ribcage" class="project-card collapsible">
 			<h2>Development of MR-compatible anthropomorphic motion phantom</h2>
 			<button class="toggle-btn">Expand</button>
 			<video class="hover-play" autoplay muted controls>
@@ -65,7 +65,7 @@ subtitle: Things that I have worked on over the years
 			</video>
 			<p> <strong>My role:</strong> Building the phantom to generate repeatable breathing patterns using air blowers. Used balloons as lungs, rubber sheet as diaphragm, and MR-compatible gel for liver with markers embedded for visibility under MRI scans. The aim was to use this phantom to test the robot.</p>
 			<img src="/assets/img/test4_all.png" class="hover-zoom">
-			<p>Initial test results demonstrating repeatable motion on open-loop control of PWM of the air blowers, the pressure generated inside the lungs, and the motion of the liver
+			<p>Initial test results demonstrating repeatable motion on open-loop control of PWM of the air blowers, the pressure generated inside the lungs, and the motion of the liver</p>
 		</article>
 		<article id="project3" class="project-card">
 			<h2>Smart Machining: Data Collection</h2>
