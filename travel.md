@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Travel
-subtitle:
+subtitle: "चला जाता हूँ, किसी की धुन में
+  धड़कते दिल के, तराने लिये"
 ---
-### चला जाता हूँ, किसी की धुन में
-### धड़कते दिल के, तराने लिये
+
 
 <table class="carousel-table">
   <tr>
