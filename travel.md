@@ -5,10 +5,10 @@ subtitle:
 ---
 
 <style>
-  h2 {text-align:center;}
+  p {text-align:center;}
 </style>
-<h2> चला जाता हूँ, किसी की धुन में </h2>
-<h2> धड़कते दिल के, तराने लिये </h2>
+<p> "चला जाता हूँ, किसी की धुन में </p>
+<p> धड़कते दिल के, तराने लिये" </p>
 
 <table class="carousel-table">
   <tr>
