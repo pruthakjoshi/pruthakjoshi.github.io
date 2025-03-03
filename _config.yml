@@ -75,7 +75,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a virtual proof that I'm awesome
+rss-description: This website is a virtual proof that I exist
 
 # --- General options --- #
 
@@ -106,7 +106,7 @@ post_search: true
 edit_page_button: false
 
 # The keywords to associate with your website, for SEO purposes
-#keywords: "my,list,of,keywords"
+keywords: "pruthak, joshi, pruthak joshi, reazon, iit bombay"
 
 # --- Colours / background image --- #
 
