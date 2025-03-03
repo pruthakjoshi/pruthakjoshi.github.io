@@ -1,12 +1,11 @@
 ---
 layout: page
 title: Travel
-subtitle: "चला जाता हूँ, किसी की धुन में
-  धड़कते दिल के, तराने लिये"
+subtitle:
 ---
 
 <style>
-  h2 {text-align:"center"}
+  h2 {text-align:center;}
 </style>
 <h2> चला जाता हूँ, किसी की धुन में </h2>
 <h2> धड़कते दिल के, तराने लिये </h2>
