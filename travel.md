@@ -1,14 +1,14 @@
 ---
 layout: page
 title: Travel
-subtitle:
+subtitle:  
 ---
 
 <style>
-  p {text-align:center;}
+  h3 {text-align:center;}
 </style>
-<p> "चला जाता हूँ, किसी की धुन में </p>
-<p> धड़कते दिल के, तराने लिये" </p>
+<h3> "चला जाता हूँ, किसी की धुन में </h3>
+<h3> धड़कते दिल के, तराने लिये" </h3>
 
 <table class="carousel-table">
   <tr>
