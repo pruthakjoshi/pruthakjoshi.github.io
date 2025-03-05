@@ -3,12 +3,12 @@ layout: page
 title: Travel
 subtitle:  
 ---
-
+<!--
 <style>
   h3 {text-align:center;}
 </style>
 <h3> "चला जाता हूँ, किसी की धुन में </h3>
-<h3> धड़कते दिल के, तराने लिये" </h3>
+<h3> धड़कते दिल के, तराने लिये" </h3>-->
 
 <table class="carousel-table">
   <tr>
