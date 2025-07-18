@@ -273,6 +273,10 @@ jekyll-minifier:
   compress_html: true
   preserve_line_breaks: false
 
+minifier:
+  uglifier:
+    harmony: true
+
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
 
