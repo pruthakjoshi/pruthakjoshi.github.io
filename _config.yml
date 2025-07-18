@@ -269,7 +269,7 @@ plugins:
 
 jekyll-minifier:
   compress_css: true
-  compress_javascript: false
+  compress_javascript: true
   compress_html: true
   preserve_line_breaks: false
 
