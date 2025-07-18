@@ -267,11 +267,11 @@ plugins:
   - jekyll-sitemap
   - jekyll-minifier
 
-jekyll-minifier:
-  compress_css: true
-  compress_javascript: true
-  compress_html: true
-  preserve_line_breaks: false
+#jekyll-minifier:
+#  compress_css: true
+#  compress_javascript: true
+#  compress_html: true
+#  preserve_line_breaks: false
 
 minifier:
   uglifier:
