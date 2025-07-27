@@ -80,7 +80,7 @@ subtitle: A showcase of systems I've built or contributed to
 
 <article id="openarm01" class="project-card">
 	<h2>Bimanual 7-DOF humanoid arms</h2>
-	<iframe width="100%" src="https://www.youtube.com/embed/6ZLM6f8kF4Q?si=eKGDQQforX60nRHT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	<iframe width="100%" src="https://www.youtube.com/embed/6ZLM6f8kF4Q?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 	<p>Built the hardware behind OpenArm 01. Total BOM cost ~$6500. Visit: https://openarm.dev/</p>
 </article>
 
