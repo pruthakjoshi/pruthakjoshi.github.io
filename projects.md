@@ -25,20 +25,7 @@ subtitle: A showcase of systems I've built or contributed to
 	}
 	#toc li a:hover {
 		background-color: #e6f0ff;
-	}
-	.project-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-		gap: 24px;
-		padding: 0 20px;
-	}
-	.project-card {
-		background: #fff;
-		padding: 20px;
-		border-radius: 12px;
-		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-		transition: transform 0.2s ease, box-shadow 0.3s ease;
-	}
+	}s
 	.project-card:hover {
 		transform: translateY(-4px);
 		box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
@@ -79,6 +66,19 @@ subtitle: A showcase of systems I've built or contributed to
 		width: 100%;
 		height: 100%;
 	}
+	.project-grid {
+	column-count: 2;
+	column-gap: 20px;
+	padding: 0 20px;
+	}
+	@media (max-width: 768px) {
+		.project-grid { column-count: 1; }
+	}
+	.project-card {
+		break-inside: avoid;
+		margin-bottom: 20px;
+}
+
 </style>
 
 <nav>
