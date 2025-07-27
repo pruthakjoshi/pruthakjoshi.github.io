@@ -80,13 +80,24 @@ subtitle: A showcase of systems I've built or contributed to
 
 <article id="openarm01" class="project-card">
 	<h2>Bimanual 7-DOF humanoid arms</h2>
-	<iframe width="100%" src="https://www.youtube.com/embed/6ZLM6f8kF4Q?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	<div class="video-container">
+	<iframe width="100%" height="315"
+		src="https://www.youtube.com/embed/6ZLM6f8kF4Q?autoplay=1&mute=1&loop=1&playlist=6ZLM6f8kF4Q&rel=0&modestbranding=1"
+		title="YouTube video player" frameborder="0"
+		allow="autoplay; encrypted-media" allowfullscreen>
+	</iframe>
+	</div>
 	<p>Built the hardware behind OpenArm 01. Total BOM cost ~$6500. Visit: <a href="https://openarm.dev/">https://openarm.dev/</a></p>
 </article>
 
 <article id="project1" class="project-card">
 	<h2>Teleoperated Bartender End-Effector</h2>
-	<iframe width="100%" src="https://www.youtube.com/embed/qySb-Zqn2x0??autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	<iframe width="560" height="315"
+		src="https://www.youtube.com/embed/qySb-Zqn2x0?autoplay=1&mute=1&loop=1&playlist=qySb-Zqn2x0&rel=0&modestbranding=1"
+		title="YouTube video player" frameborder="0"
+		allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+		referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+	</iframe>
 	<p>Designed and fabricated the end-effector for a semi-humanoid robot. This project was developed during my internship at Reazon Human Interaction Lab, Summer 2024.</p>
 </article>
 
