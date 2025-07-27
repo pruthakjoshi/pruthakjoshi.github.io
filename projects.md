@@ -62,6 +62,23 @@ subtitle: A showcase of systems I've built or contributed to
 		border-radius: 6px;
 		cursor: pointer;
 	}
+	.video-container {
+		position: relative;
+		width: 100%;
+		padding-bottom: 56.25%; /* 16:9 aspect ratio */
+		height: 0;
+		overflow: hidden;
+		border-radius: 8px;
+		margin-top: 10px;
+	}
+
+	.video-container iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
 </style>
 
 <nav>
