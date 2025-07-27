@@ -66,6 +66,7 @@ subtitle: A showcase of systems I've built or contributed to
 
 <nav>
 	<ul id="toc">
+		<li><a href="#openarm01">Bimanual humanoid arms</a></li>
 		<li><a href="#project1">Teleoperated Bartender</a></li>
 		<li><a href="#project2">MRI Surgical Robot</a></li>
 		<li><a href="#fluid_char">Hydrostatic Actuators</a></li>
@@ -76,6 +77,12 @@ subtitle: A showcase of systems I've built or contributed to
 </nav>
 
 <section class="project-grid">
+
+<article id="openarm01" class="project-card">
+	<h2>Bimanual 7-DOF humanoid arms</h2>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/6ZLM6f8kF4Q?si=eKGDQQforX60nRHT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	<p>Built the hardware behind OpenArm 01. Total BOM cost ~$6500. Visit: https://openarm.dev/</p>
+</article>
 
 <article id="project1" class="project-card">
 	<h2>Teleoperated Bartender End-Effector</h2>
