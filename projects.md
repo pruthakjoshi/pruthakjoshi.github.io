@@ -105,7 +105,7 @@ subtitle: A showcase of systems I've built or contributed to
 		allow="autoplay; encrypted-media" allowfullscreen>
 	</iframe>
 	</div>
-	<p>Built the hardware behind OpenArm 01. Total BOM cost ~$6500. Nominal Payload 4.1kg, Peak Payload 6.0kg. Arm weight 5.5kg Visit: <a href="https://openarm.dev/">https://openarm.dev/</a></p>
+	<p>Built the hardware behind OpenArm 01. Total BOM cost ~$6500. Nominal Payload 4.1kg, Peak Payload 6.0kg. Arm weight 5.5kg. Visit: <a href="https://openarm.dev/">https://openarm.dev/</a></p>
 </article>
 
 <article id="project1" class="project-card">
