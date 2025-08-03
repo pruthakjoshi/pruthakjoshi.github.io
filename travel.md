@@ -61,7 +61,7 @@ subtitle:
           </div>
           <div class="swiper-slide">
             <img src="/assets/img/US/goldengate.jpg" alt="Trip 2" loading="lazy">
-            <div class="caption">SFO</div>
+            <div class="caption">SF</div>
           </div>
           <div class="swiper-slide">
             <img src="/assets/img/US/LA.JPEG" alt="Trip 2" loading="lazy">
