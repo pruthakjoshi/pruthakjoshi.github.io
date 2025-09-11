@@ -1,32 +1,41 @@
 ---
 layout: page
-title: About me
+title: About Me
 subtitle: 
 ---
 
-My name is Pruthak Joshi. I hold a Bachelor's degree and a Master's degree in Mechanical Engineering (Specialization: Computer Aided Design and Automation) from [IIT Bombay](https://www.iitb.ac.in/). I also hold a Master of Science (Specialization: Systems and Control) from [University of California, Los Angeles](https://www.ucla.edu/). If you want to check out a few of my projects, visit my [projects](https://pruthakjoshi.github.io/projects/) page. 
+I am a mechanical engineer who believes robots will define the future.  
 
-I enjoy playing tennis, and regularly follow Formula-1, and am a Tifosi by heart (Go Charles!!!). As with almost all Indians, I am also an avid follower of cricket, and enjoy playing a game or two occasionally. I like exploring new places, and am always up to go ice-cream hunting. I also enjoy watching movies, "The Shawshank Redemption" being my all time favourite.
+Currently, I’m building practical and innovative robotic solutions at <strong>Reazon Holdings</strong> in Tokyo. I hold a Master’s in Systems and Control from <strong>UCLA</strong> and a Bachelor’s (and Master’s) in Mechanical Engineering from <strong>IIT Bombay</strong>.  
+
+Curious about what I’ve been tinkering with? Check out my <a href="https://pruthakjoshi.github.io/projects/">projects page</a>.
+
+### A Bit About Me
+When I’m not designing robots, you might find me:  
+- Hitting tennis balls on the court  
+- Following Formula-1 (yes, I’m a Tifosi!)  
+- Playing cricket or watching the game  
+- Exploring new places and hunting for the best ice cream 🍦  
+- Watching movies — “The Shawshank Redemption” is my all-time favorite
 
 <div class="text-center">
-	<img src="{{ 'assets/img/tennis.jpeg' | relative_url }}" alt="Not found" />
-	<figcaption>I along with my coach and other 23 batchmates as a part of NSO Tennis group</figcaption>
+    <img src="{{ 'assets/img/tennis.jpeg' | relative_url }}" alt="Tennis" />
+    <figcaption>Me with my coach and 23 batchmates during NSO Tennis at IIT Bombay</figcaption>
 </div>
 
-Throughout my journey at IIT Bombay, which was my home for about 5 years (which was substantially shortened due to the pandemic :/), I was involved in different roles, right from my sophomore year till my senior year. A few of them were:
+### Journey & Highlights
 
-- [IITB Mars Rover Team](https://iitbmartian.github.io/)
-
-The IITB Mars Rover Team (MRT) is a student technical team consisting of 40+ members from various disciplines at IITB working towards developing a semi-autonomous rover to participate in various student rover design competitions including the [University Rover Challenge](https://urc.marssociety.org/) and [International Rover Challenge](https://roverchallenge.org/). 
+#### Mars Rover Adventures
+I joined the <a href="https://iitbmartian.github.io/">IITB Mars Rover Team</a> as a Junior Design Engineer and eventually led the team as Team Leader. We built semi-autonomous rovers for competitions like the <a href="https://urc.marssociety.org/">University Rover Challenge</a> and <a href="https://roverchallenge.org/">International Rover Challenge</a>. Under my leadership, the team achieved 4th place in the Indian Rover Design Challenge 2020 — the best-ever finish for IITB.
 
 <div class="text-center">
-	<img src="{{ 'assets/img/mrt.JPG' | relative_url }}" alt="Not found" />
-	<figcaption>The team participating in URC at the Mars Desert Research Station at Utah, U.S.A</figcaption>
+    <img src="{{ 'assets/img/mrt.JPG' | relative_url }}" alt="Mars Rover Team" />
+    <figcaption>Our team at the University Rover Challenge, Mars Desert Research Station, Utah</figcaption>
 </div>
- 
-I joined the team in my sophomore year as a Junior Design Engineer and went on to assume the role of Team Leader in my senior year. As the Team Leader, I led the team to 4th position in Indian Rover Design Challenge 2020, the team's best ever position in any international competition. Being in the team taught me what it means to be an engineer - to get things done while optimising the use of available resources.
 
-- ISMP and DAMP 
+#### Mentoring & Leadership
+Mentoring has been one of my most rewarding experiences. Through IITB’s <a href="https://smp.gymkhana.iitb.ac.in/index.html">Student Mentor Programme</a>, I guided juniors academically and personally as an Institute Student Mentor and Department Academic Mentor for 2 years. Helping others navigate their IITB journey taught me a lot about leadership, teamwork, and patience — sometimes in equal measure.
 
-The [Student Mentor Programme](https://smp.gymkhana.iitb.ac.in/index.html) at IITB is a student community aiming to provide a reliable and comprehensive support system from within and for the student community to motivate students to excel in both academic and non-academic fields and to make the most of their life at IIT Bombay. Some of my most treasured experiences have been through mentoring juniors as an Institute Student Mentor and Department Academic Mentor for 2 years. 
+---
 
+I’m always on the lookout for interesting challenges in robotics, automation, and design. If you want to collaborate, chat about tech, or just hunt ice cream spots, feel free to reach out!

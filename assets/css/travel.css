@@ -7,6 +7,7 @@
   border: none
 }
 .carousel-table td {
+  vertical-align: top;
   width: 33.3%;
   padding: 10px;
   border: none !important;
