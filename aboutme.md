@@ -6,7 +6,7 @@ subtitle:
 
 I am a mechanical engineer who believes robots will define the future.  
 
-Currently, I’m building practical and innovative robotic solutions at <strong>Reazon Holdings</strong> in Tokyo. I hold a Master’s in Systems and Control from <strong>UCLA</strong> and a Bachelor’s (and Master’s) in Mechanical Engineering from <strong>IIT Bombay</strong>.  
+Currently, I’m building practical and innovative robotic solutions at <a href="https://www.skild.ai/"><strong>Skild AI</strong></a>. Previously, I worked at <strong>Reazon Holdings</strong> in Tokyo, where I contributed to the <a href="https://openarm.dev/">OpenArm</a> project. I hold a Master’s in Systems and Control from <strong>UCLA</strong> and a Bachelor’s (and Master’s) in Mechanical Engineering from <strong>IIT Bombay</strong>.  
 
 Curious about what I’ve been tinkering with? Check out my <a href="https://pruthakjoshi.github.io/projects/">projects page</a>.
 
