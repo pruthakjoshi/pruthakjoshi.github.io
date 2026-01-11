@@ -10,7 +10,7 @@ js:
 
 <nav>
 	<ul id="toc">
-		<li><a href="#openarm01">Bimanual humanoid arms</a></li>
+		<li><a href="#openarm01">OpenArm</a></li>
 		<li><a href="#project1">Teleoperated Bartender</a></li>
 		<li><a href="#project2">MRI Surgical Robot</a></li>
 		<li><a href="#fluid_char">Hydrostatic Actuators</a></li>
@@ -24,7 +24,7 @@ js:
 
 <article id="openarm01" class="project-card">
 	<div class="project-header">
-		<h2>Bimanual 7-DOF humanoid arms</h2>
+		<h2>OpenArm</h2>
 	</div>
 	<div class="project-content">
 		<div class="video-container">
@@ -40,7 +40,7 @@ js:
 
 <article id="project1" class="project-card">
 	<div class="project-header">
-		<h2>Teleoperated Bartender End-Effector</h2>
+		<h2>End-Effector of Teleoperated Bartender</h2>
 	</div>
 	<div class="project-content">
 		<div class="video-container">
@@ -51,7 +51,7 @@ js:
 				referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
 			</iframe>
 		</div>
-		<p>Designed and fabricated the end-effector for a semi-humanoid robot. This project was developed during my internship at Reazon Human Interaction Lab, Summer 2024.</p>
+		<p>Designed and fabricated the end-effector for a teleoperated bartender capable of handling fragile and glassware.</p>
 	</div>
 </article>
 
@@ -62,10 +62,10 @@ js:
 	<div class="project-content">
 		<div class="media-container">
 			<video class="hover-play" autoplay muted controls>
-				<source src="/assets/img/master_slave_demo.mp4" type="video/mp4">
+				<source src="/assets/img/robot_in_MR.mp4" type="video/mp4">
 			</video>
 		</div>
-		<p>Built the first prototype for a liver biopsy robot using 3D printing, hydrostatic actuators, and non-magnetic materials.</p>
+		<p>Built the first prototype for a liver biopsy robot using 3D printing, hydrostatic actuators, and non-magnetic materials as a part of Mechatronics and Controls Lab, UCLA.</p>
 		<button class="toggle-btn">Learn More</button>
 		<div class="content">
 			<div class="media-container">
@@ -76,7 +76,7 @@ js:
 			<p>CAD demo of robot inside MRI chamber</p>
 			<div class="media-container">
 				<video class="hover-play" autoplay muted controls>
-					<source src="/assets/img/robot_in_MR.mp4" type="video/mp4">
+					<source src="/assets/img/master_slave_demo.mp4" type="video/mp4">
 				</video>
 			</div>
 			<p>Prototype testing</p>
