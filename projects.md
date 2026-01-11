@@ -2,85 +2,11 @@
 layout: page
 title: Projects
 subtitle: A showcase of systems I've built or contributed to
+css:
+  - "/assets/css/projects.css"
+js:
+  - "/assets/js/projects.js"
 ---
-
-<style>
-	h1, h2, h3, p { text-align: center; }
-	#toc {
-		list-style: none;
-		padding: 0;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		gap: 16px;
-		margin-bottom: 30px;
-	}
-	#toc li a {
-		text-decoration: none;
-		font-weight: 600;
-		color: #007bff;
-		padding: 6px 12px;
-		border-radius: 5px;
-		transition: background 0.3s;
-	}
-	#toc li a:hover {
-		background-color: #e6f0ff;
-	}
-	.project-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-		gap: 24px;
-		padding: 0 20px;
-	}
-	.project-card {
-		background: #fff;
-		padding: 20px;
-		border-radius: 12px;
-		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-		transition: transform 0.2s ease, box-shadow 0.3s ease;
-	}
-	.project-card:hover {
-		transform: translateY(-4px);
-		box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-	}
-	video, img {
-		width: 100%;
-		border-radius: 8px;
-		margin-top: 10px;
-	}
-	.hover-play:hover, .hover-zoom:hover {
-		transform: scale(1.03);
-	}
-	.collapsible .content { display: none; margin-top: 10px; }
-	.toggle-btn {
-		display: inline-block;
-		margin-top: 10px;
-		background: #007bff;
-		color: white;
-		border: none;
-		padding: 8px 16px;
-		border-radius: 6px;
-		cursor: pointer;
-	}
-	.video-container {
-		position: relative;
-		width: 100%;
-		padding-bottom: 56.25%; /* 16:9 aspect ratio */
-		height: 0;
-		overflow: hidden;
-		border-radius: 8px;
-		margin-top: 10px;
-	}
-
-	.video-container iframe {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-	}
-	
-</style>
 
 <nav>
 	<ul id="toc">
@@ -190,13 +116,3 @@ subtitle: A showcase of systems I've built or contributed to
 </article>
 
 </section>
-
-<script>
-	document.querySelectorAll('.toggle-btn').forEach(button => {
-		button.addEventListener('click', function () {
-			const content = this.nextElementSibling;
-			content.style.display = content.style.display === 'block' ? 'none' : 'block';
-			this.textContent = content.style.display === 'block' ? 'Collapse' : 'Expand';
-		});
-	});
-</script>

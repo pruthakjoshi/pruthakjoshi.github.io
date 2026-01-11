@@ -1,0 +1,60 @@
+/* Homepage Styles */
+.intro {
+  text-align: center;
+  padding: 80px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.intro h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #404040;
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.intro p {
+  font-size: 1.3rem;
+  color: #666;
+  line-height: 1.8;
+  max-width: 700px;
+  margin: 0 auto;
+  animation: fadeInUp 0.8s ease-out 0.2s both;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .intro {
+    padding: 60px 20px;
+  }
+  
+  .intro h1 {
+    font-size: 2.2rem;
+  }
+  
+  .intro p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .intro h1 {
+    font-size: 1.8rem;
+  }
+  
+  .intro p {
+    font-size: 1rem;
+  }
+}
