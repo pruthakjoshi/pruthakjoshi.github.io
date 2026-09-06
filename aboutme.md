@@ -11,7 +11,7 @@ js:
 
 I am a mechanical engineer who believes robots will define the future.
 
-Currently, I’m building practical robotic systems at <a href="https://www.skild.ai/"><strong>Skild AI</strong></a>. Previously, I worked at <strong>Reazon Holdings</strong> in Tokyo on the hardware behind <a href="https://openarm.dev/">OpenArm</a>. I hold a Master’s in Systems and Control from <strong>UCLA</strong> and a Bachelor’s and Master’s in Mechanical Engineering from <strong>IIT Bombay</strong>.
+Currently, I’m building practical robotic systems at <a href="https://www.skild.ai/"><strong>Skild AI</strong></a>. Previously, I worked at <strong>Reazon Human Interaction Lab</strong> in Tokyo on the hardware behind <a href="https://openarm.dev/">OpenArm</a>. I hold a Master’s in Systems and Control from <strong>UCLA</strong> and a Bachelor’s and Master’s in Mechanical Engineering from <strong>IIT Bombay</strong>.
 
 A longer look at the machines is on the <a href="{{ '/projects/' | relative_url }}">projects page</a>.
 
