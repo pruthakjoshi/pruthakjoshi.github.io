@@ -24,8 +24,8 @@ js:
 
 <article id="openarm" class="project-card project-card-featured">
 	<div class="project-header">
-		<p class="project-meta">Reazon Holdings · Hardware design</p>
-		<h2>OpenArm</h2>
+		<!-- p class="project-meta">Reazon Holdings · Hardware design</p -->
+		<h2>OpenArm 01</h2>
 	</div>
 	<div class="project-content">
 		<div class="video-container">
@@ -56,8 +56,8 @@ js:
 
 <article id="teleoperated-bartender" class="project-card">
 	<div class="project-header">
-		<p class="project-meta">End-effector · Teleoperation</p>
-		<h2>Teleoperated bartender</h2>
+		<!-- p class="project-meta">End-effector · Teleoperation</p-->
+		<h2>End-Effector of a Teleoperated bartender</h2>
 	</div>
 	<div class="project-content">
 		<div class="video-container">
@@ -69,7 +69,7 @@ js:
 				allowfullscreen>
 			</iframe>
 		</div>
-		<p>The task was to pick up and pour from real glassware without crushing it. I designed and fabricated the end-effector so a teleoperated bartender could handle fragile bottles and glasses with a controlled grasp.</p>
+		<p>The task was to enable precise yet gentle manipulation of utensils. I designed and fabricated the end-effector so a teleoperated bartender could handle fragile bottles and glasses with a controlled grasp.</p>
 		<dl class="project-facts">
 			<div>
 				<dt>Role</dt>
@@ -77,7 +77,7 @@ js:
 			</div>
 			<div>
 				<dt>Focus</dt>
-				<dd>Gentle grasping, pouring, teleoperated use</dd>
+				<dd>Gentle and robust grasping, safety, teleoperated use</dd>
 			</div>
 		</dl>
 	</div>
@@ -221,7 +221,7 @@ js:
 				<source src="{{ '/assets/img/extension_onlyT3_Trim.mp4' | relative_url }}" type="video/mp4">
 			</video>
 		</div>
-		<p>I compared two soft finger designs by tracking their motion with computer vision and matching that to a kinematic model. The point was to see which geometry produced usable, predictable bending rather than relying on appearance alone.</p>
+		<p>I compared the behavior of a soft-finger by tracking its motion with computer vision and matching that to two different kinematic models. The point was to see how we can model soft robots accurately by approximating them to rigid body kinematic models and approximating the joint positions and link lengths.</p>
 		<dl class="project-facts">
 			<div>
 				<dt>Role</dt>

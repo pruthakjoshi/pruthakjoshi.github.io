@@ -28,7 +28,7 @@ A longer look at the machines is on the <a href="{{ '/projects/' | relative_url 
   </div>
   <div class="bio-item">
     <h4>UCLA</h4>
-    <p>M.S. in Systems and Control. MR-compatible robots, hydrostatic actuation, and motion phantoms in the Mechatronics and Controls Lab.</p>
+    <p>M.S. in Systems and Control. Part of the Mechatronics and Controls Lab.</p>
   </div>
   <div class="bio-item">
     <h4>IIT Bombay</h4>
@@ -42,7 +42,7 @@ When I’m not designing robots, you might find me:
 - Following Formula-1 (yes, I’m a Tifosi!)
 - Playing cricket or watching the game
 - Exploring new places and hunting for the best ice cream 🍦
-- Watching movies — “The Shawshank Redemption” is my all-time favorite
+- Watching movies. “The Shawshank Redemption” is my all-time favorite
 
 <div class="text-center">
     <img src="{{ 'assets/img/tennis.jpeg' | relative_url }}" alt="Tennis teammates at IIT Bombay" />
