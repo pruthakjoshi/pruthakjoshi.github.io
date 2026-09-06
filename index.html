@@ -1,13 +1,63 @@
 ---
-layout: home
-title: 
-subtitle: 
+layout: page
+title:
+subtitle:
+share-description: Mechanical engineer building practical, manufacturable robots. Currently at Skild AI. Previously OpenArm at Reazon Holdings.
 css:
   - "/assets/css/home.css"
 ---
-<section class="intro">
+
+<section class="home-hero">
+  <p class="home-kicker">Mechanical engineer · Robot hardware</p>
   <h1>Hi, I'm Pruthak</h1>
-  <p>
-    Mechanical engineer exploring the frontier of robotics through practical, manufacturable design. Constantly learning, building, and pushing what's possible.
+  <p class="home-lead">
+    I design and build robots that can actually be manufactured — from low-cost arms to MR-compatible surgical systems. Currently building at <a href="https://www.skild.ai/">Skild AI</a>. Previously hardware on <a href="https://openarm.dev/">OpenArm</a> at Reazon Holdings.
   </p>
+  <div class="home-actions">
+    <a class="home-btn home-btn-primary" href="{{ '/projects/' | relative_url }}">View projects</a>
+    <a class="home-btn" href="{{ '/aboutme/' | relative_url }}">About me</a>
+    <a class="home-btn" href="{{ '/CV_Github.pdf' | relative_url }}">Curriculum Vitae</a>
+  </div>
+</section>
+
+<section class="home-featured" aria-labelledby="featured-heading">
+  <div class="home-section-head">
+    <h2 id="featured-heading">Selected work</h2>
+    <a class="home-all-link" href="{{ '/projects/' | relative_url }}">All projects</a>
+  </div>
+
+  <div class="featured-grid">
+    <a class="featured-card featured-card-wide" href="{{ '/projects/#openarm' | relative_url }}">
+      <div class="featured-media">
+        <img src="https://img.youtube.com/vi/6ZLM6f8kF4Q/hqdefault.jpg" alt="OpenArm 01 robot arm">
+      </div>
+      <div class="featured-body">
+        <p class="featured-meta">Reazon Holdings · Hardware</p>
+        <h3>OpenArm</h3>
+        <p>Hardware for an open, low-cost robot arm: 4.1&nbsp;kg nominal payload at a ~$6,500 bill of materials.</p>
+      </div>
+    </a>
+
+    <a class="featured-card" href="{{ '/projects/#mri-surgical-robot' | relative_url }}">
+      <div class="featured-media">
+        <img src="{{ '/assets/img/robot_cad.gif' | relative_url }}" alt="MR-compatible surgical robot CAD">
+      </div>
+      <div class="featured-body">
+        <p class="featured-meta">UCLA · Medical robotics</p>
+        <h3>MR-compatible surgical robot</h3>
+        <p>First prototype of a non-magnetic liver biopsy robot driven by hydrostatic actuators.</p>
+      </div>
+    </a>
+
+    <a class="featured-card" href="{{ '/projects/#teleoperated-bartender' | relative_url }}">
+      <div class="featured-media">
+        <img src="https://img.youtube.com/vi/qySb-Zqn2x0/hqdefault.jpg" alt="Teleoperated bartender end-effector">
+      </div>
+      <div class="featured-body">
+        <p class="featured-meta">End-effector design</p>
+        <h3>Teleoperated bartender</h3>
+        <p>A gripper designed to pick up and pour from fragile glassware under teleoperation.</p>
+      </div>
+    </a>
+  </div>
 </section>

@@ -1,158 +1,241 @@
 ---
 layout: page
 title: Projects
-subtitle: A showcase of systems I've built or contributed to
+subtitle: Short case studies of systems I have built or contributed to
 css:
   - "/assets/css/projects.css"
 js:
   - "/assets/js/projects.js"
 ---
 
-<nav>
+<nav aria-label="Projects">
 	<ul id="toc">
-		<li><a href="#openarm01">OpenArm</a></li>
-		<li><a href="#project1">Teleoperated Bartender</a></li>
-		<li><a href="#project2">MRI Surgical Robot</a></li>
-		<li><a href="#fluid_char">Hydrostatic Actuators</a></li>
-		<li><a href="#ribcage">Motion Phantom</a></li>
-		<li><a href="#project3">Smart Machining</a></li>
-		<li><a href="#project4">Soft Finger</a></li>
+		<li><a href="#openarm">OpenArm</a></li>
+		<li><a href="#teleoperated-bartender">Teleoperated Bartender</a></li>
+		<li><a href="#mri-surgical-robot">MRI Surgical Robot</a></li>
+		<li><a href="#hydrostatic-actuators">Hydrostatic Actuators</a></li>
+		<li><a href="#motion-phantom">Motion Phantom</a></li>
+		<li><a href="#smart-machining">Smart Machining</a></li>
+		<li><a href="#soft-finger">Soft Finger</a></li>
 	</ul>
 </nav>
 
 <section class="project-grid">
 
-<article id="openarm01" class="project-card">
+<article id="openarm" class="project-card project-card-featured">
 	<div class="project-header">
+		<p class="project-meta">Reazon Holdings · Hardware design</p>
 		<h2>OpenArm</h2>
 	</div>
 	<div class="project-content">
 		<div class="video-container">
-			<iframe width="100%" height="315"
-				src="https://www.youtube.com/embed/6ZLM6f8kF4Q?autoplay=1&mute=1&loop=1&playlist=6ZLM6f8kF4Q&rel=0&modestbranding=1"
-				title="YouTube video player" frameborder="0"
-				allow="autoplay; encrypted-media" allowfullscreen>
+			<iframe
+				src="https://www.youtube.com/embed/6ZLM6f8kF4Q?rel=0&modestbranding=1"
+				title="OpenArm 01 hardware overview"
+				allow="encrypted-media; picture-in-picture"
+				allowfullscreen>
 			</iframe>
 		</div>
-		<p>Built the hardware behind OpenArm 01. Total BOM cost ~$6500. Nominal Payload 4.1kg, Peak Payload 6.0kg. Arm weight 5.5kg. Visit: <a href="https://openarm.dev/">https://openarm.dev/</a></p>
+		<p>I built the hardware for OpenArm 01, an open-source bimanual robot arm meant to be capable without being expensive.</p>
+		<dl class="project-facts">
+			<div>
+				<dt>Role</dt>
+				<dd>Hardware design and build</dd>
+			</div>
+			<div>
+				<dt>Outcome</dt>
+				<dd>4.1&nbsp;kg nominal / 6.0&nbsp;kg peak payload; 5.5&nbsp;kg arm mass; ~$6,500 BOM</dd>
+			</div>
+			<div>
+				<dt>Link</dt>
+				<dd><a href="https://openarm.dev/">openarm.dev</a></dd>
+			</div>
+		</dl>
 	</div>
 </article>
 
-<article id="project1" class="project-card">
+<article id="teleoperated-bartender" class="project-card">
 	<div class="project-header">
-		<h2>End-Effector of Teleoperated Bartender</h2>
+		<p class="project-meta">End-effector · Teleoperation</p>
+		<h2>Teleoperated bartender</h2>
 	</div>
 	<div class="project-content">
 		<div class="video-container">
-			<iframe width="100%" height="315"
-				src="https://www.youtube.com/embed/qySb-Zqn2x0?autoplay=1&mute=1&loop=1&playlist=qySb-Zqn2x0&rel=0&modestbranding=1"
-				title="YouTube video player" frameborder="0"
-				allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-				referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+			<iframe
+				src="https://www.youtube.com/embed/qySb-Zqn2x0?rel=0&modestbranding=1"
+				title="Teleoperated bartender end-effector"
+				allow="encrypted-media; picture-in-picture; web-share"
+				referrerpolicy="strict-origin-when-cross-origin"
+				allowfullscreen>
 			</iframe>
 		</div>
-		<p>Designed and fabricated the end-effector for a teleoperated bartender capable of handling fragile and glassware.</p>
+		<p>The task was to pick up and pour from real glassware without crushing it. I designed and fabricated the end-effector so a teleoperated bartender could handle fragile bottles and glasses with a controlled grasp.</p>
+		<dl class="project-facts">
+			<div>
+				<dt>Role</dt>
+				<dd>End-effector design and fabrication</dd>
+			</div>
+			<div>
+				<dt>Focus</dt>
+				<dd>Gentle grasping, pouring, teleoperated use</dd>
+			</div>
+		</dl>
 	</div>
 </article>
 
-<article id="project2" class="project-card collapsible">
+<article id="mri-surgical-robot" class="project-card collapsible">
 	<div class="project-header">
-		<h2>MR-Compatible Surgical Robot</h2>
+		<p class="project-meta">UCLA Mechatronics and Controls Lab · Medical robotics</p>
+		<h2>MR-compatible surgical robot</h2>
 	</div>
 	<div class="project-content">
 		<div class="media-container">
-			<video class="hover-play" autoplay muted controls>
-				<source src="/assets/img/robot_in_MR.mp4" type="video/mp4">
+			<video controls preload="metadata" playsinline>
+				<source src="{{ '/assets/img/robot_in_MR.mp4' | relative_url }}" type="video/mp4">
 			</video>
 		</div>
-		<p>Built the first prototype for a liver biopsy robot using 3D printing, hydrostatic actuators, and non-magnetic materials as a part of Mechatronics and Controls Lab, UCLA.</p>
-		<button class="toggle-btn">Learn More</button>
+		<p>I built the first prototype of a liver biopsy robot that can sit inside an MRI scanner. Ferromagnetic parts were off the table, so the machine is 3D-printed, uses non-magnetic materials, and is driven by hydrostatic actuators.</p>
+		<dl class="project-facts">
+			<div>
+				<dt>Role</dt>
+				<dd>Prototype design and build</dd>
+			</div>
+			<div>
+				<dt>Approach</dt>
+				<dd>Additive manufacturing, hydrostatic actuation, MR-safe materials</dd>
+			</div>
+		</dl>
+		<button class="toggle-btn" type="button" aria-expanded="false">Learn more</button>
 		<div class="content">
 			<div class="media-container">
-				<video class="hover-play" autoplay muted controls>
-					<source src="/assets/img/robot_cad.mp4" type="video/mp4">
+				<video controls preload="metadata" playsinline>
+					<source src="{{ '/assets/img/robot_cad.mp4' | relative_url }}" type="video/mp4">
 				</video>
 			</div>
-			<p>CAD demo of robot inside MRI chamber</p>
+			<p>CAD of the robot inside an MRI chamber</p>
 			<div class="media-container">
-				<video class="hover-play" autoplay muted controls>
-					<source src="/assets/img/master_slave_demo.mp4" type="video/mp4">
+				<video controls preload="metadata" playsinline>
+					<source src="{{ '/assets/img/master_slave_demo.mp4' | relative_url }}" type="video/mp4">
 				</video>
 			</div>
-			<p>Prototype testing</p>
+			<p>Master–slave prototype testing</p>
 		</div>
 	</div>
 </article>
 
-<article id="fluid_char" class="project-card collapsible">
+<article id="hydrostatic-actuators" class="project-card collapsible">
 	<div class="project-header">
-		<h2>Low-Friction Hydrostatic Actuator Testing</h2>
+		<p class="project-meta">UCLA · Haptic teleoperation</p>
+		<h2>Hydrostatic actuator characterization</h2>
 	</div>
 	<div class="project-content">
 		<div class="media-container">
-			<video class="hover-play" autoplay muted controls>
-				<source src="/assets/img/fluidchar.mp4" type="video/mp4">
+			<video controls preload="metadata" playsinline>
+				<source src="{{ '/assets/img/fluidchar.mp4' | relative_url }}" type="video/mp4">
 			</video>
 		</div>
-		<p>Built a test rig to analyze linearity and force-position characteristics of hydrostatic actuators used for haptic teleoperation.</p>
-		<button class="toggle-btn">Learn More</button>
+		<p>Hydrostatic actuators are useful in MRI and haptics because they keep motors out of the field and can transmit force cleanly. I built a test rig to measure how linear they are, and how force and position track under closed-loop control.</p>
+		<dl class="project-facts">
+			<div>
+				<dt>Role</dt>
+				<dd>Test-rig design, build, and characterization</dd>
+			</div>
+			<div>
+				<dt>Measured</dt>
+				<dd>Linearity, force tracking, position tracking</dd>
+			</div>
+		</dl>
+		<button class="toggle-btn" type="button" aria-expanded="false">Learn more</button>
 		<div class="content">
-			<img src="/assets/img/setup_schematic.png" class="hover-zoom">
-			<p>System Schematic</p>
-			<img src="/assets/img/position_staircase.png" class="hover-zoom">
-			<p>Position Control Data</p>
-			<img src="/assets/img/force_staircase.png" class="hover-zoom">
-			<p>Force Control Data</p>
+			<img src="{{ '/assets/img/setup_schematic.png' | relative_url }}" alt="Hydrostatic actuator test-rig schematic" class="hover-zoom">
+			<p>System schematic</p>
+			<img src="{{ '/assets/img/position_staircase.png' | relative_url }}" alt="Position control staircase response" class="hover-zoom">
+			<p>Position control data</p>
+			<img src="{{ '/assets/img/force_staircase.png' | relative_url }}" alt="Force control staircase response" class="hover-zoom">
+			<p>Force control data</p>
 		</div>
 	</div>
 </article>
 
-<article id="ribcage" class="project-card collapsible">
+<article id="motion-phantom" class="project-card collapsible">
 	<div class="project-header">
-		<h2>MR-Compatible Motion Phantom</h2>
+		<p class="project-meta">UCLA · MR imaging</p>
+		<h2>MR-compatible motion phantom</h2>
 	</div>
 	<div class="project-content">
 		<div class="media-container">
-			<video class="hover-play" autoplay muted controls>
-				<source src="/assets/img/phantom_motion.mp4" type="video/mp4">
+			<video controls preload="metadata" playsinline>
+				<source src="{{ '/assets/img/phantom_motion.mp4' | relative_url }}" type="video/mp4">
 			</video>
 		</div>
-		<p>Built a breathing phantom using air blowers and MR-visible liver to simulate human motion inside an MRI scanner.</p>
-		<button class="toggle-btn">Learn More</button>
+		<p>Scanners need a repeatable stand-in for a breathing patient. I built a phantom that moves an MR-visible liver with air blowers so imaging and robot tests can happen without a human in the bore.</p>
+		<dl class="project-facts">
+			<div>
+				<dt>Role</dt>
+				<dd>Design, build, and open-loop testing</dd>
+			</div>
+			<div>
+				<dt>Approach</dt>
+				<dd>Pneumatic actuation and an MR-visible liver analog</dd>
+			</div>
+		</dl>
+		<button class="toggle-btn" type="button" aria-expanded="false">Learn more</button>
 		<div class="content">
-			<img src="/assets/img/test4_all.png" class="hover-zoom">
+			<img src="{{ '/assets/img/test4_all.png' | relative_url }}" alt="Open-loop actuation test results" class="hover-zoom">
 			<p>Open-loop actuation test results</p>
 		</div>
 	</div>
 </article>
 
-<article id="project3" class="project-card">
+<article id="smart-machining" class="project-card">
 	<div class="project-header">
-		<h2>Smart Machining Data Collection</h2>
+		<p class="project-meta">Process monitoring · Manufacturing</p>
+		<h2>Smart machining data collection</h2>
 	</div>
 	<div class="project-content">
 		<div class="media-container">
-			<img src="/assets/img/poster.JPG" class="hover-zoom">
+			<img src="{{ '/assets/img/poster.JPG' | relative_url }}" alt="Smart machining sensor instrumentation poster" class="hover-zoom">
 		</div>
-		<p>Instrumented a CNC machine with sensors to collect data during drilling/milling. Data used to explore predictive maintenance and process diagnostics.</p>
+		<p>I instrumented a CNC machine with sensors during drilling and milling so the cut itself became a data source. The dataset was used to look at process diagnostics and early signs of wear for predictive maintenance.</p>
+		<dl class="project-facts">
+			<div>
+				<dt>Role</dt>
+				<dd>Sensor instrumentation and data collection</dd>
+			</div>
+			<div>
+				<dt>Use</dt>
+				<dd>Diagnostics and predictive maintenance</dd>
+			</div>
+		</dl>
 	</div>
 </article>
 
-<article id="project4" class="project-card collapsible">
+<article id="soft-finger" class="project-card collapsible">
 	<div class="project-header">
-		<h2>Soft Robotic Finger</h2>
+		<p class="project-meta">Soft robotics · Modeling</p>
+		<h2>Soft robotic finger</h2>
 	</div>
 	<div class="project-content">
 		<div class="media-container">
-			<video class="hover-play" autoplay muted controls>
-				<source src="/assets/img/extension_onlyT3_Trim.mp4" type="video/mp4">
+			<video controls preload="metadata" playsinline>
+				<source src="{{ '/assets/img/extension_onlyT3_Trim.mp4' | relative_url }}" type="video/mp4">
 			</video>
 		</div>
-		<p>Evaluated two soft finger designs using CV tracking and kinematic simulations.</p>
-		<button class="toggle-btn">Learn More</button>
+		<p>I compared two soft finger designs by tracking their motion with computer vision and matching that to a kinematic model. The point was to see which geometry produced usable, predictable bending rather than relying on appearance alone.</p>
+		<dl class="project-facts">
+			<div>
+				<dt>Role</dt>
+				<dd>Design evaluation and modeling</dd>
+			</div>
+			<div>
+				<dt>Methods</dt>
+				<dd>CV tracking and kinematic simulation</dd>
+			</div>
+		</dl>
+		<button class="toggle-btn" type="button" aria-expanded="false">Learn more</button>
 		<div class="content">
-			<img src="/assets/img/RRR_model.JPG" class="hover-zoom">
-			<img src="/assets/img/RRR_totalfinger.JPG" class="hover-zoom">
+			<img src="{{ '/assets/img/RRR_model.JPG' | relative_url }}" alt="RRR kinematic model of the soft finger" class="hover-zoom">
+			<img src="{{ '/assets/img/RRR_totalfinger.JPG' | relative_url }}" alt="Full soft finger kinematic model" class="hover-zoom">
 		</div>
 	</div>
 </article>

@@ -10,16 +10,17 @@ document.addEventListener('DOMContentLoaded', function() {
       if (isExpanded) {
         content.classList.remove('active');
         content.style.display = 'none';
-        this.textContent = 'Learn More';
+        this.textContent = 'Learn more';
         this.classList.remove('expanded');
+        this.setAttribute('aria-expanded', 'false');
       } else {
         content.style.display = 'block';
-        // Use requestAnimationFrame to ensure display change happens before adding class
         requestAnimationFrame(() => {
           content.classList.add('active');
         });
-        this.textContent = 'Show Less';
+        this.textContent = 'Show less';
         this.classList.add('expanded');
+        this.setAttribute('aria-expanded', 'true');
       }
     });
   });

@@ -1,60 +1,213 @@
-/* Homepage Styles */
-.intro {
-  text-align: center;
-  padding: 80px 20px;
-  max-width: 900px;
-  margin: 0 auto;
+/* Homepage */
+
+.home-hero {
+  max-width: 720px;
+  margin: 0 auto 3.5rem;
+  padding: 2.5rem 0 0;
 }
 
-.intro h1 {
-  font-size: 3rem;
+.home-kicker {
+  margin: 0 0 0.75rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #6c757d;
+}
+
+.home-hero h1 {
+  font-size: 2.75rem;
   font-weight: 700;
-  margin-bottom: 20px;
-  color: #404040;
-  animation: fadeInUp 0.8s ease-out;
+  margin: 0 0 1rem;
+  color: #212529;
+  line-height: 1.15;
 }
 
-.intro p {
-  font-size: 1.3rem;
-  color: #666;
-  line-height: 1.8;
-  max-width: 700px;
-  margin: 0 auto;
-  animation: fadeInUp 0.8s ease-out 0.2s both;
+.home-lead {
+  font-size: 1.2rem;
+  color: #495057;
+  line-height: 1.7;
+  margin: 0 0 1.75rem;
 }
 
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+.home-lead a {
+  color: #0b6bcb;
+  font-weight: 600;
+  text-decoration: none;
 }
 
-/* Responsive adjustments */
+.home-lead a:hover {
+  text-decoration: underline;
+}
+
+.home-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.home-btn {
+  display: inline-block;
+  padding: 0.65rem 1.15rem;
+  border-radius: 8px;
+  border: 1px solid #dee2e6;
+  color: #212529;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  background: #fff;
+  transition: background 0.15s ease, border-color 0.15s ease, transform 0.15s ease;
+}
+
+.home-btn:hover {
+  background: #f8f9fa;
+  border-color: #adb5bd;
+  text-decoration: none;
+  color: #212529;
+  transform: translateY(-1px);
+}
+
+.home-btn-primary {
+  background: #0b6bcb;
+  border-color: #0b6bcb;
+  color: #fff;
+}
+
+.home-btn-primary:hover {
+  background: #0958a8;
+  border-color: #0958a8;
+  color: #fff;
+}
+
+.home-featured {
+  max-width: 980px;
+  margin: 0 auto 2rem;
+}
+
+.home-section-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.home-section-head h2 {
+  margin: 0;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #212529;
+}
+
+.home-all-link {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #0b6bcb;
+  text-decoration: none;
+}
+
+.home-all-link:hover {
+  text-decoration: underline;
+}
+
+.featured-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+}
+
+.featured-card-wide {
+  grid-column: 1 / -1;
+}
+
+.featured-card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border: 1px solid #e9ecef;
+  border-radius: 14px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.featured-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  color: inherit;
+}
+
+.featured-card-wide {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+}
+
+.featured-media {
+  background: #111;
+  min-height: 180px;
+  overflow: hidden;
+}
+
+.featured-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.featured-card-wide .featured-media {
+  min-height: 240px;
+}
+
+.featured-body {
+  padding: 1.25rem 1.35rem 1.4rem;
+}
+
+.featured-meta {
+  margin: 0 0 0.35rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #6c757d;
+}
+
+.featured-body h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #212529;
+}
+
+.featured-body p {
+  margin: 0;
+  color: #495057;
+  line-height: 1.6;
+  font-size: 0.98rem;
+}
+
 @media (max-width: 768px) {
-  .intro {
-    padding: 60px 20px;
+  .home-hero {
+    padding-top: 1.25rem;
   }
-  
-  .intro h1 {
-    font-size: 2.2rem;
-  }
-  
-  .intro p {
-    font-size: 1.1rem;
-  }
-}
 
-@media (max-width: 480px) {
-  .intro h1 {
-    font-size: 1.8rem;
+  .home-hero h1 {
+    font-size: 2.1rem;
   }
-  
-  .intro p {
-    font-size: 1rem;
+
+  .home-lead {
+    font-size: 1.05rem;
+  }
+
+  .featured-grid,
+  .featured-card-wide {
+    grid-template-columns: 1fr;
+  }
+
+  .featured-card-wide .featured-media {
+    min-height: 180px;
   }
 }

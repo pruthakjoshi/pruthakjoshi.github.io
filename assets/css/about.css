@@ -1,0 +1,22 @@
+.bio-timeline {
+  display: grid;
+  gap: 1.15rem;
+  margin: 1.25rem 0 2rem;
+}
+
+.bio-item h4 {
+  margin: 0 0 0.25rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #212529;
+}
+
+.bio-item p {
+  margin: 0;
+  color: #495057;
+  line-height: 1.6;
+}
+
+#travel {
+  scroll-margin-top: 90px;
+}
