@@ -1,22 +1,57 @@
 ---
-layout: page
-title:
-subtitle:
+layout: landing
+show-avatar: false
+nav-short: true
 share-description: Mechanical engineer building practical, manufacturable robots. Currently at Skild AI. Previously OpenArm at Reazon Holdings.
 css:
   - "/assets/css/home.css"
 ---
 
 <section class="home-hero">
-  <p class="home-kicker">Mechanical engineer · Robot hardware</p>
-  <h1>Hi, I'm Pruthak</h1>
-  <p class="home-lead">
-    I design and build robots that can actually be manufactured — from low-cost arms to MR-compatible surgical systems. Currently building at <a href="https://www.skild.ai/">Skild AI</a>. Previously hardware on <a href="https://openarm.dev/">OpenArm</a> at Reazon Holdings.
-  </p>
-  <div class="home-actions">
-    <a class="home-btn home-btn-primary" href="{{ '/projects/' | relative_url }}">View projects</a>
-    <a class="home-btn" href="{{ '/aboutme/' | relative_url }}">About me</a>
-    <a class="home-btn" href="{{ '/CV_Github.pdf' | relative_url }}">Curriculum Vitae</a>
+  <div class="home-portrait">
+    <img src="{{ '/assets/img/avatar-icon.jpg' | relative_url }}" alt="Portrait of Pruthak Joshi">
+  </div>
+  <div class="home-intro">
+    <p class="home-kicker">Mechanical engineer · Robot hardware</p>
+    <h1>Pruthak Joshi</h1>
+    <p class="home-lead">
+      I design and build robots that can actually be manufactured — from low-cost arms to MR-compatible surgical systems. Currently at <a href="https://www.skild.ai/">Skild AI</a>. Previously hardware on <a href="https://openarm.dev/">OpenArm</a> at Reazon Holdings.
+    </p>
+    <div class="home-actions">
+      <a class="home-btn home-btn-primary" href="{{ '/projects/' | relative_url }}">View projects</a>
+      <a class="home-btn" href="{{ '/aboutme/' | relative_url }}">About me</a>
+      <a class="home-btn" href="{{ '/CV_Github.pdf' | relative_url }}">Curriculum Vitae</a>
+    </div>
+    <p class="home-social">
+      <a href="mailto:pruthakjoshi@gmail.com">Email</a>
+      <span aria-hidden="true">·</span>
+      <a href="https://github.com/pruthakjoshi">GitHub</a>
+      <span aria-hidden="true">·</span>
+      <a href="https://www.linkedin.com/in/pruthak-joshi">LinkedIn</a>
+    </p>
+  </div>
+</section>
+
+<section class="home-path" aria-label="Experience and education">
+  <div class="path-item">
+    <p class="path-when">Now</p>
+    <h2>Skild AI</h2>
+    <p>Practical robot hardware</p>
+  </div>
+  <div class="path-item">
+    <p class="path-when">Previously</p>
+    <h2>Reazon Holdings</h2>
+    <p>OpenArm hardware, Tokyo</p>
+  </div>
+  <div class="path-item">
+    <p class="path-when">M.S.</p>
+    <h2>UCLA</h2>
+    <p>Systems and Control</p>
+  </div>
+  <div class="path-item">
+    <p class="path-when">B.Tech &amp; M.Tech</p>
+    <h2>IIT Bombay</h2>
+    <p>Mechanical Engineering</p>
   </div>
 </section>
 
@@ -27,7 +62,7 @@ css:
   </div>
 
   <div class="featured-grid">
-    <a class="featured-card featured-card-wide" href="{{ '/projects/#openarm' | relative_url }}">
+    <a class="featured-card" href="{{ '/projects/#openarm' | relative_url }}">
       <div class="featured-media">
         <img src="https://img.youtube.com/vi/6ZLM6f8kF4Q/hqdefault.jpg" alt="OpenArm 01 robot arm">
       </div>
@@ -40,7 +75,7 @@ css:
 
     <a class="featured-card" href="{{ '/projects/#mri-surgical-robot' | relative_url }}">
       <div class="featured-media">
-        <img src="{{ '/assets/img/robot_cad.gif' | relative_url }}" alt="MR-compatible surgical robot CAD">
+        <img src="{{ '/assets/img/robot_cad_still.jpg' | relative_url }}" alt="MR-compatible surgical robot CAD" loading="lazy">
       </div>
       <div class="featured-body">
         <p class="featured-meta">UCLA · Medical robotics</p>
@@ -51,7 +86,7 @@ css:
 
     <a class="featured-card" href="{{ '/projects/#teleoperated-bartender' | relative_url }}">
       <div class="featured-media">
-        <img src="https://img.youtube.com/vi/qySb-Zqn2x0/hqdefault.jpg" alt="Teleoperated bartender end-effector">
+        <img src="https://img.youtube.com/vi/qySb-Zqn2x0/hqdefault.jpg" alt="Teleoperated bartender end-effector" loading="lazy">
       </div>
       <div class="featured-body">
         <p class="featured-meta">End-effector design</p>
