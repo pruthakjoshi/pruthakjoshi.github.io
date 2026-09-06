@@ -48,7 +48,7 @@ js:
 			</div>
 			<div>
 				<dt>Link</dt>
-				<dd><a href="https://openarm.dev/">openarm.dev</a></dd>
+				<dd><a href="https://docs.openarm.dev/1.0/">openarm.dev</a></dd>
 			</div>
 		</dl>
 	</div>
