@@ -23,7 +23,7 @@ A longer look at the machines is on the <a href="{{ '/projects/' | relative_url 
     <p>Building practical, manufacturable robotic solutions.</p>
   </div>
   <div class="bio-item">
-    <h4>Reazon Holdings · Tokyo</h4>
+    <h4>Enactic AI (f.k.a. Reazon Human Interaction Lab) · Tokyo</h4>
     <p>Hardware for <a href="https://openarm.dev/">OpenArm</a>, an open low-cost robot arm.</p>
   </div>
   <div class="bio-item">
