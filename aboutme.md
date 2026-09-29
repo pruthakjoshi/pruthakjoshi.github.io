@@ -1,7 +1,6 @@
 ---
 layout: page
-title: About Me
-subtitle:
+title: About
 css:
   - "/assets/css/about.css"
   - "/assets/css/travel.css"
@@ -9,60 +8,74 @@ js:
   - "/assets/js/travel.js"
 ---
 
-I am a mechanical engineer who believes robots will define the future.
-
-Currently, I’m building practical robotic systems at <a href="https://www.skild.ai/"><strong>Skild AI</strong></a>. Previously, I worked at <strong>Reazon Human Interaction Lab</strong> in Tokyo on the hardware behind <a href="https://openarm.dev/">OpenArm</a>. I hold a Master’s in Systems and Control from <strong>UCLA</strong> and a Bachelor’s and Master’s in Mechanical Engineering from <strong>IIT Bombay</strong>.
+I design and build robot hardware. Currently I’m at <a href="https://www.skild.ai/">Skild AI</a>. Before that I worked on the hardware behind <a href="https://openarm.dev/">OpenArm 01</a> at Enactic AI in Tokyo. I have an M.S. in Mechanical Engineering, focused on Systems and Control from UCLA and a B.Tech. and M.Tech. in Mechanical Engineering from IIT Bombay.
 
 A longer look at the machines is on the <a href="{{ '/projects/' | relative_url }}">projects page</a>.
 
-### Experience & education
+### Experience
 
 <div class="bio-timeline">
   <div class="bio-item">
-    <h4>Skild AI</h4>
-    <p>Building practical, manufacturable robotic solutions.</p>
+    <p class="bio-when">Now</p>
+    <div>
+      <h4>Skild AI</h4>
+      <p>Building practical, manufacturable robotic systems.</p>
+    </div>
   </div>
   <div class="bio-item">
-    <h4>Enactic AI (f.k.a. Reazon Human Interaction Lab) · Tokyo</h4>
-    <p>Hardware for <a href="https://openarm.dev/">OpenArm</a>, an open low-cost robot arm.</p>
+    <p class="bio-when">Previously</p>
+    <div>
+      <h4>Enactic AI · Tokyo</h4>
+      <p>Hardware of <a href="https://openarm.dev/">OpenArm 01</a>, an open-source humanoid arm.</p>
+    </div>
   </div>
   <div class="bio-item">
-    <h4>UCLA</h4>
-    <p>M.S. in Systems and Control. Part of the Mechatronics and Controls Lab.</p>
+    <p class="bio-when">M.S.</p>
+    <div>
+      <h4>UCLA</h4>
+      <p>Systems and Control, in the Mechatronics and Controls Lab.</p>
+    </div>
   </div>
   <div class="bio-item">
-    <h4>IIT Bombay</h4>
-    <p>B.Tech and M.Tech in Mechanical Engineering. Team Leader of the <a href="https://iitbmartian.github.io/">IITB Mars Rover Team</a>.</p>
+    <p class="bio-when">B.Tech. &amp; M.Tech.</p>
+    <div>
+      <h4>IIT Bombay</h4>
+      <p>Mechanical Engineering. Team Leader of the <a href="https://iitbmartian.github.io/">IITB Mars Rover Team</a>.</p>
+    </div>
   </div>
 </div>
 
-### A Bit About Me
-When I’m not designing robots, you might find me:
-- Hitting tennis balls on the court
-- Following Formula-1 (yes, I’m a Tifosi!)
-- Playing cricket or watching the game
-- Exploring new places and hunting for the best ice cream 🍦
-- Watching movies. “The Shawshank Redemption” is my all-time favorite
+### Earlier
 
-<div class="text-center">
-    <img src="{{ 'assets/img/tennis.jpeg' | relative_url }}" alt="Tennis teammates at IIT Bombay" />
-    <figcaption>Me with my coach and 23 batchmates during NSO Tennis at IIT Bombay</figcaption>
-</div>
+#### Mars Rover Team, IITB
 
-### Journey & Highlights
+I joined the <a href="https://iitbmartian.github.io/">IITB Mars Rover Team</a> as a Junior Design Engineer and later led the team. We built semi-autonomous rovers for the <a href="https://urc.marssociety.org/">University Rover Challenge</a> and the <a href="https://roverchallenge.org/">International Rover Challenge</a>. Under my leadership the team finished 4th in the Indian Rover Design Challenge 2020, the best result IITB had recorded.
 
-#### Mars Rover Adventures
-I joined the <a href="https://iitbmartian.github.io/">IITB Mars Rover Team</a> as a Junior Design Engineer and eventually led the team as Team Leader. We built semi-autonomous rovers for competitions like the <a href="https://urc.marssociety.org/">University Rover Challenge</a> and <a href="https://roverchallenge.org/">International Rover Challenge</a>. Under my leadership, the team achieved 4th place in the Indian Rover Design Challenge 2020 — the best-ever finish for IITB.
+<figure class="about-figure">
+  <img src="{{ 'assets/img/mrt.JPG' | relative_url }}" alt="IITB Mars Rover Team at the University Rover Challenge">
+  <figcaption>University Rover Challenge, Mars Desert Research Station, Utah.</figcaption>
+</figure>
 
-<div class="text-center">
-    <img src="{{ 'assets/img/mrt.JPG' | relative_url }}" alt="IITB Mars Rover Team at the University Rover Challenge" />
-    <figcaption>Our team at the University Rover Challenge, Mars Desert Research Station, Utah</figcaption>
-</div>
+#### Mentoring
 
-#### Mentoring & Leadership
-Mentoring has been one of my most rewarding experiences. Through IITB’s <a href="https://smp.gymkhana.iitb.ac.in/index.html">Student Mentor Programme</a>, I guided juniors academically and personally as an Institute Student Mentor and Department Academic Mentor for 2 years. Helping others navigate their IITB journey taught me a lot about leadership, teamwork, and patience — sometimes in equal measure.
+Through IITB’s <a href="https://smp.gymkhana.iitb.ac.in/index.html">Student Mentor Programme</a> I was an Institute Student Mentor and a Department Academic Mentor for two years.
 
-<h3 id="travel">Travel</h3>
+### Outside work
+
+When I’m not designing robots, I’m usually doing one of these:
+
+- Tennis
+- Formula 1
+- Cricket
+- Travel, and a standing search for good ice cream
+- Movies. <em>The Shawshank Redemption</em> is my favorite
+
+<figure class="about-figure">
+  <img src="{{ 'assets/img/tennis.jpeg' | relative_url }}" alt="Tennis teammates at IIT Bombay">
+  <figcaption>With my coach and 23 batchmates during NSO Tennis at IIT Bombay.</figcaption>
+</figure>
+
+#### Travel
 
 A few places that have stuck with me.
 
@@ -70,4 +83,4 @@ A few places that have stuck with me.
 
 ---
 
-I’m always on the lookout for interesting challenges in robotics, automation, and design. If you want to collaborate, chat about tech, or just hunt ice cream spots, feel free to reach out.
+I’m looking for hard problems in robotics, automation, and design. If you want to collaborate, <a href="mailto:pruthakjoshi@gmail.com">send me a note</a>.

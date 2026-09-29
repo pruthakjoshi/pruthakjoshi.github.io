@@ -1,47 +1,61 @@
-/* Projects Page Styles - Redesigned */
+/* Projects page */
 
-/* Hide default page title centering for projects */
-.projects-page-title {
-  text-align: center;
-  margin-bottom: 2rem;
+.projects-page {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0.5rem 1.5rem 3rem;
 }
 
-/* Table of Contents - Sticky and Subtle */
+.projects-intro h1 {
+  margin: 0 0 0.4rem;
+  font-size: 2.15rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  color: #111827;
+}
+
+.projects-intro p {
+  margin: 0 0 1.5rem;
+  max-width: 40rem;
+  color: #6b7280;
+  font-size: 1.05rem;
+}
+
 #toc {
   list-style: none;
-  padding: 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-  margin-bottom: 3rem;
-  padding: 1rem;
-  background: #f8f9fa;
-  border-radius: 12px;
+  justify-content: flex-start;
+  gap: 0.5rem;
+  margin: 0 0 1.75rem;
+  padding: 0 0 1rem;
+  background: rgba(255, 255, 255, 0.92);
+  border-bottom: 1px solid #e5e7eb;
+  border-radius: 0;
   position: sticky;
-  top: 70px;
+  top: 3.6rem;
   z-index: 100;
-  backdrop-filter: blur(10px);
-  background: rgba(248, 249, 250, 0.95);
 }
 
 #toc li a {
   text-decoration: none;
-  font-weight: 500;
-  color: #495057;
-  padding: 8px 16px;
-  border-radius: 20px;
-  transition: all 0.2s ease;
+  font-weight: 600;
+  color: #374151;
+  padding: 0.4rem 0.75rem;
+  border-radius: 6px;
+  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
   display: inline-block;
-  font-size: 0.9rem;
-  border: 1px solid transparent;
+  font-size: 0.85rem;
+  border: 1px solid #e5e7eb;
+  background: #fff;
 }
 
 #toc li a:hover {
-  background-color: #007bff;
-  color: white;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2);
+  background: #f3f4f6;
+  color: #111827;
+  border-color: #d1d5db;
+  transform: none;
+  box-shadow: none;
 }
 
 /* Project Grid - Improved Layout */
@@ -68,9 +82,9 @@
 }
 
 .project-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
-  border-color: #dee2e6;
+  transform: none;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+  border-color: #d1d5db;
 }
 
 /* Project Header */
@@ -80,6 +94,21 @@
 
 .project-card-featured {
   grid-column: 1 / -1;
+}
+
+.project-card-featured .project-content {
+  display: grid;
+  grid-template-columns: 1.35fr 1fr;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.project-card-featured .video-container {
+  margin: 0;
+}
+
+.project-card-featured .project-copy h2 {
+  margin-top: 0;
 }
 
 .project-meta {
@@ -154,7 +183,8 @@
   background: #000;
 }
 
-video, img {
+.project-card video,
+.project-card img {
   width: 100%;
   display: block;
   border-radius: 0;
@@ -223,22 +253,22 @@ video, img {
   align-items: center;
   gap: 0.5rem;
   margin-top: 0.5rem;
-  background: #007bff;
+  background: #111827;
   color: white;
   border: none;
-  padding: 0.625rem 1.25rem;
-  border-radius: 8px;
+  padding: 0.55rem 0.95rem;
+  border-radius: 6px;
   cursor: pointer;
   font-size: 0.875rem;
-  font-weight: 500;
-  transition: all 0.2s ease;
+  font-weight: 600;
+  transition: background 0.15s ease;
   font-family: inherit;
 }
 
 .toggle-btn:hover {
-  background: #0056b3;
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
+  background: #000;
+  transform: none;
+  box-shadow: none;
 }
 
 .toggle-btn:active {
@@ -257,15 +287,17 @@ video, img {
 
 /* Links */
 .project-card a {
-  color: #007bff;
+  color: #0b5cab;
   text-decoration: none;
-  font-weight: 500;
-  transition: color 0.2s ease;
+  font-weight: 600;
+  border-bottom: 1px solid rgba(11, 92, 171, 0.25);
+  transition: color 0.15s ease, border-color 0.15s ease;
 }
 
 .project-card a:hover {
-  color: #0056b3;
-  text-decoration: underline;
+  color: #084883;
+  border-bottom-color: #084883;
+  text-decoration: none;
 }
 
 /* Hover effects for media */
@@ -283,11 +315,15 @@ video, img {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
   }
-  
+
+  .project-card-featured .project-content {
+    grid-template-columns: 1fr;
+  }
+
   #toc {
     position: static;
-    margin-bottom: 2rem;
-    padding: 0.75rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.85rem;
   }
 }
 

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: projects
 title: Projects
 subtitle: Short case studies of systems I have built or contributed to
 css:
@@ -23,10 +23,6 @@ js:
 <section class="project-grid">
 
 <article id="openarm" class="project-card project-card-featured">
-	<div class="project-header">
-		<!-- p class="project-meta">Reazon Holdings · Hardware design</p -->
-		<h2>OpenArm 01</h2>
-	</div>
 	<div class="project-content">
 		<div class="video-container">
 			<iframe
@@ -36,28 +32,32 @@ js:
 				allowfullscreen>
 			</iframe>
 		</div>
-		<p>I built the hardware for OpenArm 01, an open-source bimanual robot arm meant to be capable without being expensive.</p>
-		<dl class="project-facts">
-			<div>
-				<dt>Role</dt>
-				<dd>Hardware design and build</dd>
-			</div>
-			<div>
-				<dt>Outcome</dt>
-				<dd>4.1&nbsp;kg nominal / 6.0&nbsp;kg peak payload; 5.5&nbsp;kg arm mass; ~$6,500 BOM</dd>
-			</div>
-			<div>
-				<dt>Link</dt>
-				<dd><a href="https://docs.openarm.dev/1.0/">openarm.dev</a></dd>
-			</div>
-		</dl>
+		<div class="project-copy">
+			<p class="project-meta">Open-source bimanual arms</p>
+			<h2>OpenArm 01</h2>
+			<p>I built the hardware for OpenArm 01, an open-source bimanual robot arm meant to be capable without being expensive.</p>
+			<dl class="project-facts">
+				<div>
+					<dt>Role</dt>
+					<dd>Hardware design and build</dd>
+				</div>
+				<div>
+					<dt>Outcome</dt>
+					<dd>4.1&nbsp;kg nominal / 6.0&nbsp;kg peak payload; 5.5&nbsp;kg arm mass; ~$6,500 BOM</dd>
+				</div>
+				<div>
+					<dt>Link</dt>
+					<dd><a href="https://docs.openarm.dev/1.0/">openarm.dev</a></dd>
+				</div>
+			</dl>
+		</div>
 	</div>
 </article>
 
 <article id="teleoperated-bartender" class="project-card">
 	<div class="project-header">
 		<!-- p class="project-meta">End-effector · Teleoperation</p-->
-		<h2>End-Effector of a Teleoperated bartender</h2>
+		<h2>Teleoperated bartender</h2>
 	</div>
 	<div class="project-content">
 		<div class="video-container">

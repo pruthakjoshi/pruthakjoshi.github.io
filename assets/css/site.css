@@ -1,0 +1,90 @@
+/* Shared portfolio chrome. Loaded after the theme stylesheet. */
+
+.home-nav-spacer {
+  height: 4.25rem;
+}
+
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.05rem;
+  color: #1f2933;
+}
+
+p {
+  line-height: 1.65;
+  margin: 0 0 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: -0.02em;
+  color: #111827;
+}
+
+a {
+  text-underline-offset: 0.15em;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-nav .nav-link {
+  font-weight: 600;
+}
+
+.navbar-custom .navbar-nav .nav-item {
+  letter-spacing: 0.08em;
+}
+
+@media (min-width: 1200px) {
+  .navbar-custom {
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+  }
+}
+
+.intro-header {
+  margin-top: 5.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.intro-header .page-heading {
+  text-align: left;
+}
+
+.intro-header .page-heading h1 {
+  font-size: 2.15rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  color: #111827;
+}
+
+.intro-header .page-heading hr.small {
+  display: none;
+}
+
+.intro-header .page-heading .page-subheading {
+  font-size: 1.05rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #6b7280;
+  margin-top: 0.45rem;
+}
+
+@media (min-width: 1200px) {
+  .intro-header {
+    margin-top: 5.5rem;
+  }
+
+  .intro-header .page-heading h1 {
+    font-size: 2.35rem;
+  }
+}
+
+footer {
+  border-top: 1px solid #e5e7eb;
+  padding: 1.75rem 0;
+}
+
+@media (min-width: 768px) {
+  footer {
+    padding: 2rem 0;
+  }
+}

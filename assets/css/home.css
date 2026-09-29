@@ -1,7 +1,7 @@
 /* Homepage — landing layout */
 
 .home-nav-spacer {
-  height: 5rem;
+  height: 4.25rem;
 }
 
 .home-page {
@@ -59,11 +59,11 @@
   line-height: 1.1;
 }
 
-.home-lead {
+.home-page .home-lead {
   font-size: 1.08rem;
   color: #4b5563;
   line-height: 1.7;
-  margin: 0 0 1.5rem;
+  margin: 0 0 1.25rem;
   max-width: 42rem;
 }
 
@@ -151,9 +151,11 @@
 
 .path-item h2 {
   margin: 0 0 0.2rem;
-  font-size: 1rem;
+  font-size: 1.05rem;
   font-weight: 700;
+  letter-spacing: -0.01em;
   color: #111827;
+  line-height: 1.3;
 }
 
 .path-item p {
@@ -316,7 +318,7 @@
     font-size: 2rem;
   }
 
-  .home-lead {
+  .home-page .home-lead {
     font-size: 1rem;
   }
 

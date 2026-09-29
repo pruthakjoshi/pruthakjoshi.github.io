@@ -1,22 +1,63 @@
 .bio-timeline {
+  margin: 0.5rem 0 2.25rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.bio-item {
   display: grid;
-  gap: 1.15rem;
-  margin: 1.25rem 0 2rem;
+  grid-template-columns: 9.5rem 1fr;
+  gap: 1.25rem;
+  padding: 0.95rem 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.bio-when {
+  margin: 0.15rem 0 0;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #9ca3af;
 }
 
 .bio-item h4 {
-  margin: 0 0 0.25rem;
-  font-size: 1.05rem;
+  margin: 0 0 0.2rem;
+  font-size: 1.02rem;
   font-weight: 700;
-  color: #212529;
+  color: #111827;
 }
 
 .bio-item p {
   margin: 0;
-  color: #495057;
-  line-height: 1.6;
+  color: #4b5563;
+  line-height: 1.55;
+}
+
+.about-figure {
+  margin: 1.15rem 0 1.75rem;
+}
+
+.about-figure img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+}
+
+.about-figure figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  line-height: 1.45;
+  color: #6b7280;
 }
 
 #travel {
   scroll-margin-top: 90px;
+}
+
+@media (max-width: 640px) {
+  .bio-item {
+    grid-template-columns: 1fr;
+    gap: 0.2rem;
+  }
 }

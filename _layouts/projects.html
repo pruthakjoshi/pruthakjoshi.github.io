@@ -1,0 +1,16 @@
+---
+layout: base
+---
+
+<div class="home-nav-spacer" aria-hidden="true"></div>
+
+<div class="projects-page" role="main">
+  <header class="projects-intro">
+    <h1>{{ page.title }}</h1>
+    {% if page.subtitle %}
+      <p>{{ page.subtitle }}</p>
+    {% endif %}
+  </header>
+
+  {{ content }}
+</div>
