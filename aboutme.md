@@ -64,11 +64,13 @@ Through IITB’s <a href="https://smp.gymkhana.iitb.ac.in/index.html">Student Me
 
 When I’m not designing robots, I’m usually doing one of these:
 
-- Tennis
-- Formula 1
-- Cricket
-- Travel, and a standing search for good ice cream
-- Movies. <em>The Shawshank Redemption</em> is my favorite
+<ul class="interest-row">
+  <li>Tennis</li>
+  <li>Formula 1</li>
+  <li>Cricket</li>
+  <li>Travel, and a standing search for good ice cream</li>
+  <li>Movies. <em>The Shawshank Redemption</em> is my favorite</li>
+</ul>
 
 <figure class="about-figure">
   <img src="{{ 'assets/img/tennis.jpeg' | relative_url }}" alt="Tennis teammates at IIT Bombay">

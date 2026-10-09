@@ -74,17 +74,17 @@ keywords: "pruthak, joshi, pruthak joshi, reazon, iit bombay"
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#FFFFFF"
-navbar-text-col: "#111827"
-navbar-border-col: "#E5E7EB"
-page-col: "#FFFFFF"
-text-col: "#1f2933"
-link-col: "#0b5cab"
-hover-col: "#084883"
-footer-col: "#FFFFFF"
-footer-text-col: "#6b7280"
-footer-link-col: "#374151"
-footer-hover-col: "#111827"
+navbar-col: "#f6f3ec"
+navbar-text-col: "#1c1915"
+navbar-border-col: "#ddd6c8"
+page-col: "#f6f3ec"
+text-col: "#1c1915"
+link-col: "#8a3c18"
+hover-col: "#6d2e12"
+footer-col: "#ebe6db"
+footer-text-col: "#7a7268"
+footer-link-col: "#1c1915"
+footer-hover-col: "#8a3c18"
 
 # Hide the theme credit in the footer
 remove-ads: true
